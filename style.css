@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'IM Fell English';
+  font-style: normal;
+  font-weight: 400;
+  src: local('IM FELL English Roman'), local('IM_FELL_English_Roman'), url(./_font/IM_FELL_English_Roman.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {background-color: white; font-size: 16px; font-family: 'IM Fell English', serif; color: #333;}
+header{margin-bottom: 1.0em; font-family: 'IM Fell English', serif;}
+
+h1,h2,h3 {margin: 0; padding: 0; font-weight: 900; color: black;}
+h1 {color: #031fc9;}
+section {margin-right: 210px;}
+img#mugShot {width: 200px; padding: 2px; border: 1px solid #003366; position: fixed; right: 5px; top: 5px; z-index: 2;}
+
+li.uf {list-style-image: url(bullet_uf.png);}
+li.odu {list-style-image: url(bullet_odu.png);}
+li.citadel {list-style-image: url(bullet_citadel.png);}
+li.oduphd {list-style-image: url(bullet_oduphd.png);}
+
+ul li ul li {list-style-image: none;} /* only show icon for semesters, not courses */
+a {color: #031fc9;}
+nav {position: fixed; right: 5px; top: 205px; text-align: center; z-index: 2;}
+nav ul {list-style-type: none; width: 206px; }
+nav ul#sections li {margin: 0; padding: 0; border-bottom: 1px dashed #003366;}
+nav ul#sections li a {text-decoration: none; color: #031fc9; font-weight: bold; font-family: 'IM Fell English', sans-serif; font-size: 0.8em; display: block;}
+nav ul#sections li a:hover {color: white; background-color: #031fc9;}
+nav ul#software {list-style-type: none; width: 70%; text-align: center; padding-left: 20px; display: block;}
+nav ul#software li {float: left;}
+nav ul#software li a {border: 0; display: block;}
+nav ul#software li a img {width: 50px;}
+nav ul li#cv {margin-top: 2.0em; font-size: 2.0em; border: 0;}
+nav ul li#cv a {border: 1px solid #031fc9; border-radius: 10px; background-color: rgba(255,255,255,0.8);}
+em.me {font-weight: bolder; font-style: normal; color: #000099;}
+em.best {font-weight: bolder; color: red;}
+
+body section > ul > li {margin-bottom: 0.25em;}
+
+#openMenu {display: none;}
+
+/* Filtering of papers, posters, and presentations */
+#ppp {margin: 1.0em 0 1.0em 0; clear: both;}
+#ppp li:nth-child(even) {background-color: #f0f0ff;border-bottom: 1px solid #e7e7ff;}
+#ppp a {color: #333;}
+#ppp_heading {float: left; margin-right: 2.0em;}
+#ppp_filter {list-style-type: none; vertical-align: bottom;}
+#ppp_filter li {float: left; margin-right: 1.0em; padding-top: 0.75em; border-bottom: 1px dashed blue; font-size: 0.8em;}
+#ppp_filter li.ppp_active {border-bottom: 2px solid blue;}
+#ppp_filter a:hover {cursor:pointer;}
+#ppp .hidden {display: none;}
+
+/* Adapted from http://stackoverflow.com/questions/8160514/is-there-css-for-typesetting-the-latex-logo-in-html */
+sub.texE {text-transform: uppercase; vertical-align: -0.5ex;  margin-left: -0.1667em;  margin-right: -0.125em; font-size: 1em; }
+
+a.goToTop {display: none;}
+
+.hide {display: none;}
+
+@media only screen and (min-width: 100px) and (max-width: 650px) {
+  img#mugShot {position: relative; top: auto; right: auto; margin: 0 auto; display: block;}
+  header h1, header h2, header h3 {text-align: center;}
+  h1 {margin-top: 0.25em;}
+  h2 {width: 100%; white-space: nowrap; font-size: 1.25em;}
+  h3 {font-size: 0.8em;}
+  ul, li {padding-left: 0; margin-left: 0; width: 100%;}
+  nav {position: relative; text-align: left; top: auto; right: auto;}
+
+  nav ul#sections {margin: 1.0em 0 1.0em 0; padding: 0; width: 100%;}
+  nav ul#sections li {border-bottom: none; background-color: white; border-bottom: 1px solid #ddd;}
+  nav ul#sections:first-child {border-top: 1px solid #ddd;}
+  nav ul#sections li a {text-decoration: none; padding: 2px 0px;}
+
+  header {margin-bottom: 0;}
+  a.goToTop {display: inline; margin-left: 1.0em; font-size: 0.8em; color: white; background-color: blue; text-decoration: none; font-family: sans-serif; white-space: nowrap;}
+  section {width: 100%;}
+  section ul {list-style-type: none; margin-left: 0;}
+  section ul li {margin-bottom: 1.0em;}
+  section#courseworkHistory {width: 100%;}
+  section#courseworkHistory ul {list-style-type: disc; margin-left: 1.0em;}
+  section#courseworkHistory ul ul li {margin-bottom: 0;}
+  
+  .pinned {background: linear-gradient(to bottom, rgba(255,255,255,1) 80%, rgba(255,255,255,0) 100%); position: fixed; z-index: 3; top: 0; width: 100%; padding-bottom: 1.5em;}
+  .pinned h1, .pinned h2, .pinned h3 {font-size: 1.0em; width: 100%;}
+  .pinned h2 {font-size: 0.8em;}
+  .pinned h3 {font-size: 0.6em;}
+  .pinned img#mugShot {position: absolute; width: 50px; height: 50px; left: 0px; top: 5px; border: 1px solid #031fc9; padding: 0;}
+
+  .pinned img#openMenu {z-index: 99;position: absolute; width: 24px; height: 24px; right: 0px; top: 5px; border: 1px solid #031fc9; padding: 0;}
+
+  nav.vertical {position: fixed; top: 10px; right: 5px; z-index: 100; }
+  nav.vertical ul#sections {}
+  nav.vertical li {transform: rotate(90deg); position: relative; clear: both; float: left; width: 115px; display: block; font-size: 1.0em; height: 115px; }
+  nav.vertical li a {height: 2.0em;}
+  nav.vertical ul#sections li {background-color: transparent; text-align: center;}
+  nav.vertical ul#sections:first-child {padding-left: 100px;}
+  section {position: relative; z-index: 2;}
+  nav ul li#cv {font-size: 1.0em; margin-top: 1.0em; border: 0; text-align center;}
+  nav ul li#cv a:before{content: '⇩ DOWNLOAD ';}
+  
+  #ppp_filter {width: 100%;}
+  #ppp_filter li {padding: 0; margin: 0 0 0.5em 0; border: 1px solid white; width: 20%; text-align: center; height: 3.5em; display: inline-block; border-bottom: none; vertical-align: bottom;}
+  #ppp_filter li.ppp_active {background-color: #eee;}
+  #ppp_filter li a {padding: 1.0em 0 0 0; height: 100%; width: 100%; display: inline-block;}
+  #ppp_filter li:hover:not(.ppp_active) {border: 1px dotted blue;}
+}
