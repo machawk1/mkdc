@@ -76,7 +76,7 @@ a.goToTop {display: none;}
   section {width: 100%;}
   section ul {list-style-type: none; margin-left: 0;}
   section ul li {margin-bottom: 1.0em;}
-  section#courseworkHistory {width: 100%;}
+  section#courseworkHistory {width: 80%;}
   section#courseworkHistory ul {list-style-type: disc; margin-left: 1.0em;}
   section#courseworkHistory ul ul li {margin-bottom: 0;}
   
