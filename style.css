@@ -96,6 +96,7 @@ a.goToTop {display: none;}
   nav.vertical ul#sections:first-child {padding-left: 100px;}
   section {position: relative; z-index: 2;}
   nav ul li#cv {font-size: 1.0em; margin-top: 1.0em; border: 0; text-align center;}
+  nav ul li#cv a {padding-left: 1.0em;}
   nav ul li#cv a:before{content: '⇩ DOWNLOAD ';}
   
   #ppp_filter {width: 100%;}
