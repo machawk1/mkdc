@@ -44,7 +44,12 @@ body section > ul > li {margin-bottom: 0.25em;}
 
 /* Filtering of papers, posters, and presentations */
 #ppp {margin: 1.0em 0 1.0em 0; clear: both;}
-#ppp li:nth-child(even) {background-color: #f0f0ff;border-bottom: 1px solid #e7e7ff;}
+#ppp.unfiltered li:nth-child(even) {background-color: #f0f0ff;border-bottom: 1px solid #e7e7ff;}
+/*
+#ppp.unfiltered li:not(.hidden):nth-child(even) {background-color: #f0f0ff;border-bottom: 1px solid #e7e7ff;}
+#ppp.filtered li:not(.hidden):nth-child(even) {background-color: #f0f0ff;border-bottom: 1px solid #e7e7ff;}
+#ppp.filtered li:not(.hidden):nth-child(odd) {background-color: white; border: none;}
+*/
 #ppp a {color: #333;}
 #ppp_heading {float: left; margin-right: 2.0em;}
 #ppp_filter {list-style-type: none; vertical-align: bottom;}

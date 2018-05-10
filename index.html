@@ -24,6 +24,12 @@
         }
         #thumbnailFrame {height: 100px; overflow: hidden;}
         .otaygugel {display: none;}
+        
+        #glider img {position: fixed; width: 126px; bottom: 5px; right: 37px; margin: 0; padding: 0; opacity: 0.9;}
+        #glider img:hover {opacity: 1.0;}
+        @media only screen and (min-width: 100px) and (max-width: 650px) {
+          #glider {display: none;}
+        }
     </style>
   </head>
 
@@ -40,6 +46,7 @@
       <!--<a href="http://www.cs.odu.edu/~mkelly" onclick="screenshotTest();return false;">
         <img src="amish.jpg" alt="mug shot" id="openMenu" itemprop="photo" />
       </a>//future work -->
+      <a id="glider" href="http://ws-dl.cs.odu.edu"  target="_blank" rel="external noopener noreferrer"><img src="images/glider.png" alt="WS-DL Glider logo" /></a>
     </header>
     <nav>
       <ul id="sections">
@@ -439,7 +446,6 @@
         <li><a href="https://scholar.google.com/citations?user=ehg7mloAAAAJ">Mat Kelly @ Google Scholar</a></li>
         <li><a href="http://orcid.org/0000-0002-0236-7389">orcid:0000-0002-0236-7389</a></li>
     </ul>
-    <!--<p>Further information including employment history can be found at <a href="http://matkelly.com" rel="me">matkelly.com</a></p>-->
 </section>
 
 </body>
