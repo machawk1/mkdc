@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Homepage of Mat Kelly, Doctoral Degree student at Old Dominion University in Norfolk, Virginia." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#031fc9" />
+    <!--[if lt IE 9]>
+        <script src="_js/html5shiv.js"></script>
+    <![endif]-->
+    <title>Mat Kelly, PhD Candidate of Computer Science, Old Dominion University in Norfolk, Virginia</title>
+    <link rel="stylesheet" href="style.css" media="all" />
+    <link rel="author" href="https://plus.google.com/u/0/103717513886594190386" />
+    <link rel="me" href="https://twitter.com/machawk1" />
+    <link rel="me" href="https://github.com/machawk1" />
+    <link rel="icon" sizes="192x192" href="images/favicon192.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/favicon192.png">
+
+    <script>
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+    let posts = []
+
+    fetch('wsdlBlogFeed_matKelly_20180910.json').then(function (resp) {
+        return resp.json();
+    }).then(function (jsonResp) {
+      getPosts(jsonResp)
+      generatePostsHTML()
+    })
+
+    function getPosts (feedJSON) {
+      for (let entry in feedJSON.feed.entry) {
+        const postTitle = feedJSON.feed.entry[entry].title.$t
+        const postHref = feedJSON.feed.entry[entry].link[4].href
+
+        const colonLoc = postTitle.indexOf(': ') // No maxsplit in JS :(
+        const titleDate = postTitle.substr(0, colonLoc)
+        const titleText = postTitle.substr(colonLoc + 2)
+        
+        const year = titleDate.substr(0, 4)
+        const month = months[parseInt(titleDate.substr(5, 2), 10) - 1]
+        
+        posts.push({'title': postTitle, 'href': postHref, 
+                    'titleDate': titleDate, 'titleText': titleText,
+                    'month' :month, 'year': year})
+      }
+    }
+    
+    function generatePostsHTML () {
+      const defaultDisplayed = ['2018-06-11', '2017-11-16', '2017-03-24']
+      const blagLink = document.getElementById('blags')
+      const blagParent = blagLink.parentNode
+
+      if (blagParent.childNodes.length > defaultDisplayed.length * 3) {
+        return // Already expanded, make idempotent
+      }
+      
+      for (let post = 0; post < posts.length; post++) {
+        let li = document.createElement('li')
+        let a = document.createElement('a')
+        let date = ' (' + posts[post].month + ' ' + posts[post].year + ')'
+        
+        a.href = posts[post].href
+        
+        a.appendChild(document.createTextNode(posts[post].titleText))
+        a.target = '_blank'
+        a.rel = 'external noopener noreferrer'
+        
+        li.appendChild(a)
+        li.appendChild(document.createTextNode(date))
+        
+        if (!defaultDisplayed.includes(posts[post].titleDate)) {
+          li.classList.add('postHidden')
+        } else {
+          console.log('displaying this one by default')
+        }
+        blagParent.append(li)
+      }
+      blagParent.appendChild(blagParent.removeChild(blagLink))
+      document.getElementById('blogHiddenCount').innerHTML = posts.length - defaultDisplayed.length
+    }
+    
+    function showAllBlagPosts () {
+      Array.from(document.getElementsByClassName('postHidden')).forEach(function (el) {
+        el.classList.remove('postHidden')
+      })
+    
+      const blagLink = document.getElementById('blags')
+      const blagParent = blagLink.parentNode
+      blagParent.removeChild(blagLink)
+    }
+  
+    function showSoftwarePubs () {
+      Array.from(document.getElementsByClassName('hiddenPubs')).forEach(function (el) {
+        el.classList.remove('hiddenPubs')
+      })      
+    }
+  
+    
+    </script>
+    <style>
+        #thumbnailFrame {height: 100px; overflow: hidden;}
+        .otaygugel {display: none;}
+        
+        #glider img {position: fixed; width: 126px; bottom: 5px; right: 37px; margin: 0; padding: 0; opacity: 0.9;}
+        #glider img:hover {opacity: 1.0;}
+        @media only screen and (min-width: 100px) and (max-width: 650px) {
+          #glider {display: none;}
+        }
+        .compList {font-style: italic; list-style-type: none; margin: 0.5em 0 1.5em 0; background-image: linear-gradient(to right, #dedede, #ffffff); padding: 1px 1px 1px 3px; border-left: 5px solid #ccc;}
+        #ppp .compList a {color: #031fc9;}
+        #projects em {font-style: normal;}
+        h2#ppp_heading {clear: both; display: block;}
+        
+        #writing h3, #writing h4 {padding-top: 0.5em; margin: 0;}
+        #writing h3 span {color: #999; text-shadow: none; font-weight: normal;}
+        #projects h2 a {color: #999; font-size: 0.7em; font-weight: normal;}
+        
+        #writing h3 {clear: both; padding: 0.5em 0 0 1.25em; color: #000099;}
+        #writing h4 {padding: 0 0 0 1.45em; margin: 0; color: #000066}
+        #writing .compList {margin-bottom: 0;}
+        
+        #ppp {margin-top: 0;}
+        
+        .flushTop {margin-top: 0; padding-top: 0;}
+        .postHidden {display: none;}
+        .blackLinks a {color: black; text-decoration: none;}
+        .blackLinks a:hover {color: #031fc9; text-decoration: underline;}
+        .hiddenPubs {display: none;}
+        .zBlue {background-color: #f0f0ff;}
+    </style>
+  </head>
+
+  <body>
+    <header itemscope itemtype="https://schema.org/Person">
+    <p class="otaygugel">PhD Candidate of Computer Science at ODU in Norfolk, Virginia, USA</p>
+
+        <img src="mofro.png" alt="mug shot" id="mugShot" itemprop="photo" />
+
+      <h1 itemprop="name">Mat Kelly</h1>
+      <h2 itemprop="title">PhD Candidate, Computer Science</h2>
+      <h3 itemprop="affiliation"><a href="https://ws-dl.cs.odu.edu" target="_blank" rel="external noopener noreferrer">Web Science &amp; Digital Libraries Research Group</a></h3>
+      <h3 itemprop="affiliation"><a href="https://odu.edu/" target="_blank" rel="external noopener noreferrer">Old Dominion University</a> &bull; Norfolk, Virginia &bull; USA</h3>
+      <h3>PhD Advisor: <a href=
+      "https://www.cs.odu.edu/~mweigle/" target="_blank" rel="external noopener noreferrer">Dr. Michele C. Weigle</a> &bull; Co-Advisor: <a href="https://www.cs.odu.edu/~mln/" target="_blank" rel="external noopener noreferrer">Dr. Michael L. Nelson</a></h3>   
+    </header>
+    <nav>
+      <ul id="sections">
+        <li><a href="#documents">Documents</a></li>
+        <li><a href="#writing">Writing Samples</a></li>
+        <li><a href="#awards">Recent Awards &amp; Recognition</a></li>
+        <li><a href="#service">Recent Service</a></li>
+        <li><a href="#teaching">Teaching Experience</a></li>
+        <li><a href="#projects">Recent Software Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li id="cv"><a target="_blank" rel="noopener noreferrer" href="https://matkelly.com/cv">C.V.</a></li>
+      </ul>
+    </nav>
+
+
+    <section id="documents">
+      <h2>Documents</h2>
+      <ul>
+        <li><a href="https://matkelly.com/cv">CV</a></li>
+        <li><a href="https://www.cs.odu.edu/~mkelly/researchStatement.pdf">Research Statement</a></li>
+      </ul>
+    </section>
+
+    <section id="writing">
+      <h2 id="ppp_heading">Writing Samples</h2>
+      <h3>Select Peer-Reviewed Publications <span>(3 of 19 peer-reviewed publications displayed)</span></h3>
+      <ul id="ppp" class="unfiltered">
+          <li class="paper longPaper peerReviewed award"><em class="me">Mat Kelly</em>, Michael L. Nelson, and Michele C. Weigle, “A Framework for Aggregating Private and Public Web Archives,” In <em>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>, Fort Worth, Texas, June 2018, pp. 273-282. <em class="best">Best Paper Award Nominee</em>. (<a href="papers/2018_jcdl_hierarchy.pdf">PDF</a>, <a href="publications/kelly-jcdl2018.bib">BibTeX</a>)</li>
+          <li class="paper"><em class="me">Mat Kelly</em>, Lulwah M. Alkwai, Michael L. Nelson, Michele C. Weigle, and Herbert Van de Sompel, “Impact of URI Canonicalization on Memento Count,” Technical Report arXiv:1703.03302, 2017. (<a href="https://arxiv.org/pdf/1703.03302.pdf">PDF</a>, <a href="publications/kelly-arXiv2017.bib">BibTeX</a>)</li>
+          <li class="paper shortPaper peerReviewed"><em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “InterPlanetary Wayback: Peer-To-Peer Permanence of Web Archives,” In <em>Proceedings of the International Conference on Theory and Practice of Digital Libraries (TPDL)</em>. Hannover, Germany, September 2016, pp. 411-416. (<a href="https://www.cs.odu.edu/~mkelly/papers/2016_tpdl_ipwb.pdf">PDF</a>, <a href="publications/kelly-tpdl2016.bib">BibTeX</a>)</li>
+          <li class="compList">Comprehensive list on <a href="https://matkelly.com/cv" target="_blank" rel="external noopener noreferrer">CV</a>, <a href="https://scholar.google.com/citations?user=ehg7mloAAAAJ" target="_blank" rel="external noopener noreferrer">Google Scholar</a>, and <a href="https://www.cs.odu.edu/~mkelly/" target="_blank" rel="external noopener noreferrer">my homepage</a>.</li>
+      </ul>
+      <h3 id="coauthors">Co-Authors/Co-Presenters <span>(from 8 different institutions)</span></h3>
+      <ul class="flushTop blackLinks">
+        <li>
+          <a href="https://odu.edu/"  target="_blank" rel="external noopener noreferrer">Old Dominion University</a>: 
+            <a href="https://www.cs.odu.edu/~mweigle/"  target="_blank" rel="external noopener noreferrer">Michele C. Weigle</a>, 
+            <a href="https://www.cs.odu.edu/~mln/" target="_blank" rel="external noopener noreferrer">Michael L. Nelson</a>, 
+            <a href="http://justinfbrunelle.com/" target="_blank" rel="external noopener noreferrer">Justin F. Brunelle</a>, 
+            Hany SalahEldeen, Sawood Alam, John A. Berlin, Lulwah M. Alkwai, Mohamed Aturban, Scott G. Ainsworth, <a href="https://www.cs.odu.edu/~olariu/">Stephan Olariu</a>, Michael Ruffing, Syed Rizvi, Liang Chen, Chinmay Lokesh</li>
+        <li><a href="https://www.lanl.gov/" target="_blank" rel="external noopener noreferrer">Los Alamos National Laboratory</a>: 
+          <a href="https://hvdsomp.info/" target="_blank" rel="external noopener noreferrer">Herbert Van de Sompel</a></li>
+        <li>
+          <a href="http://www.clemson.edu/" target="_blank" rel="external noopener noreferrer">Clemson University</a>:
+           <a href="https://people.cs.clemson.edu/~jasonoh/"  target="_blank" rel="external noopener noreferrer">Jason O. Hallstrom</a>, Yangyang He</li>
+        <li><a href="https://www.ssaihq.com/" target="_blank" rel="external noopener noreferrer">Science Systems and Applications, Inc</a>: Thad Chee, Douglas A. Spangenberg, J. Kirk Ayers</li>
+        <li><a href="https://www.nasa.gov/langley" target="_blank" rel="external noopener noreferrer">NASA Langley Research Center</a>:
+         <a href="https://www.cs.odu.edu/~lnguyen/"  target="_blank" rel="external noopener noreferrer">Louis Nguyen</a>, 
+         <a href="https://www-pm.larc.nasa.gov/pages/minnis_cv.html" target="_blank" rel="external noopener noreferrer">Patrick Minnis</a></li>
+        <li><a href="https://www.bmwgroup.com"  target="_blank" rel="external noopener noreferrer">BMW Group</a>: David Helman</li>
+        <li><a href="https://www.intel.com"  target="_blank" rel="external noopener noreferrer">Intel Corporation</a>: 
+         <a href="https://www.linkedin.com/in/martin-guttmann-2619a/"  target="_blank" rel="external noopener noreferrer">Martin Guttmann</a>, Bill Carter, Enrique Castro-Leon, Thomas Kellerer, Dror Shenkar</li>
+        <li><a href="https://protocol.ai/"  target="_blank" rel="external noopener noreferrer">Protocol Labs</a>: <a href="http://daviddias.me/" target="_blank" rel="external noopener noreferrer">David Dias</a></li>
+      </ul>
+      <h3>Additional Outreach</h3>
+      <h4>Web Science and Digital Libraries (WS-DL) Research Group Blog</h4>
+      <ul class="flushTop">
+          <li class="compList" id="blags"><a href="#" onclick="showAllBlagPosts(); return false;">Show <span id="blogHiddenCount">23</span> other research blog posts</a>.</li>
+      </ul>
+    </section>
+
+    <section id="awards">
+      <h2>Recent Awards &amp; Recognition</h2>
+      <ul>
+       <li>Best Paper Finalist for <a href="papers/2018_jcdl_hierarchy.pdf">“A Framework for Aggregating Private and Public Web Archives”</a> at the ACM/IEEE Joint Conference on Digital Libraries (JCDL), June 2018.</li>
+        <li><a href="http://jcdl.org/awards.php">Best Poster</a> for <a href="papers/2017_jcdl_countingMementos.pdf">“Impact of URI Canonicalization on Memento Count”</a> at the ACM/IEEE Joint Conference on Digital Libraries (JCDL), June 2017.</li>
+        <li>Scholarship Awardee, <a href="https://www.rjionline.org/stories/graduate-students-receive-scholarships-to-attend-digital-news-preservati">Donald W. Reynolds Journalism Institute</a>, October 2016.</li>
+        <li>NASA <a href="http://vsgc.odu.edu/sf/gradfellow/">Virginia Space Grant Consortium</a> <a href="http://vsgc.odu.edu/awardees/20142015/">Graduate Fellow</a>, August 2014.</li>
+        <li><a href="http://jcdl.org/awards.php">Best Student Paper</a> for <a href="http://www.cs.odu.edu/~mkelly/papers/2014_dl_damage.pdf">“Not All Mementos Are Created Equal: Measuring The Impact Of Missing Resources”</a> at ACM/IEEE Digital Libraries 2014, September 2014.</li>
+        <li><a href="https://blogs.loc.gov/thesignal/2012/06/announcing-five-ndsa-innovation-award-winners/">Future Steward Innovation Award Recipient</a>, National Digital Stewardship Alliance (NDSA) / Library of Congress, July 2012.</li>
+        <li class="compList">Comprehensive list on <a href="https://matkelly.com/cv">CV</a></li>
+    </ul>
+    </section>
+    
+    <section id="service">
+      <h2>Recent Service</h2>
+      <ul>
+        <li>Reviewer, <a href="https://link.springer.com/journal/799">International Journal on Digital Libraries (IJDL)</a>, 2018.</li>
+        <li>Reviewer, <a href="https://2018.jcdl.org/">Joint Conference on Digital Libraries (JCDL) 2018</a>, January 2018.</li>
+        <li>Organizing Committee, <a href="https://2018.jcdl.org/organizing_committee">Publicity Chair</a>, <a href="https://2018.jcdl.org/">Joint Conference on Digital Libraries (JCDL) 2018</a>.</li>
+        <li>Reviewer, <a href="https://accessconference.ca/">Access 2017</a>, May 2017.</li>
+        <li>Acknowledged Contributor, <a href="https://tools.ietf.org/html/rfc7089">RFC7089: HTTP Framework for Time-Based Access to Resource States -- Memento</a>, December 2013.</li>
+        <li>Reviewer, Joint Conference on Digital Libraries (JCDL) 2012, March 2012.</li>
+        <li class="compList">Comprehensive list on <a href="https://matkelly.com/cv">CV</a></li>
+      </ul>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching Experience</h2>
+      <ul>
+        <li>Redesigned and taught course for <a target="_blank" rel="external noopener noreferrer" href="https://www.cs.odu.edu/~mkelly/semester/2015_spring/cs418/">CS418 - Web Programming</a> (Spring 2015) to integrate with Docker and GitHub.<ul>
+          <li>Documented overhaul in a <a target="_blank" rel="external noopener noreferrer" href="http://ws-dl.blogspot.com/2015/05/2015-05-07-teaching-undergraduate.html">blog post</a>.</li>
+          <li>Course model later reused for further courses taught by Drs. Justin F. Brunelle (three subsequent iterations of CS418) and Michael L. Nelson (<a href="https://phonedude.github.io/cs531-f18/">CS531</a>).</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects">
+    <h2>Recent Software Projects <a href="#" onclick="showSoftwarePubs(); return false;">(show inline publications/presentations)</a></h2>
+    <ul>
+        <li><a href="https://github.com/oduwsdl/ipwb" target="_blank" rel="external noopener noreferrer"><em>InterPlanetary Wayback (ipwb)</em></a> - Integration of WARCs into IPFS for more redundant and persistent web archives.
+          <ul class="hiddenPubs">
+            <li class="zBlue">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “InterPlanetary Wayback: The Next Step Towards Decentralized Web Archiving,” Presented at the Decentralized Web Summit, San Francisco, California, August 2018.</li>
+            <li ><em class="me">Mat Kelly</em> and David Dias, “A Collaborative, Secure, and Private InterPlanetary Wayback Archiving System using IPFS,” Presented at the International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2017, London, England, 15 June 2017</li>
+            <li class="zBlue"><em class="me">Mat Kelly</em>, “Tools for the Personal Web Archivist: WARCreate, WAIL, Mink, InterPlanetary Wayback,” Presented At Archives Unleashed 4.0: Web Archive Datathon, 12 June 2017.</li>
+            <li>Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “InterPlanetary Wayback: The Permanent Web Archive,” Bulletin of IEEE Technical Committee on Digital Libraries (IEEE-TCDL), Vol. 13, No. 1, April 2017.</li>
+            <li class="zBlue"><em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “InterPlanetary Wayback: Peer-To-Peer Permanence of Web Archives,” In Proceedings of the International Conference on Theory and Practice of Digital Libraries (TPDL). Hannover, Germany, September 2016, pp. 411-416. </li>
+            <li><em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “InterPlanetary Wayback: The Permanent Web Archive,” At the Web Archiving and Digital Libraries Workshop (WADL 2016). Newark, NJ, June 2016.</li>
+            <li class="zBlue">Sawood Alam, <em class="me">Mat Kelly</em>, and Michael L. Nelson, “InterPlanetary Wayback: The Permanent Web Archive,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). Newark, NJ, June 2016, pp. 273-274.</li>
+          </ul>
+        </li>
+        <li><a href="https://github.com/machawk1/mink" target="_blank" rel="external noopener noreferrer"><em>Mink</em></a> - Chrome extension to integrate the live and archived web using Memento.
+          <ul class="hiddenPubs">
+            <li class="zBlue"><em class="me">Mat Kelly</em>, “Tools for the Personal Web Archivist: WARCreate, WAIL, Mink, InterPlanetary Wayback,” Presented At Archives Unleashed 4.0: Web Archive Datathon, 12 June 2017.</li>
+            <li>Wesley Jordan, <em class="me">Mat Kelly</em>, Justin F. Brunelle, Laura Vobrak, Michele C. Weigle and Michael L. Nelson, “Mobile Mink: Merging Mobile and Desktop Archived Webs,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). Knoxville, TN, June 2015, pp. 243-244, Best Poster Award.</li>
+            <li class="zBlue"><em class="me">Mat Kelly</em>, Michael L. Nelson, and Michele C. Weigle, “Mink: Integrating the Live and Archived Web Viewing Experience Using Web Browsers and Memento,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). London, England, September 2014, pp. 469-470. </li>
+          </ul>
+        </li>
+        <li><a href="https://matkelly.com/wail" target="_blank" rel="external noopener noreferrer"><em>Web Archiving Integration Layer (WAIL)</em></a> - Cross-platform desktop application to make institution-grade Web archiving tools more accessible so as to encourage personal preservation.
+          <ul class="hiddenPubs">
+            <li class="zBlue">John A. Berlin, <em class="me">Mat Kelly</em>, Michael L. Nelson, and Michele C. Weigle, “WAIL: Collection-Based Personal Web Archiving,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). Toronto, Canada, June 2017, pp. 340-341. </li>
+            <li><em class="me">Mat Kelly</em>, “Tools for the Personal Web Archivist: WARCreate, WAIL, Mink, InterPlanetary Wayback,” Presented At Archives Unleashed 4.0: Web Archive Datathon, 12 June 2017.</li>
+            <li class="zBlue"><em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “Making Enterprise-Level Archive Tools Accessible for Personal Web Archiving,” Personal Digital Archiving 2013; 2013 February 21; College Park, MD. </li>
+          </ul>
+        </li>
+        <li><a href="https://matkelly.com/warcreate" target="_blank" rel="external noopener noreferrer"><em>WARCreate</em></a> - Google Chrome extension to allow a user to create a Web ARChive (WARC) file from any webpage.
+          <ul class="hiddenPubs">
+            <li class="zBlue"><em class="me">Mat Kelly</em>, Michael L. Nelson, and Michele C. Weigle, “WARCreate and WAIL: WARC, Wayback and Heritrix Made Easy,” Digital Preservation 2013, Workshops and Sessions: Web Archiving; 2013 July 24; Alexandria, VA. </li>
+            <li><em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “WARCreate - Create Wayback-Consumable WARC Files from Any Webpage,” Digital Preservation 2012, Tools Demo Session: Web Archiving; 2012 July 25; Washington, DC.</li>
+            <li class="zBlue"><em class="me">Mat Kelly</em> and Michele C. Weigle, “WARCreate - Create Wayback-Consumable WARC Files from Any Webpage,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). Washington, DC, June 2012, pp. 437-438.</li>
+          </ul>
+        </li>
+        <li class="compList">Additional software open-source contributions available on <a href="https://github.com/machawk1">GitHub</a>.</li>
+    </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+          <li>mkelly at cs.odu.edu (E-mail)</li>
+          <li><a href="https://www.cs.odu.edu/~mkelly/">Academic homepage</a> (at ODU CS)</li>
+          <li><a href="https://twitter.com/machawk1" rel="me">@machawk1</a> (Twitter)</li>
+          <li><a href="https://github.com/machawk1" rel="me">@machawk1</a> (GitHub)</li>
+          <li><a href="https://scholar.google.com/citations?user=ehg7mloAAAAJ">Mat Kelly @ Google Scholar</a></li>
+          <li><a href="https://orcid.org/0000-0002-0236-7389">orcid:0000-0002-0236-7389</a></li>
+      </ul>
+    </section>
+    
+</body>
+</html>
