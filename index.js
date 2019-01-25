@@ -22,6 +22,7 @@ function addPPPFilters () {
   var filter_pr = document.getElementById('ppp_pr')
   var filter_p = document.getElementById('ppp_p')
   var filter_j = document.getElementById('ppp_j')
+  var filter_a = document.getElementById('ppp_a')
 			
   filter_pr.onclick = function showOnlyPeerReviewed () {
 	  ppp_showOnly('peerReviewed')
@@ -35,6 +36,10 @@ function addPPPFilters () {
 	  ppp_showOnly('journal')
 	  ppp_highlightNavItem(this.id)
   }
+  filter_a.onclick = function showOnlyAwarded () {
+	  ppp_showOnly('award')
+	  ppp_highlightNavItem(this.id)
+  }
   filter_all.onclick = function showAll () {
 	  ppp_showAll()
 	  ppp_highlightNavItem(this.id)
@@ -45,15 +50,21 @@ function addPPPFilters () {
 function ppp_showOnly (className) {
   var ppps = Array.from(document.getElementById('ppp').children)
   ppps.forEach(function changeHidden (el, i, arr) {
-	el.classList.contains(className) ? el.classList.remove('hidden') : el.classList.add('hidden')
+	  el.classList.contains(className) ? el.classList.remove('hidden') : el.classList.add('hidden')
   })
+  // Add class to parent to re-assign zebra stripes. Won't work until browsers support multiple pseudo-selectors
+  // var ppp = document.getElementById('ppp')
+  // ppp.classList.replace('unfiltered', 'filtered')
 }
 
 function ppp_showAll () {
   var ppps = Array.from(document.getElementById('ppp').children)
   ppps.forEach(function changeHidden (el, i, arr) {
-	el.classList.remove('hidden')
+	  el.classList.remove('hidden')
   })
+  // Restore zebra stripes to unfiltered. Won't work until browsers support multiple pseudo-selectors
+  // var ppp = document.getElementById('ppp')
+  // ppp.classList.replace('filtered', 'unfiltered')
 }
 
 // Change selection UI style on click

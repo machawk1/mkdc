@@ -20,7 +20,8 @@
     const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
     let posts = []
 
-    fetch('wsdlBlogFeed_matKelly_20180910.json').then(function (resp) {
+    // http://ws-dl.blogspot.com/feeds/posts/default/-/matKelly/?alt=json&max-results=50
+    fetch('wsdlBlogFeed_matKelly_20190102.json').then(function (resp) {
         return resp.json();
     }).then(function (jsonResp) {
       getPosts(jsonResp)
@@ -46,7 +47,7 @@
     }
     
     function generatePostsHTML () {
-      const defaultDisplayed = ['2018-06-11', '2017-11-16', '2017-03-24']
+      const defaultDisplayed = ['2018-12-03', '2018-10-10', '2018-06-11', '2017-11-16', '2017-03-24']
       const blagLink = document.getElementById('blags')
       const blagParent = blagLink.parentNode
 
@@ -89,10 +90,25 @@
       blagParent.removeChild(blagLink)
     }
   
-    function showSoftwarePubs () {
-      Array.from(document.getElementsByClassName('hiddenPubs')).forEach(function (el) {
-        el.classList.remove('hiddenPubs')
-      })      
+    function toggleSoftwarePubs () {
+      let showClass = 'prevHiddenPubs'
+      let hideClass = 'hiddenPubs'
+      const showText = '(show inline publications/presentations)'
+      const hideText = '(hide inline publications/presentations)'
+      const toggleLink = document.getElementById('toggleSoftwarePubs')
+      
+      if (document.getElementsByClassName(showClass).length > 0) {
+        let classTemp = showClass
+        showClass = hideClass
+        hideClass = classTemp
+        toggleLink.innerHTML = showText
+      } else {
+        toggleLink.innerHTML = hideText
+      }
+      
+      Array.from(document.getElementsByClassName(hideClass)).forEach(function (el) {
+        el.classList.replace(hideClass, showClass)
+      }) 
     }
   
     
@@ -196,7 +212,7 @@
          <a href="https://www.linkedin.com/in/martin-guttmann-2619a/"  target="_blank" rel="external noopener noreferrer">Martin Guttmann</a>, Bill Carter, Enrique Castro-Leon, Thomas Kellerer, Dror Shenkar</li>
         <li><a href="https://protocol.ai/"  target="_blank" rel="external noopener noreferrer">Protocol Labs</a>: <a href="http://daviddias.me/" target="_blank" rel="external noopener noreferrer">David Dias</a></li>
       </ul>
-      <h3>Additional Outreach</h3>
+      <h3 id="blogPosts">Additional Outreach</h3>
       <h4>Web Science and Digital Libraries (WS-DL) Research Group Blog</h4>
       <ol class="flushTop">
           <li class="compList" id="blags"><a href="#" onclick="showAllBlagPosts(); return false;">Show <span id="blogHiddenCount">23</span> other research blog posts</a>.</li>
@@ -241,7 +257,7 @@
     </section>
 
     <section id="projects">
-    <h2>Recent Software Projects <a href="#" onclick="showSoftwarePubs(); return false;">(show inline publications/presentations)</a></h2>
+    <h2>Recent Software Projects <a href="#" id="toggleSoftwarePubs" onclick="toggleSoftwarePubs(); return false;">(show inline publications/presentations)</a></h2>
     <ul>
         <li><a href="https://github.com/oduwsdl/ipwb" target="_blank" rel="external noopener noreferrer"><em>InterPlanetary Wayback (ipwb)</em></a> - Integration of WARCs into IPFS for more redundant and persistent web archives.
           <ul class="hiddenPubs">
