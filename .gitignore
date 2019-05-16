@@ -9,6 +9,7 @@ publications/index.php
 !posters
 !presentations
 !publications
+!semester
 !.gitignore
 !.nojekyll
 !bullet_citadel.png
@@ -22,7 +23,12 @@ publications/index.php
 !style.css
 !wsdlBlogFeed_matKelly_20180910.json
 
-candidacyProposal_matKelly.pdf
-candidacyProposal_slides.pdf
+!twitterCard.png
+!transparentPixel.png
+!wsdlBlogFeed_matKelly*
+!researchStatement.pdf
 
-reversearchiveit
+!candidacyProposal_matKelly.pdf
+!candidacyProposal_slides.pdf
+
+!reversearchiveit
