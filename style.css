@@ -6,12 +6,7 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 
-@font-face {
-  font-family: 'IM Fell English';
-  font-style: normal;
-  font-weight: 400;
-  src: url(./_font/manrope-medium.woff2) format('woff2')
-}
+
 
 body {background-color: white; font-size: 16px; font-family: 'IM Fell English', "Helvetica", serif; color: #333; font-display: swap;}
 header {margin-bottom: 1.0em; font-family: 'IM Fell English', serif;}
@@ -43,7 +38,7 @@ nav ul#software li a img {width: 50px;}
 nav ul li#cv {margin-top: 2.0em; font-size: 2.0em; border: 0;}
 nav ul li#cv a {border: 1px solid #031fc9; border-radius: 10px; background-color: rgba(255,255,255,0.8);}
 em.me {font-weight: bolder; font-style: normal; color: #000099;}
-em.best {font-weight: bolder; color: red;}
+em.best {font-weight: bolder; color: #FA4616;}
 
 body section > ul > li {margin-bottom: 0.25em;}
 
@@ -131,11 +126,30 @@ h3#advisor {margin-right: 200px;}
         background-color: #111;
         color: white;
     }
+    a {color: #FA4616;}
     h1, h2, h3 {color: #ddd;}
+    #ppp_filter li {border-bottom: 1px dashed #FA4616;}
+    #ppp_filter li.ppp_active {border-bottom: 2px solid #FA4616;}
     #ppp.unfiltered li:nth-child(even) {background-color: #222; border-bottom: none;}
     header h3 a {color: inherit; text-decoration: none;}
-    header h3 a:hover {color: #031fc9; text-decoration: underline;}
+    header h3 a:hover {color: #FA4616; text-decoration: underline;}
     
-    #ppp a {color: inherit;}
-    em.me {font-weight: bolder; font-style: normal; color: #0000ff;}
+    nav ul#sections li a {color: #FA4616;}
+    nav ul#sections li a:hover {color: white; background-color: #FA4616;}
+    nav ul#sections li {border-bottom: 1px dashed #FA4616;}
+    nav ul li#cv {border-bottom: none;}
+    nav ul li#cv a {border: 1px solid #FA4616;}
+    #ppp a {color: #FA4616;}
+    em.me {font-weight: bolder; font-style: normal; color: #FA4616;}
+    
+    img#mugShot {border: 1px solid #FA4616;}
+    
+    em.best {color: #0021A5;}
+    
+    #ppp_filter li:hover:not(.ppp_active) {border: 1px dotted #FA4616;}
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 650px) and (prefers-color-scheme: dark) {
+ .pinned {background: linear-gradient(to bottom, rgb(33,33,33,1) 80%, rgba(255,255,255,0) 100%); position: fixed; z-index: 3; top: 0; width: 100%; padding-bottom: 1.5em;}
 }
