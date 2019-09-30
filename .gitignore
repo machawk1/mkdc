@@ -13,15 +13,16 @@ publications/index.php
 !semester
 !.gitignore
 !.nojekyll
-!bullet_citadel.png
-!bullet_odu.png
-!bullet_oduphd.png
-!bullet_uf.png
+!_images/bullet_citadel.png
+!_images/bullet_odu.png
+!_images/bullet_oduphd.png
+!_images/bullet_uf.png
 !index.html
-!index.js
-!mofro.png
+!index.php
+!_js/index.js
+!_images/mofro.png
 !postdoc.html
-!style.css
+!_css/style.css
 !wsdlBlogFeed_matKelly_20180910.json
 
 !twitterCard.png
