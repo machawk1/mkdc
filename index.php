@@ -32,7 +32,7 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
     <meta name="twitter:image" content="https://matkelly.com/_images/twitterCard.png">
 
     <link rel="icon" sizes="192x192" href="./_images/favicon192.png">
-    <link rel="apple-touch-icon" sizes="192x192" href="./images/favicon192.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="./_images/favicon192.png">
     <!--<script src="_js/html2canvas.js"></script>-->
     <script src="./_js/index.js" defer></script>
     <style>
@@ -49,6 +49,7 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
         @media only screen and (min-width: 100px) and (max-width: 650px) {
           #glider {display: none;}
         }
+        #currentProjects em {font-weight: bold; font-style: normal;}
     </style>
     <base href="https://matkelly.com/"> <!-- Just until large PDFs find a new home. -->
   </head>
@@ -57,11 +58,11 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
     <header itemscope itemtype="https://schema.org/Person">
     <p class="otaygugel">Assistant Professor of Computer Science at Drexel University in Philadelphia, Pennsylvania, USA</p>
 
-        <img src="./_images/mofro.png" alt="mug shot" id="mugShot" itemprop="photo" />
+        <img src="./_images/mug_matKelly.jpg" alt="mug shot" id="mugShot" itemprop="photo" />
 
       <h1 itemprop="name">Mat Kelly</h1>
       <h2 itemprop="title">Assistant Professor, Information Science</h2>
-      <h3 itemprop="affiliation"><a href="https://drexel.edu/cci/"  target="_blank" rel="external noopener noreferrer">College of Computing &amp; Informatics</h3></h3>
+      <h3 itemprop="affiliation"><a href="https://drexel.edu/cci/" target="_blank" rel="external noopener noreferrer">College of Computing &amp; Informatics</a></h3>
       <h3 itemprop="affiliation"><a href="https://drexel.edu" target="_blank" rel="external noopener noreferrer">Drexel University</a> &bull; Philadelphia, Pennsylvania &bull; USA</h3>
       <!--<h3 id="advisor">PhD Advisor: <a href=
       "https://www.cs.odu.edu/~mweigle/" target="_blank" rel="external noopener noreferrer">Dr. Michele C. Weigle</a> <span>&bull;</span> Co-Advisor: <a href="https://www.cs.odu.edu/~mln/" target="_blank" rel="external noopener noreferrer">Dr. Michael L. Nelson</a></h3> 
@@ -83,7 +84,8 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
     <section id="currentProjects">
       <h2>Current/Upcoming Projects</h2>
         <ul>
-          <li>Refining course content for INFO 600: Web Systems &amp; Architecture (Fall 2019) at <a href="https://drexel.edu/cci/">Drexel University</a>.</li>
+          <li><em>I am seeking and have funding for prospective PhD students in Information Science! Please <a href="#contact">contact me</a> if interested</em>.</li>
+          <li>Designing INFO202 (Data Curation) and INFO654 (Enterprise Content Management) courses to be taught Spring (March-June) 2020.</li>
           <li>Continued development of <a href="https://github.com/oduwsdl/ipwb">InterPlanetary Wayback (ipwb)</a>, <a href="https://warcreate.com">WARCreate</a>, <a href="https://matkelly.com/wail">Web Archiving Integration Layer (WAIL)</a>, and <a href="https://github.com/machawk1/mink">Mink</a>.</li>
         </ul>
     </section>
@@ -150,6 +152,8 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
     <section id="recognitionAndParticipation">
       <h2>Recognition &amp; Participation</h2>
       <ul>
+        <li>Reviewer, <a href="https://ecir2020.org/">European Conference on Information Retrieval (ECIR) 2020</a>, November 2019.</li>
+        <li>Invited Guest Presenter, “<a href="presentations/2019_drexel_info821.pdf" target="_blank" rel="external noopener noreferrer">On Archival Negotiation Beyond Time</a>”, <a href="https://drexel.edu/cci/about/directory/G/Greenberg-Jane/">Jane Greenberg</a>'s Foundations of Information Science, Drexel University, October 2019.</li>
         <li>Invited Guest Presenter, “<a href="presentations/2019_psu_aframework.pdf" target="_blank" rel="external noopener noreferrer">A Framework for Aggregating Private and Public Web Archives</a>”, <a href="http://wang.ist.psu.edu/docs/home.shtml">James Z. Wang</a>'s Data Science course, Penn State University, February 2019.</li>
         <li>Invited Guest Presenter, “<a href="presentations/2019_psu_tools.pdf" target="_blank" rel="external noopener noreferrer">On Tool Building and Evaluation of the Archived Web</a>”, <a href="http://clgiles.ist.psu.edu/IST441/">IST441 - Information Retrieval and Search Engines</a>, Penn State University, February 2019.</li>
         <li>Organizing Committee, <a href="https://2019.jcdl.org/about/organizing-committees/">Publicity Chair</a>, <a href="https://2019.jcdl.org/">Joint Conference on Digital Libraries (JCDL) 2019</a>.</li>
@@ -485,13 +489,14 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
     <h2>Contact</h2>
     <ul>
         <li>mkelly at drexel.edu (E-mail)</li>
-        <li><a href="https://twitter.com/machawk1" rel="me">@machawk1</a> (Twitter)</li>
-        <li><a href="https://github.com/machawk1" rel="me">@machawk1</a> (GitHub)</li>
-        <li><a href="https://scholar.google.com/citations?user=ehg7mloAAAAJ">Mat Kelly @ Google Scholar</a></li>
-        <li><a href="https://matkelly.com/orcid">orcid:0000-0002-0236-7389</a></li>
-        <li>ResearcherID: <a href="https://publons.com/researcher/1803741/mat-kelly/">A-3809-2019</a></li>
-        <li><a href="https://www.semanticscholar.org/author/Mat-Kelly/33277833?q=&sort=influence">Mat Kelly @ Semantic Scholar</a></li>
-        <li><a href="https://academic.microsoft.com/profile/15627813-12j0-4h91-8fh2-18h013ee767f/machawk1/publication/search?q=Mat%20Kelly&qe=%2540%2540%2540USER.PUBLICATIONS%253D15627813-12f0-4d91-8bd2-18d013aa767b&f=&orderBy=0">Mat Kelly @ Microsoft Academic</a></li>        
+        <li><a href="https://twitter.com/machawk1" rel="me" target="_blank" rel="external noopener noreferrer">@machawk1</a> (Twitter)</li>
+        <li><a href="https://github.com/machawk1" rel="me" target="_blank" rel="external noopener noreferrer">@machawk1</a> (GitHub)</li>
+        <li><a href="https://scholar.google.com/citations?user=ehg7mloAAAAJ" target="_blank" rel="external noopener noreferrer">Mat Kelly @ Google Scholar</a></li>
+        <li><a href="https://matkelly.com/orcid" target="_blank" rel="external noopener noreferrer">orcid:0000-0002-0236-7389</a></li>
+        <li>ResearcherID: <a href="https://publons.com/researcher/1803741/mat-kelly/"  target="_blank" rel="external noopener noreferrer">A-3809-2019</a></li>
+        <li><a href="https://www.semanticscholar.org/author/Mat-Kelly/33277833?q=&sort=influence"  target="_blank" rel="external noopener noreferrer">Mat Kelly @ Semantic Scholar</a></li>
+        <li><a href="https://academic.microsoft.com/profile/15627813-12j0-4h91-8fh2-18h013ee767f/machawk1/publication/search?q=Mat%20Kelly&qe=%2540%2540%2540USER.PUBLICATIONS%253D15627813-12f0-4d91-8bd2-18d013aa767b&f=&orderBy=0"  target="_blank" rel="external noopener noreferrer">Mat Kelly @ Microsoft Academic</a></li>
+        <li><a href="https://dblp.uni-trier.de/pers/hd/k/Kelly:Mat"  target="_blank" rel="external noopener noreferrer">Mat Kelly @ DBLP</a></li>        
     </ul>
 </section>
 
