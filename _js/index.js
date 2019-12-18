@@ -75,15 +75,17 @@ function ppp_highlightNavItem (id) {
   })
 }
 document.addEventListener('DOMContentLoaded', function (event) {
-  var headerClone = document.getElementsByTagName('header')[0].cloneNode(true)
+	// Create the cloned header to be displayed when the mobile user has scrolled
+	// past a certain vertical threshold. 
+  let headerClone = document.getElementsByTagName('header')[0].cloneNode(true)
   headerClone.id = 'clonedHeader'
-  headerClone.classList = 'hide'
-  document.body.appendChild(headerClone)
+  headerClone.classList = 'hide'  // Initially hide it.
+  document.body.appendChild(headerClone)  // Add it to the DOM.
   
-	document.onscroll = function () {
-		if (window.innerWidth <= 600) { //responsive design showing
-		  var header = document.getElementById('clonedHeader')
-		  var offsetTarget = 250
+  document.onscroll = function () {
+		let header = document.getElementById('clonedHeader')
+		if (window.innerWidth <= 600) { // Responsive design, small width viewport
+			const offsetTarget = 250  // At what  to have cloned header at full opacity
 			if (window.pageYOffset > offsetTarget) {
 				header.classList.add('pinned')
 				header.classList.remove('hide')
@@ -93,6 +95,8 @@ document.addEventListener('DOMContentLoaded', function (event) {
 				header.classList.add('hide')
 				header.style.opacity = 1.0
 			}
+		} else { // Default to hide the cloned header
+			header.classList.add('hide')
 		}
 	}
 	
