@@ -2,7 +2,7 @@
 
 header('Memento-Datetime: '.gmdate('D, d M Y H:i:s ').'GMT');
 header("X-Clacks-Overhead: GNU Terry Pratchett");
-header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archive/mkdc.tm>; rel="timemap"; type="application/link-format"');
+header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/archive/mkdc.tm>; rel="timemap"; type="application/link-format"');
 //header('Location: http://www.pages.drexel.edu/~mrk335/', true, 301);
 
 ?>
@@ -31,26 +31,11 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
     <meta name="twitter:creator" content="@machawk1">
     <meta name="twitter:image" content="https://matkelly.com/_images/twitterCard.png">
 
+    <link rel="manifest" href="manifest.webmanifest">
     <link rel="icon" sizes="192x192" href="./_images/favicon192.png">
     <link rel="apple-touch-icon" sizes="192x192" href="./_images/favicon192.png">
     <!--<script src="_js/html2canvas.js"></script>-->
     <script src="./_js/index.js" defer></script>
-    <style>
-        /*#screenshot {position: absolute; right: 300px; top: 10px; width: 500px; -webkit-transition: all ease 1s;}*/
-        #screenshot {width: 200px;}
-        #screenshot:hover {
-
-        }
-        #thumbnailFrame {height: 100px; overflow: hidden;}
-        .otaygugel {display: none;}
-        
-        #glider img {position: fixed; width: 126px; bottom: 5px; right: 37px; margin: 0; padding: 0; opacity: 0.9; display: none;}
-        #glider img:hover {opacity: 1.0;}
-        @media only screen and (min-width: 100px) and (max-width: 650px) {
-          #glider {display: none;}
-        }
-        #currentProjects em {font-weight: bold; font-style: normal;}
-    </style>
     <base href="https://matkelly.com/"> <!-- Just until large PDFs find a new home. -->
   </head>
 
@@ -74,7 +59,7 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
         <li><a href="#papersPostersAndPresentations">Papers, Posters &amp; Presentations</a></li>
         <li><a href="#recognitionAndParticipation">Recognition &amp; Participation</a></li>
         <li><a href="#teaching">Teaching</a></li>
-        <li class="hide"><a href="#courseworkHistory">Coursework History</a></li>
+        <!--<li class="hide"><a href="#courseworkHistory">Coursework History</a></li>-->
         <li><a href="#projects">Recent Software Projects</a></li>
         <li><a href="#contact">Contact</a></li>
         <li id="cv"><a target="_blank" rel="noopener noreferrer" href="https://matkelly.com/cv">C.V.</a></li>
@@ -85,7 +70,8 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
       <h2>Current/Upcoming Projects</h2>
         <ul>
           <li><em>I am seeking and have funding for prospective PhD students in Information Science! Please <a href="#contact">contact me</a> if interested</em>.</li>
-          <li>Designing INFO202 (Data Curation) and INFO654 (Enterprise Content Management) courses to be taught Spring (March-June) 2020.</li>
+          <li>Teaching INFO202 - Data Curation for Spring quarter 2020 at Drexel University.</li>
+          <li>Preparing presentation for <em><a href="http://netpreserve.org/ga2020/wac/">IIPC WAC 2020</a></em>, “WASAPIfying private web archiving tools for persistence and collaboration”.</li>
           <li>Continued development of <a href="https://github.com/oduwsdl/ipwb">InterPlanetary Wayback (ipwb)</a>, <a href="https://warcreate.com">WARCreate</a>, <a href="https://matkelly.com/wail">Web Archiving Integration Layer (WAIL)</a>, and <a href="https://github.com/machawk1/mink">Mink</a>.</li>
         </ul>
     </section>
@@ -100,6 +86,8 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
           <li><a id="ppp_a">Only Awarded</a></li>
         </ul>
         <ul id="ppp" class="unfiltered">
+           <li class="presentation"><em class="me">Mat Kelly</em>, “WASAPIfying private web archiving tools for persistence and collaboration,” To be presented at the <em>International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2020</em>, Montr&eacute;al, Canada, 28 September 2020 (Forthcoming).</li>
+           <li class="presentation"><em class="me">Mat Kelly</em>, “Weaving in the Loose Ends of Novel Web Archiving Approaches,” Presented at <em>Save All the Internet: Web Archiving Tools and Tips</em>, Newark, Delaware, 30 March 2020. (<a href="saveTheInternet">Slides</a>)</li>
           <li class="presentation">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “InterPlanetary Wayback: The Next Step Towards Decentralized Web Archiving,” Presented at the <em>Decentralized Web Summit</em>, San Francisco, California, August 2018. (<a href="presentations/2018_dweb_ipwb.pdf">Slides</a>)</li>
           <li class="paper workshop"><em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “Client-Assisted Memento Aggregation Using the Prefer Header,” Presented at the <em>Web Archiving and Digital Libraries Workshop (WADL 2018)</em>, Fort Worth, Texas, June 2018. (<a href="papers/2018_wadl_preferData.pdf">PDF</a>)</li>
           <li class="poster workshop">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “A Survey of Archival Replay Banners,” Presented at the <em>Web Archiving and Digital Libraries Workshop (WADL 2018)</em>, Fort Worth, Texas, June 2018. (<a href="papers/2018_wadl_banners.pdf">PDF</a>)</li>
@@ -114,13 +102,13 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
           <li class="presentation"><em class="me">Mat Kelly</em> and David Dias, “A Collaborative, Secure, and Private InterPlanetary Wayback Archiving System using IPFS,” Presented at the <em>International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2017</em>, London, England, 15 June 2017. (<a href="presentations/2017_iipcwac_ipwb.pdf">Slides</a>)</li>
           <li class="presentation">Michele C. Weigle, Michael L. Nelson, <em class="me">Mat Kelly</em>, and John Berlin, “Archive What I See Now - Personal Web Archiving with WARCS,” Presented at the <em>International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC)</em>, London, England, 15 June 2017.  (<a href="presentations/2017_iipcwac_neh.pdf">Slides</a>)</li>
           <li class="presentation"><em class="me">Mat Kelly</em>, “Tools for the Personal Web Archivist: WARCreate, WAIL, Mink, InterPlanetary Wayback,” Presented At <em>Archives Unleashed 4.0: Web Archive Datathon</em>, 12 June 2017. (<a href="https://docs.google.com/presentation/d/1MgtXbv7K-LJ4C7w9CrLaGvNbMzCD2eLeK1dhlQ-nzAc/edit?usp=sharing">Slides</a>)</li>
-          <li class="online">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “InterPlanetary Wayback: The Permanent Web Archive,” <em>Bulletin of IEEE Technical Committee on Digital Libraries (IEEE-TCDL)</em>, Vol. 13, No. 1, April 2017.  (<a href="http://www.ieee-tcdl.org/Bulletin/v13n1/papers/alam.pdf">PDF</a>, <a href="publications/alam-tcdl2017.bib">BibTeX</a>)</li>
+          <li class="online">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “InterPlanetary Wayback: The Permanent Web Archive,” <em>Bulletin of IEEE Technical Committee on Digital Libraries (IEEE-TCDL)</em>, Vol. 13, No. 1, April 2017.  (<a href="publications/alam-tcdl2017.bib">BibTeX</a>)</li>
           <li class="paper"><em class="me">Mat Kelly</em>, Lulwah M. Alkwai, Michael L. Nelson, Michele C. Weigle, and Herbert Van de Sompel, “Impact of URI Canonicalization on Memento Count,” Technical Report arXiv:1703.03302, 2017. (<a href="https://arxiv.org/abs/1703.03302">PDF</a>, <a href="publications/kelly-arXiv2017.bib">BibTeX</a>)</li>
           <li class="paper shortPaper peerReviewed"><em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “InterPlanetary Wayback: Peer-To-Peer Permanence of Web Archives,” In <em>Proceedings of the International Conference on Theory and Practice of Digital Libraries (TPDL)</em>. Hannover, Germany, September 2016, pp. 411-416. (<a href="papers/2016_tpdl_ipwb.pdf">PDF</a>, <a href="presentations/2016_tpdl_ipwb.pdf">slides</a>, <a href="publications/kelly-tpdl2016.bib">BibTeX</a>)</li>
           <li class="poster workshop"><em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “InterPlanetary Wayback: The Permanent Web Archive,” At the <em>Web Archiving and Digital Libraries Workshop (WADL 2016)</em>. Newark, NJ, June 2016.</li>
           <li class="poster peerReviewed">Sawood Alam, <em class="me">Mat Kelly</em>, and Michael L. Nelson, “InterPlanetary Wayback: The Permanent Web Archive,” In <em>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>. Newark, NJ, June 2016, pp. 273-274.  (<a href="papers/2016_jcdl_ipwb.pdf">PDF</a>, <a href="publications/alam-jcdl2016.bib">BibTeX</a>)</li>
           <li class="presentation"><em class="me">Mat Kelly</em>, “Exploring Aggregation of Personal, Private, and Institutional Web Archives,” Presented At <em>Archives Unleashed 2.0: Web Archive Datathon</em>, 2016 June 15. (<a href="presentations/2016_archivesUnleashed_aggregation.pptx">PPTX</a>)</li>
-          <li class="online"><em class="me">Mat Kelly</em>, “A Framework for Aggregating Private and Public Web Archives,” <em>Bulletin of IEEE Technical Committee on Digital Libraries (IEEE-TCDL)</em>, Vol. 11, No. 3, December 2015.  (<a href="https://www.ieee-tcdl.org/Bulletin/v11n3/papers/149-Kelly.pdf">PDF</a>, <a href="publications/kelly-tcdl2015.bib">BibTeX</a>)</li>
+          <li class="online"><em class="me">Mat Kelly</em>, “A Framework for Aggregating Private and Public Web Archives,” <em>Bulletin of IEEE Technical Committee on Digital Libraries (IEEE-TCDL)</em>, Vol. 11, No. 3, December 2015.  (<a href="publications/kelly-tcdl2015.bib">BibTeX</a>)</li>
           <li class="presentation"><em class="me">Mat Kelly</em>, “A Framework for Aggregating Private and Public Web Archives,” at the <em>ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>. Doctoral Consortium. Knoxville, TN, June 2015. <!--(<a href="papers/2015_jcdl_aframework.pdf">PDF</a>, <a href="publications/kelly-jcdl2015.bib">BibTeX</a>)--></li>
           <li class="poster peerReviewed award">Wesley Jordan, <em class="me">Mat Kelly</em>, Justin F. Brunelle, Laura Vobrak, Michele C. Weigle and Michael L. Nelson, “Mobile Mink: Merging Mobile and Desktop Archived Webs,” In <em>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>. Knoxville, TN, June 2015, pp. 243-244, <em class="best">Best Poster Award</em>. (<a href="papers/2015_jcdl_mobileMink.pdf">PDF</a>, <a href="publications/jordan-jcdl2015.bib">BibTeX</a>)</li>
           <li class="presentation"><em class="me">Mat Kelly</em>, Michael L. Nelson, and Michele C. Weigle, “Visualizing Digital Collections of Web Archives,” <em>Web Archiving Collaboration: New Tools and Models</em>; 2015 June 4; New York City, NY. (<a href="presentations/2015_columbiawac_thumbnails.pptx">PPTX</a>)</li>
@@ -152,6 +140,9 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
     <section id="recognitionAndParticipation">
       <h2>Recognition &amp; Participation</h2>
       <ul>
+        <li>Reviewer, <a href="https://2020.jcdl.org/">Joint Conference on Digital Libraries (JCDL) 2020</a>, February 2020.</li>
+        <li>Sole Presenter, <a href="https://matkelly.com/presentations/2020_drexelccimsiwebinar.pdf">“Save My Web Things For Me and Others but Not All”</a> for the <a href="https://drexel.edu/cci/events/details/?eid=28714&iid=76409">Drexel CCI Master's of Information Webinar Series</a>, February 2020.</li>
+        <li>Invited Guest Presenter, <a href="https://www.cs.odu.edu/~mweigle/">Michele C. Weigle</a>'s <a href="https://www.cs.odu.edu/~mweigle/CS800-S20/">CS800 - Research Methods</a>, Old Dominion University, January 2020.</li>
         <li>Reviewer, <a href="https://ecir2020.org/">European Conference on Information Retrieval (ECIR) 2020</a>, November 2019.</li>
         <li>Invited Guest Presenter, “<a href="presentations/2019_drexel_info821.pdf" target="_blank" rel="external noopener noreferrer">On Archival Negotiation Beyond Time</a>”, <a href="https://drexel.edu/cci/about/directory/G/Greenberg-Jane/">Jane Greenberg</a>'s Foundations of Information Science, Drexel University, October 2019.</li>
         <li>Invited Guest Presenter, “<a href="presentations/2019_psu_aframework.pdf" target="_blank" rel="external noopener noreferrer">A Framework for Aggregating Private and Public Web Archives</a>”, <a href="http://wang.ist.psu.edu/docs/home.shtml">James Z. Wang</a>'s Data Science course, Penn State University, February 2019.</li>
@@ -188,6 +179,7 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
     <section id="teaching">
       <h2>Teaching</h2>
       <ul>
+        <li class="drexel">Spring 2020: INFO202 - Data Curation</li>
         <li class="drexel">Fall 2019: INFO600 - Web Systems &amp; Architecture</li>
         <li class="oduphd">Spring 2015: <a href="https://www.cs.odu.edu/~mkelly/semester/2015_spring/cs418/">CS418 - Web Programming</a></li>
       </ul>
@@ -327,7 +319,7 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
                 <li>Presentation: <a href="http://www.cs.odu.edu/~mkelly/semester/2011_fall/cs895_stochasticModeling_midtermPresentation.pdf">Midterm Presentation on a chosen Stochastic Modeling Problem</a></li>
                 <li>Presentation: <a href="http://www.cs.odu.edu/~mkelly/semester/2011_fall/cs895_stochasticModeling_finalPresentation.pdf">Stochastic Modeling Paper</a></li>
             </ul></li>
-            <li>CS895 - <a href="http://www.cs.odu.edu/~mln/teaching/cs895-f11/">Topics: Web-based Information Retrieval</a> (<a href="http://www.cs.odu.edu/~mln/">Dr. Michael L. Nelson</a>)<ul>
+            <li>CS895 - <a href="https://www.cs.odu.edu/~mln/teaching/cs895-f11/">Topics: Web-based Information Retrieval</a> (<a href="http://www.cs.odu.edu/~mln/">Dr. Michael L. Nelson</a>)<ul>
                 <li>Presentation: <a href="http://www.cs.odu.edu/~mkelly/semester/2011_fall/cs895_informationRetrieval_presentation1.pptx">Evaluation and Relation</a> of a <a href="https://quod.lib.umich.edu/j/jep/3336451.0007.104?view=text;rgn=main" title="The Deep Web: Surfacing Hidden Value by Michael K. Bergman">Seminal Paper</a> and a <a href="http://web.eecs.umich.edu/~michjc/papers/cafarella-webscale-sigmodrecord08.pdf" title="Web-Scale Extraction of Structured Data by Michael J. Cafarella, Jayant Madhavan &amp; Alon Halevy">Followup Paper</a></li>
                 <li>Presentation: <a href="http://www.cs.odu.edu/~mkelly/semester/2011_fall/cs895_informationRetrieval_presentation2.pptx">Evaluation and Relation</a> of a <a href="http://www.aclweb.org/anthology/A88-1019.pdf" title="A Stochastic Parts Program and Noun Phrase Parser for Unrestricted Text by Kenneth Ward Church">Seminal Paper</a> and a <a href="http://www.aclweb.org/anthology/E93-1046" title="Ambiguity Resolution In A Reductionist Parser by Atro Voutilainen &amp; Pasi Tapanainen">Followup Paper</a></li>
                 <li>Presentation: <a href="http://www.cs.odu.edu/~mkelly/semester/2011_fall/cs895_informationRetrieval_presentation3.pptx">Evaluation and Relation</a> of a <a href="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=5392672&amp;abstractAccess=no&amp;userType=inst" title="The Automatic Creation of Literature Abstracts by H. P. Luhn">Seminal Paper</a> and a <a href="http://dl.acm.org/citation.cfm?id=215333" title="A Trainable Document Summarizer by Julian Kupiec, Jan Pedersen &amp; Francine Chen">Followup Paper</a></li>
@@ -489,8 +481,8 @@ header('Link: <http://matkelly.com/>; rel="original", <http://matkelly.com/archi
     <h2>Contact</h2>
     <ul>
         <li>mkelly at drexel.edu (E-mail)</li>
-        <li><a href="https://twitter.com/machawk1" rel="me" target="_blank" rel="external noopener noreferrer">@machawk1</a> (Twitter)</li>
-        <li><a href="https://github.com/machawk1" rel="me" target="_blank" rel="external noopener noreferrer">@machawk1</a> (GitHub)</li>
+        <li><a href="https://twitter.com/machawk1" target="_blank" rel="me external noopener noreferrer">@machawk1</a> (Twitter)</li>
+        <li><a href="https://github.com/machawk1" target="_blank" rel="me external noopener noreferrer">@machawk1</a> (GitHub)</li>
         <li><a href="https://scholar.google.com/citations?user=ehg7mloAAAAJ" target="_blank" rel="external noopener noreferrer">Mat Kelly @ Google Scholar</a></li>
         <li><a href="https://matkelly.com/orcid" target="_blank" rel="external noopener noreferrer">orcid:0000-0002-0236-7389</a></li>
         <li>ResearcherID: <a href="https://publons.com/researcher/1803741/mat-kelly/"  target="_blank" rel="external noopener noreferrer">A-3809-2019</a></li>

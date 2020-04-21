@@ -85,11 +85,11 @@ document.addEventListener('DOMContentLoaded', function (event) {
   document.onscroll = function () {
 		let header = document.getElementById('clonedHeader')
 		if (window.innerWidth <= 600) { // Responsive design, small width viewport
-			const offsetTarget = 250  // At what  to have cloned header at full opacity
+			const offsetTarget = 250  // At what y-value to have cloned header at full opacity
 			if (window.pageYOffset > offsetTarget) {
 				header.classList.add('pinned')
 				header.classList.remove('hide')
-				header.style.opacity = (window.pageYOffset - offsetTarget) / offsetTarget
+				header.style.opacity = Math.min((window.pageYOffset - offsetTarget) / offsetTarget, 1.0)
 			} else {
 				header.classList.remove('pinned')
 				header.classList.add('hide')
