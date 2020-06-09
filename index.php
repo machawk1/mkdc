@@ -10,7 +10,7 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Homepage of Mat Kelly, Assistant Professor of Information Science, Drexel University in Philadelphia, Pennsylvania." />
+    <meta name="description" content="Homepage of Mat Kelly, Assistant Professor, Deparment of Information Science, Drexel University in Philadelphia, Pennsylvania." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#031fc9" />
     <title>Mat Kelly, Assistant Professor of Information Science, Drexel University in Philadelphia, Pennsylvania</title>
@@ -27,9 +27,9 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@machawk1">
     <meta name="twitter:title" content="Mat Kelly">
-    <meta name="twitter:description" content="Academic homepage of Mat Kelly, Assistant Professor of Information Science at Drexel University.">
+    <meta name="twitter:description" content="Homepage of Mat Kelly, Assistant Professor, Drexel University.">
     <meta name="twitter:creator" content="@machawk1">
-    <meta name="twitter:image" content="https://matkelly.com/_images/twitterCard.png">
+    <meta name="twitter:image" content="https://matkelly.com/_images/twitterCard_2020.png">
 
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="icon" sizes="192x192" href="./_images/favicon192.png">
@@ -41,12 +41,13 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
 
   <body>
     <header itemscope itemtype="https://schema.org/Person">
-    <p class="otaygugel">Assistant Professor of Computer Science at Drexel University in Philadelphia, Pennsylvania, USA</p>
+    <p class="otaygugel">Assistant Professor, Department of Information Science, College of Computing &amp; Informatics, Drexel University in Philadelphia, Pennsylvania, USA</p>
 
         <img src="./_images/mug_matKelly.jpg" alt="mug shot" id="mugShot" itemprop="photo" />
 
       <h1 itemprop="name">Mat Kelly</h1>
-      <h2 itemprop="title">Assistant Professor, Information Science</h2>
+      <h2 itemprop="title">Assistant Professor</h2>
+      <h3 itemprop="affiliation"><a href="https://drexel.edu/cci/academics/information-science-department/" target="_blank" rel="external noopener noreferrer">Department of Information Science</a></h3>
       <h3 itemprop="affiliation"><a href="https://drexel.edu/cci/" target="_blank" rel="external noopener noreferrer">College of Computing &amp; Informatics</a></h3>
       <h3 itemprop="affiliation"><a href="https://drexel.edu" target="_blank" rel="external noopener noreferrer">Drexel University</a> &bull; Philadelphia, Pennsylvania &bull; USA</h3>
       <!--<h3 id="advisor">PhD Advisor: <a href=
@@ -70,8 +71,9 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
       <h2>Current/Upcoming Projects</h2>
         <ul>
           <li><em>I am seeking and have funding for prospective PhD students in Information Science! Please <a href="#contact">contact me</a> if interested</em>.</li>
-          <li>Teaching INFO202 - Data Curation for Spring quarter 2020 at Drexel University.</li>
-          <li>Preparing presentation for <em><a href="http://netpreserve.org/ga2020/wac/">IIPC WAC 2020</a></em>, “WASAPIfying private web archiving tools for persistence and collaboration”.</li>
+          <li>Wrapping up INFO202 - Data Curation for Spring quarter 2020 at Drexel University.</li>
+          <li>Preparing to teach INFO624 - Information Retrieval System for Summer quarter 2020 at Drexel University.</li>
+          <li>Preparing presentation for <em><a href="http://netpreserve.org/ga2020/wac/">IIPC WAC 2020</a></em>, “WASAPIfying private web archiving tools for persistence and collaboration”, postponed to September 2020 due to COVID-19.</li>
           <li>Continued development of <a href="https://github.com/oduwsdl/ipwb">InterPlanetary Wayback (ipwb)</a>, <a href="https://warcreate.com">WARCreate</a>, <a href="https://matkelly.com/wail">Web Archiving Integration Layer (WAIL)</a>, and <a href="https://github.com/machawk1/mink">Mink</a>.</li>
         </ul>
     </section>
@@ -86,8 +88,10 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
           <li><a id="ppp_a">Only Awarded</a></li>
         </ul>
         <ul id="ppp" class="unfiltered">
-           <li class="presentation"><em class="me">Mat Kelly</em>, “WASAPIfying private web archiving tools for persistence and collaboration,” To be presented at the <em>International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2020</em>, Montr&eacute;al, Canada, 28 September 2020 (Forthcoming).</li>
-           <li class="presentation"><em class="me">Mat Kelly</em>, “Weaving in the Loose Ends of Novel Web Archiving Approaches,” Presented at <em>Save All the Internet: Web Archiving Tools and Tips</em>, Newark, Delaware, 30 March 2020. (<a href="saveTheInternet">Slides</a>)</li>
+          <li class="paper">Abigail Mabe, Dhruv Patel, Maheedhar Gunnam, Surbhi Shankar, <em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “Visualizing Webpage Changes Over Time,” Technical Report arXiv:2006.02487, 2020. (<a href="https://arxiv.org/abs/2006.02487">PDF</a>, <a href="publications/mabe-arxiv2020.bib">BibTeX</a>)</li>
+          <li class="journal peerReviewed">Michal Monselise, Jane Greenberg, Ou Stella Liang, Sonia Pascua, Heejun Kim, <em class="me">Mat Kelly</em>, Joan P. Boone, and Christopher C. Yang, “Toward Best Practice for Extending the Consumer Health Vocabulary,” <em>Journal of Data and Information Science (JDIS)</em>, 2020 (Forthcoming).</li>
+          <li class="presentation"><em class="me">Mat Kelly</em>, “WASAPIfying private web archiving tools for persistence and collaboration,” To be presented at the <em>International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2020</em>, Montr&eacute;al, Canada, 28 September 2020 (Forthcoming).</li>
+          <li class="presentation"><em class="me">Mat Kelly</em>, “Weaving in the Loose Ends of Novel Web Archiving Approaches,” Presented at <em>Save All the Internet: Web Archiving Tools and Tips</em>, Newark, Delaware, 30 March 2020. (<a href="saveTheInternet">Slides</a>)</li>
           <li class="presentation">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “InterPlanetary Wayback: The Next Step Towards Decentralized Web Archiving,” Presented at the <em>Decentralized Web Summit</em>, San Francisco, California, August 2018. (<a href="presentations/2018_dweb_ipwb.pdf">Slides</a>)</li>
           <li class="paper workshop"><em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “Client-Assisted Memento Aggregation Using the Prefer Header,” Presented at the <em>Web Archiving and Digital Libraries Workshop (WADL 2018)</em>, Fort Worth, Texas, June 2018. (<a href="papers/2018_wadl_preferData.pdf">PDF</a>)</li>
           <li class="poster workshop">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “A Survey of Archival Replay Banners,” Presented at the <em>Web Archiving and Digital Libraries Workshop (WADL 2018)</em>, Fort Worth, Texas, June 2018. (<a href="papers/2018_wadl_banners.pdf">PDF</a>)</li>
