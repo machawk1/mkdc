@@ -3,7 +3,6 @@
 header('Memento-Datetime: '.gmdate('D, d M Y H:i:s ').'GMT');
 header("X-Clacks-Overhead: GNU Terry Pratchett");
 header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/archive/mkdc.tm>; rel="timemap"; type="application/link-format"');
-//header('Location: http://www.pages.drexel.edu/~mrk335/', true, 301);
 
 ?>
 <!DOCTYPE html>
@@ -13,9 +12,10 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
     <meta name="description" content="Homepage of Mat Kelly, Assistant Professor, Deparment of Information Science, Drexel University in Philadelphia, Pennsylvania." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#031fc9" />
-    <title>Mat Kelly, Assistant Professor of Information Science, Drexel University in Philadelphia, Pennsylvania</title>
+    <title>Mat Kelly, Assistant Professor, Department of Information Science, Drexel University in Philadelphia, Pennsylvania</title>
     <link rel="stylesheet" href="_css/style.css" media="all" />
-    <link rel="author" href="https://plus.google.com/u/0/103717513886594190386" />
+    <link rel="preload" href="/_font/IM_FELL_English_Roman.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/_font/manrope-medium.woff2" as="font" type="font/woff2" crossorigin>
 
     <link rel="me" href="https://twitter.com/machawk1" />
     <link rel="me" href="https://github.com/machawk1" />
@@ -30,6 +30,7 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
     <meta name="twitter:description" content="Homepage of Mat Kelly, Assistant Professor, Drexel University.">
     <meta name="twitter:creator" content="@machawk1">
     <meta name="twitter:image" content="https://matkelly.com/_images/twitterCard_2020.png">
+    <meta name="twitter:image:alt" content="Mat Kelly, PhD - Assistant Professor, Department of Information Science, College of Computing & Informatics, Drexel University, Philadelphia, Pennsylvania USA; Visit matkelly.com for more details on publications and open source software projects">
 
     <link rel="manifest" href="manifest.webmanifest">
     <link rel="icon" sizes="192x192" href="./_images/favicon192.png">
@@ -50,13 +51,10 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
       <h3 itemprop="affiliation"><a href="https://drexel.edu/cci/academics/information-science-department/" target="_blank" rel="external noopener noreferrer">Department of Information Science</a></h3>
       <h3 itemprop="affiliation"><a href="https://drexel.edu/cci/" target="_blank" rel="external noopener noreferrer">College of Computing &amp; Informatics</a></h3>
       <h3 itemprop="affiliation"><a href="https://drexel.edu" target="_blank" rel="external noopener noreferrer">Drexel University</a> &bull; Philadelphia, Pennsylvania &bull; USA</h3>
-      <!--<h3 id="advisor">PhD Advisor: <a href=
-      "https://www.cs.odu.edu/~mweigle/" target="_blank" rel="external noopener noreferrer">Dr. Michele C. Weigle</a> <span>&bull;</span> Co-Advisor: <a href="https://www.cs.odu.edu/~mln/" target="_blank" rel="external noopener noreferrer">Dr. Michael L. Nelson</a></h3> 
-      <a id="glider" href="https://ws-dl.cs.odu.edu"  target="_blank" rel="external noopener noreferrer"><img src="images/glider126-trans.png" alt="WS-DL Glider logo" /></a>-->
     </header>
     <nav>
       <ul id="sections">
-        <li><a href="#currentProjects">Upcoming/Current Projects</a></li>
+        <li><a href="#currentProjects">Current/Upcoming Projects</a></li>
         <li><a href="#papersPostersAndPresentations">Papers, Posters &amp; Presentations</a></li>
         <li><a href="#recognitionAndParticipation">Recognition &amp; Participation</a></li>
         <li><a href="#teaching">Teaching</a></li>
@@ -70,11 +68,11 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
     <section id="currentProjects">
       <h2>Current/Upcoming Projects</h2>
         <ul>
-          <li><em>I am seeking and have funding for prospective PhD students in Information Science! Please <a href="#contact">contact me</a> if interested</em>.</li>
-          <li>Wrapping up INFO202 - Data Curation for Spring quarter 2020 at Drexel University.</li>
-          <li>Preparing to teach INFO624 - Information Retrieval System for Summer quarter 2020 at Drexel University.</li>
-          <li>Preparing presentation for <em><a href="http://netpreserve.org/ga2020/wac/">IIPC WAC 2020</a></em>, “WASAPIfying private web archiving tools for persistence and collaboration”, postponed to September 2020 due to COVID-19.</li>
-          <li>Continued development of <a href="https://github.com/oduwsdl/ipwb">InterPlanetary Wayback (ipwb)</a>, <a href="https://warcreate.com">WARCreate</a>, <a href="https://matkelly.com/wail">Web Archiving Integration Layer (WAIL)</a>, and <a href="https://github.com/machawk1/mink">Mink</a>.</li>
+          <li><em>I am seeking and have funding for prospective PhD students! Please <a href="#contact">contact me</a> if interested</em>.</li>
+          <li>Teaching INFO600 - Web Systems &amp; Architecture in Fall quarter 2020 at Drexel University.</li>
+          <li>Preparing to teach INFO624 - Information Retrieval System in Winter quarter (January) 2021 at Drexel University.</li>
+          <li>Planning presentation for paper accepted to the Computational Archival Science (CAS) Workshop at IEEE BigData 2020 in December 2020.</li>
+          <li>Continued development of free and open-source web archiving software like <a href="https://github.com/oduwsdl/ipwb">InterPlanetary Wayback (ipwb)</a>, <a href="https://github.com/machawk1/warcreate">WARCreate</a>, <a href="https://matkelly.com/wail">Web Archiving Integration Layer (WAIL)</a>, and <a href="https://github.com/machawk1/mink">Mink</a>.</li>
         </ul>
     </section>
 
@@ -88,13 +86,16 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
           <li><a id="ppp_a">Only Awarded</a></li>
         </ul>
         <ul id="ppp" class="unfiltered">
+        <li class="paper workshop"><em class="me">Mat Kelly</em>, Jane Greenberg, Christopher B. Rauch, Sam Grabus, Joan P. Boone, John A. Kunze, and Peter Melville Logan, “A Computational Approach to Historical Ontologies,” To Be Presented at the <em>2020 IEEE International Conference on Big Data (IEEE BigData 2020)</em>, Atlanta, Georgia, Forthcoming December 2020. </li>
+        <li class="presentation">Hyung Wook Choi, Rose DiMaria-Ghalili, <em class="me">Mat Kelly</em>, Alex Poole, Erjia Yan, and Jina Huh-Yoo, (2020) “Older Adults and Technology Use: A Systematic Literature Review,” Symposium presentation at the <em>Gerontological Society of America 2020 Annual Scientific Meeting</em>, Online Meeting, 4-7 November 2020.</li>
+        <li class="journal peerReviewed">Michal Monselise, Jane Greenberg, Ou Stella Liang, Sonia Pascua, Heejun Kim, <em class="me">Mat Kelly</em>, Joan P. Boone, and Christopher C. Yang, “Toward Best Practice for Extending the Consumer Health Vocabulary,” <em>Journal of Data and Information Science (JDIS)</em>, 6(1), 2021. (Forthcoming, <a href="https://content.sciendo.com/view/journals/jdis/ahead-of-print/article-10.2478-jdis-2021-0003/article-10.2478-jdis-2021-0003" target="_blank" rel="external noopener noreferrer">Published Online Ahead of Print</a>). (<a href="papers/2020_jdis_chv.pdf">PDF</a>, <a href="publications/monselise-jdis2020.bib">BibTeX</a>)</li>
+          <!--<li class="presentation"><em class="me">Mat Kelly</em>, “WASAPIfying private web archiving tools for persistence and collaboration,” To be presented at the <em>International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2020</em>, Montr&eacute;al, Canada, October 2020 (Forthcoming).</li>-->        
+          <li class="paper workshop">Abigail Mabe, Dhruv Patel, Maheedhar Gunnam, Surbhi Shankar, <em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “TMVis: Visualizing Webpage Changes Over Time,” Presented at the <em>ACM/IEEE JCDL 2020 Workshop on Web Archiving and Digital Libraries (WADL 2020)</em>, Wuhan, China, August 2020.  (<a href="publications/mabe-wadl2020bib">BibTeX</a>)</li>
           <li class="paper">Abigail Mabe, Dhruv Patel, Maheedhar Gunnam, Surbhi Shankar, <em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “Visualizing Webpage Changes Over Time,” Technical Report arXiv:2006.02487, 2020. (<a href="https://arxiv.org/abs/2006.02487">PDF</a>, <a href="publications/mabe-arxiv2020.bib">BibTeX</a>)</li>
-          <li class="journal peerReviewed">Michal Monselise, Jane Greenberg, Ou Stella Liang, Sonia Pascua, Heejun Kim, <em class="me">Mat Kelly</em>, Joan P. Boone, and Christopher C. Yang, “Toward Best Practice for Extending the Consumer Health Vocabulary,” <em>Journal of Data and Information Science (JDIS)</em>, 2020 (Forthcoming).</li>
-          <li class="presentation"><em class="me">Mat Kelly</em>, “WASAPIfying private web archiving tools for persistence and collaboration,” To be presented at the <em>International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2020</em>, Montr&eacute;al, Canada, 28 September 2020 (Forthcoming).</li>
           <li class="presentation"><em class="me">Mat Kelly</em>, “Weaving in the Loose Ends of Novel Web Archiving Approaches,” Presented at <em>Save All the Internet: Web Archiving Tools and Tips</em>, Newark, Delaware, 30 March 2020. (<a href="saveTheInternet">Slides</a>)</li>
           <li class="presentation">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “InterPlanetary Wayback: The Next Step Towards Decentralized Web Archiving,” Presented at the <em>Decentralized Web Summit</em>, San Francisco, California, August 2018. (<a href="presentations/2018_dweb_ipwb.pdf">Slides</a>)</li>
-          <li class="paper workshop"><em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “Client-Assisted Memento Aggregation Using the Prefer Header,” Presented at the <em>Web Archiving and Digital Libraries Workshop (WADL 2018)</em>, Fort Worth, Texas, June 2018. (<a href="papers/2018_wadl_preferData.pdf">PDF</a>)</li>
-          <li class="poster workshop">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “A Survey of Archival Replay Banners,” Presented at the <em>Web Archiving and Digital Libraries Workshop (WADL 2018)</em>, Fort Worth, Texas, June 2018. (<a href="papers/2018_wadl_banners.pdf">PDF</a>)</li>
+          <li class="paper workshop"><em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “Client-Assisted Memento Aggregation Using the Prefer Header,” Presented at the <em>Web Archiving and Digital Libraries Workshop (WADL 2018)</em>, Fort Worth, Texas, June 2018. (<a href="papers/2018_wadl_preferData.pdf">PDF</a>, <a href="publications/kelly-wadl2018.bib">BibTeX</a>)</li>
+          <li class="poster workshop">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “A Survey of Archival Replay Banners,” Presented at the <em>Web Archiving and Digital Libraries Workshop (WADL 2018)</em>, Fort Worth, Texas, June 2018. (<a href="papers/2018_wadl_banners.pdf">PDF</a>, <a href="publications/alam-wadl2018.bib">BibTeX</a>)</li>
           <li class="paper longPaper peerReviewed award"><em class="me">Mat Kelly</em>, Michael L. Nelson, and Michele C. Weigle, “A Framework for Aggregating Private and Public Web Archives,” In <em>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>, Fort Worth, Texas, June 2018, pp. 273-282. <em class="best">Best Paper Award Nominee</em>. (<a href="papers/2018_jcdl_hierarchy.pdf">PDF</a>, <a href="publications/kelly-jcdl2018.bib">BibTeX</a>)</li>
           <li class="poster peerReviewed award">Mohamed Aturban, <em class="me">Mat Kelly</em>, Sawood Alam, John A. Berlin, Michael L. Nelson, and Michele C. Weigle, “ArchiveNow: Simplified, Extensible, Multi-Archive Preservation,” In <em>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>, Fort Worth, Texas, June 2018, pp. 321-322. <em class="best">Best Poster Award</em>. (<a href="papers/2018_jcdl_archivenow.pdf">PDF</a>, <a href="publications/aturban-jcdl2018.bib">BibTeX</a>)</li>
           <li class="poster peerReviewed">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle and Michael L. Nelson, “Unobtrusive and Extensible Archival Replay Banners Using Custom Elements,” In <em>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>, Fort Worth, Texas, June 2018, pp. 319-320. (<a href="papers/2018_jcdl_banners.pdf">PDF</a>, <a href="publications/alam-jcdl2018.bib">BibTeX</a>)</li>
@@ -144,8 +145,9 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
     <section id="recognitionAndParticipation">
       <h2>Recognition &amp; Participation</h2>
       <ul>
+        <li><a href="https://www.diglib.org/catching-up-with-past-ndsa-innovation-awards-winners-mat-kelly-phd/">Featured Interviewee</a>, National Digital Stewardship Alliance (NDSA) blog, July 2020.</li>
         <li>Reviewer, <a href="https://2020.jcdl.org/">Joint Conference on Digital Libraries (JCDL) 2020</a>, February 2020.</li>
-        <li>Sole Presenter, <a href="https://matkelly.com/presentations/2020_drexelccimsiwebinar.pdf">“Save My Web Things For Me and Others but Not All”</a> for the <a href="https://drexel.edu/cci/events/details/?eid=28714&iid=76409">Drexel CCI Master's of Information Webinar Series</a>, February 2020.</li>
+        <li>Sole Presenter, <a href="https://matkelly.com/presentations/2020_drexelccimsiwebinar.pdf" >“Save My Web Things For Me and Others but Not All”</a> for the <a href="https://drexel.edu/cci/events/details/?eid=28714&iid=76409">Drexel CCI Master's of Information Webinar Series</a>, February 2020.</li>
         <li>Invited Guest Presenter, <a href="https://www.cs.odu.edu/~mweigle/">Michele C. Weigle</a>'s <a href="https://www.cs.odu.edu/~mweigle/CS800-S20/">CS800 - Research Methods</a>, Old Dominion University, January 2020.</li>
         <li>Reviewer, <a href="https://ecir2020.org/">European Conference on Information Retrieval (ECIR) 2020</a>, November 2019.</li>
         <li>Invited Guest Presenter, “<a href="presentations/2019_drexel_info821.pdf" target="_blank" rel="external noopener noreferrer">On Archival Negotiation Beyond Time</a>”, <a href="https://drexel.edu/cci/about/directory/G/Greenberg-Jane/">Jane Greenberg</a>'s Foundations of Information Science, Drexel University, October 2019.</li>
@@ -183,6 +185,9 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
     <section id="teaching">
       <h2>Teaching</h2>
       <ul>
+        <li class="drexel">Winter 2020: INFO624 - Information Retrieval System</li>
+        <li class="drexel">Fall 2020: INFO600 - Web Systems &amp; Architecture</li>
+        <li class="drexel">Summer 2020: INFO624 - Information Retrieval System</li>
         <li class="drexel">Spring 2020: INFO202 - Data Curation</li>
         <li class="drexel">Fall 2019: INFO600 - Web Systems &amp; Architecture</li>
         <li class="oduphd">Spring 2015: <a href="https://www.cs.odu.edu/~mkelly/semester/2015_spring/cs418/">CS418 - Web Programming</a></li>
