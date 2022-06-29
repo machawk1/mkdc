@@ -34,7 +34,9 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
     <meta name="color-scheme" content="light dark">
 
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="icon" sizes="192x192" href="./_images/favicon192.png">
+
+    <!--<link rel="icon" type="image/svg+xml" href="./_images/favicon.svg">-->
+    <link rel="alternate icon" sizes="192x192" href="./_images/favicon192.png">
     <link rel="apple-touch-icon" sizes="192x192" href="./_images/favicon192.png">
     <!--<script src="_js/html2canvas.js"></script>-->
     <script src="./_js/index.js" defer></script>
@@ -55,8 +57,9 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
     </header>
     <nav>
       <ul id="sections">
-        <li><a href="#currentProjects">Current/Upcoming Projects</a></li>
+        <li><a href="#currentProjects">Current Project &amp; News</a></li>
         <li><a href="#papersPostersAndPresentations">Papers, Posters &amp; Presentations</a></li>
+        <li><a href="#funding">Funding</a></li>
         <li><a href="#recognitionAndParticipation">Recognition &amp; Participation</a></li>
         <li><a href="#teaching">Teaching</a></li>
         <!--<li class="hide"><a href="#courseworkHistory">Coursework History</a></li>-->
@@ -67,9 +70,12 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
     </nav>
 
     <section id="currentProjects">
-      <h2>Current/Upcoming Projects</h2>
+      <h2>Current Projects &amp; News</h2>
         <ul>
-          <li>Planning development for the Drexel 2021 Faculty Summer Research Award relating to access and security of private web archives.</li>
+          <li>Our paper submission to <a href="https://www.asist.org/am22/">ASIS&amp;T 2022</a> has been accepted to be presented on November 1, 2022!</li>
+          <li>Investigating and implementing deliverables for the funded "Venom: Archiving the Dark Web" project with MITRE Corp.</li>
+          <li>Collecting data for <a href="#funding">our awarded NSF SoS:DCI project</a>, "Examining the effects of academic mobility on individual professors' research activity and institutional human capital at HBCUs".</li>
+          <!--<li>Programmatic development for the <a href="https://drexel.edu/cci/news/2021/August/summer-2021-cci-faculty-awards/">Drexel 2021 Faculty Summer Research Award</a> relating to access and security of private web archives (ongoing to March 2022).</li>-->
           <li>Continued development of free and open-source web archiving software like <a href="https://github.com/oduwsdl/ipwb">InterPlanetary Wayback (ipwb)</a>, <a href="https://github.com/machawk1/warcreate">WARCreate</a>, <a href="https://matkelly.com/wail">Web Archiving Integration Layer (WAIL)</a>, and <a href="https://github.com/machawk1/mink">Mink</a>.</li>
         </ul>
     </section>
@@ -83,16 +89,22 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
           <li><a id="ppp_j">Only Journals</a></li>
           <li><a id="ppp_a">Only Awarded</a></li>
         </ul>
-        <ul id="ppp" class="unfiltered"> 
-          <li class="paper peerReviewed" data-venue="nasko" data-year="2021">Scott McClellan, Jane Greenberg, and <em class="me">Mat Kelly</em>, “Modeling Ephraim Chambers' Knowledge Structure From a Na&iuml;ve Standpoint,” Accepted to be in <em>Proceedings of The 8th North American Symposium on Knowledge Organization (NASKO 2021)</em>, Forthcoming July 9-11, 2021.</li>
-          <li class="presentation peerReviewed" data-venue="ictessh" data-year="2021"><em class="me">Mat Kelly</em>, Christopher B. Rauch, Jane Greenberg, John Kunze, Sam Grabus, Joan Boone, John Kunze, and Peter M. Logan, “Archival Resource Keys for Collaborative Historical Ontology Publication,” To be presented at the <em>International Conference on ICT enhanced Social Sciences and Humanities (ICTeSSH 2021)</em>, Forthcoming June 28-30, 2021. (<a href="https://ictessh.uns.ac.rs/schedule/">schedule</a>)</li>
+        <ul id="ppp" class="unfiltered">
+          <li class="paper peerReviewed">Deanna Zarrillo, <em class="me">Mat Kelly</em>, Christopher Jackson, and Erjia Yan, “Collecting Diachronic Affiliation Data for Faculty at HBCUs Using Memento,” Accepted to be In <em>Proceedings of the Association for Information Science and Technology (ASIS&amp;T) Annual Meeting</em>, Pittsburgh, Pennsylvania, October 29-November 1, 2022.</li>
+          <li class="poster peerReviewed">Hyung Wook Choi and <em class="me">Mat Kelly</em>, “Examining Existing Approaches Toward Semantic Disambiguation,” To be presented at the <em>International Society for Knowledge Organization (ISKO) Conference 2022</em>, Aalborg, Denmark, July 6-8, 2022. (<a href="https://www.communication.aau.dk/research/knowledge_groups/e-learning-lab/isko/">Info</a>)</li>
+          <li class="paper workshop" data-venue="wadl" data-year="2022"><em class="me">Mat Kelly</em>, Deanna Zarrillo, Christopher Jackson, and Erjia Yan, “First steps in Identifying Academic Migration using Memento and Quasi-Canonicalization,” Presented at the <em>ACM/IEEE JCDL 2022 Workshop on Web Archiving and Digital Libraries (WADL 2022)</em>, Cologne, Germany, June 20-24, 2022. (<a href="papers/2022_wadl_hbcus.pdf">PDF</a>, <a href="publications/kelly-wadl2022.bib">BibTeX</a>, <a href="/wadl2022">slides</a>)</li>
+          <li class="paper workshop" data-venue="jcdl" data-year="2022">Martin Klein, <em class="me">Mat Kelly</em>, Zhiwu Xie, and Edward A. Fox, “Web Archiving and Digital Libraries (WADL) 2022,” In <em>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>, pp. 1-2, Cologne, Germany, June 2022. (<a href="papers/2022_wadl.pdf">PDF</a>, <a href="publications/klein-jcdl2022.bib">BibTeX</a>, <a href="https://doi.org/10.1145/3529372.3530920">DOI</a>)</li>
+          <li class="paper peerReviewed">Christopher B. Rauch, <em class="me">Mat Kelly</em>, John Kunze, and Jane Greenberg, “FAIR Metadata A Community-driven Vocabulary Application,” In <em>Proceedings of the 15th International Conference on Metadata and Semantic Research (MTSR 2021)</em>, Online, pp. 187-198, November 29-December 3, 2021. (<a href="https://arxiv.org/abs/2111.03910">arXiv</a>, <a href="publications/rauch-mtsr2021.bib">BibTeX</a>, <a href="https://doi.org/10.1007/978-3-030-98876-0_16">DOI</a>)</li>
+          <li class="paper peerReviewed shortPaper">Jane Greenberg, Christopher B. Rauch, and <em class="me">Mat Kelly</em>, “Project Pipeline: Preservation, Persistence, and Performance,” In <em>Proceedings of the 17th International Conference on Digital Preservation (iPRES) 2021</em>, Beijing, China, October 19-22, 2021. (<a href="https://arxiv.org/abs/2109.06317">arXiv</a>, <a href="/presentations/2021_ipres_ppppp.pdf">slides</a>)</li>
+          <li class="paper peerReviewed shortPaper" data-venue="nasko" data-year="2021">Scott McClellan, <em class="me">Mat Kelly</em>, and Jane Greenberg, “Modeling Ephraim Chambers' Knowledge Structure From a Na&iuml;ve Standpoint,” Presented at <em>The 8th North American Symposium on Knowledge Organization (NASKO 2021)</em>, Online, July 9-11, 2021. (<a href="/papers/2021_nasko_chambers.pdf">PDF</a>, <a href="https://arxiv.org/abs/2109.13915">arXiv</a>, <a href="https://www.iskocus.org/nasko2021-program.php">program</a>, <a href="/presentations/2021_nasko_chambers.pptx">slides</a>, <a href="publications/mcclellan-nasko2021.bib">BibTeX</a>)</li>
+          <li class="presentation peerReviewed" data-venue="ictessh" data-year="2021"><em class="me">Mat Kelly</em>, Christopher B. Rauch, John Kunze, Sam Grabus, Joan Boone, Peter M. Logan, and Jane Greenberg, “Archival Resource Keys for Collaborative Historical Ontology Publication,” Presented at the <em>International Conference on ICT enhanced Social Sciences and Humanities (ICTeSSH 2021)</em>, June 28-30, 2021. (<a href="papers/2021_ictessh_arks.pdf">PDF</a>, <a href="publications/kelly-ictessh2021.bib">BibTeX</a>)</li>
           <li class="presentation" data-venue="iipcwac" data-year="2021"><em class="me">Mat Kelly</em>, “WASAPIfying private web archiving tools for persistence and collaboration,” Presented at the <em>International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2021</em>, Online, June 15-16, 2021. (<a href="/iipcwac2021">slides</a>, <a href="https://netpreserve.org/ga2021/overview/">schedule</a>)</li>  
           <li class="online journal peerReviewed" data-venue="code4lib" data-year="2020"><em class="me">Mat Kelly</em>, Christopher B. Rauch, Jane Greenberg, Sam Grabus, Joan Boone, John Kunze, and Peter M. Logan, “Advancing ARKs in the Historical Ontology Space,” <em>Code4Lib Journal</em>, Issue 50, Feb 2021. (<a href="https://journal.code4lib.org/articles/15608">article</a>, <a href="publications/kelly-c4l2021.bib">BibTeX</a>)</li>
-          <li class="presentation" data-venue="pidapalooza" data-year="2021"><em class="me">Mat Kelly</em>, Jane Greenberg, Christopher B. Rauch, Joan P. Boone, John Kunze, and Peter Logan, “Of ARKs and Ontologies,” Presented at PIDapalooza, (2021), Online Meeting, 27-28 January 2021. (<a href="https://pidapalooza2021.sched.com/event/gD2D/of-arks-and-ontologies">Info</a>, <a href="publications/kelly-pidapalooza2021.bib">BibTeX</a>)</li>
+          <li class="presentation" data-venue="pidapalooza" data-year="2021"><em class="me">Mat Kelly</em>, Jane Greenberg, Christopher B. Rauch, Joan P. Boone, John Kunze, and Peter Logan, “Of ARKs and Ontologies,” Presented at PIDapalooza 2021, Online Meeting, 27-28 January 2021. (<a href="https://pidapalooza2021.sched.com/event/gD2D/of-arks-and-ontologies">Info</a>, <a href="publications/kelly-pidapalooza2021.bib">BibTeX</a>)</li>
           <li class="paper workshop" data-venue="cas" data-year="2020"><em class="me">Mat Kelly</em>, Jane Greenberg, Christopher B. Rauch, Sam Grabus, Joan P. Boone, John A. Kunze, and Peter Melville Logan, “A Computational Approach to Historical Ontologies,” In Proceedings of the 5th Computational Archival Science Workshop at the <em>2020 IEEE International Conference on Big Data (IEEE BigData 2020)</em>, Atlanta, Georgia, pp. 1878-1883, December 2020. (<a href="presentations/2020_ieeebigdata.pptx">Slides</a>, <a href="https://arxiv.org/abs/2011.13114">arXiv</a>, <a href="publications/kelly-bigdata2020.bib">BibTeX</a>, <a href="http://doi.org/10.1109/BigData50022.2020.9378268">DOI</a>)</li>
           <li class="presentation" data-venue="gsa" data-year="2020">Hyung Wook Choi, Rose DiMaria-Ghalili, <em class="me">Mat Kelly</em>, Alex Poole, Erjia Yan, and Jina Huh-Yoo, (2020) “Older Adults and Technology Use: A Systematic Literature Review,” Symposium presentation at the <em>Gerontological Society of America 2020 Annual Scientific Meeting</em>, Vol 4 (Suppl 1), pp. 823, Online Meeting, 4-7 November 2020. (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7743231/pdf/igaa057.3004.pdf">PDF</a>, <a href="http://doi.org/10.1093/geroni/igaa057.3004">DOI</a>)</li>
           <li class="journal peerReviewed" data-venue="jdis" data-year="2021">Michal Monselise, Jane Greenberg, Ou Stella Liang, Sonia Pascua, Heejun Kim, <em class="me">Mat Kelly</em>, Joan P. Boone, and Christopher C. Yang, “An Automatic Approach to Extending the Consumer Health Vocabulary,” <em>Journal of Data and Information Science (JDIS)</em>, 6(1), pp. 35-49. 2021. (<a href="https://sciendo.com/de/article/10.2478/jdis-2021-0003" target="_blank" rel="external noopener noreferrer">Published Online Ahead of Print in 2020</a>). (<a href="papers/2020_jdis_chv.pdf">PDF</a>, <a href="publications/monselise-jdis2020.bib">BibTeX</a>, <a href="https://doi.org/10.2478/jdis-2021-0003">DOI</a>)</li>   
-          <li class="paper workshop" data-venue="wadl" data-year="2020">Abigail Mabe, Dhruv Patel, Maheedhar Gunnam, Surbhi Shankar, <em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “TMVis: Visualizing Webpage Changes Over Time,” Presented at the <em>ACM/IEEE JCDL 2020 Workshop on Web Archiving and Digital Libraries (WADL 2020)</em>, Wuhan, China, August 2020.  (<a href="publications/mabe-wadl2020.bib">BibTeX</a>)</li>
+          <li class="paper workshop" data-venue="wadl" data-year="2020">Abigail Mabe, Dhruv Patel, Maheedhar Gunnam, Surbhi Shankar, <em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “TMVis: Visualizing Webpage Changes Over Time,” Presented at the <em>ACM/IEEE JCDL 2020 Workshop on Web Archiving and Digital Libraries (WADL 2020)</em>, Wuhan, China, August 2020.  (<a href="papers/2020_wadl_tmvis.pdf">PDF</a>, <a href="publications/mabe-wadl2020.bib">BibTeX</a>)</li>
           <li class="paper" data-venue="arxiv" data-year="2020">Abigail Mabe, Dhruv Patel, Maheedhar Gunnam, Surbhi Shankar, <em class="me">Mat Kelly</em>, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “Visualizing Webpage Changes Over Time,” Technical Report arXiv:2006.02487, 2020. (<a href="https://arxiv.org/abs/2006.02487">PDF</a>, <a href="publications/mabe-arxiv2020.bib">BibTeX</a>)</li>
           <li class="presentation" data-venue="sati" data-year="2020"><em class="me">Mat Kelly</em>, “Weaving in the Loose Ends of Novel Web Archiving Approaches,” Presented at <em>Save All the Internet: Web Archiving Tools and Tips</em>, Newark, Delaware, 30 March 2020. (<a href="saveTheInternet">Slides</a>)</li>
           <li class="presentation" data-venue="dweb" data-year="2018">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “InterPlanetary Wayback: The Next Step Towards Decentralized Web Archiving,” Presented at the <em>Decentralized Web Summit</em>, San Francisco, California, August 2018. (<a href="presentations/2018_dweb_ipwb.pdf">Slides</a>)</li>
@@ -100,7 +112,7 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
           <li class="poster workshop" data-venue="wadl" data-year="2018">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “A Survey of Archival Replay Banners,” Presented at the <em>Web Archiving and Digital Libraries Workshop (WADL 2018)</em>, Fort Worth, Texas, June 2018. (<a href="papers/2018_wadl_banners.pdf">PDF</a>, <a href="publications/alam-wadl2018.bib">BibTeX</a>)</li>
           <li class="paper longPaper peerReviewed award" data-venue="jcdl" data-year="2018"><em class="me">Mat Kelly</em>, Michael L. Nelson, and Michele C. Weigle, “A Framework for Aggregating Private and Public Web Archives,” In <em>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>, Fort Worth, Texas, June 2018, pp. 273-282. <em class="best">Best Paper Award Nominee</em>. (<a href="papers/2018_jcdl_hierarchy.pdf">PDF</a>, <a href="publications/kelly-jcdl2018.bib">BibTeX</a>, <a href="https://doi.org/10.1145/3197026.3197045">DOI</a>)</li>
           <li class="poster peerReviewed award" data-venue="jcdl" data-year="2018">Mohamed Aturban, <em class="me">Mat Kelly</em>, Sawood Alam, John A. Berlin, Michael L. Nelson, and Michele C. Weigle, “ArchiveNow: Simplified, Extensible, Multi-Archive Preservation,” In <em>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>, Fort Worth, Texas, June 2018, pp. 321-322. <em class="best">Best Poster Award</em>. (<a href="papers/2018_jcdl_archivenow.pdf">PDF</a>, <a href="publications/aturban-jcdl2018.bib">BibTeX</a>, <a href="https://doi.org/10.1145/3197026.3203880">DOI</a>)</li>
-          <li class="poster peerReviewed" data-venue="jcdl" data-year="2018">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle and Michael L. Nelson, “Unobtrusive and Extensible Archival Replay Banners Using Custom Elements,” In <em>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>, Fort Worth, Texas, June 2018, pp. 319-320. (<a href="papers/2018_jcdl_banners.pdf">PDF</a>, <a href="publications/alam-jcdl2018.bib">BibTeX</a>, <a href="https://doi.org/10.1145/3197026.3203881">DOI</a>)</li>
+          <li class="poster peerReviewed" data-venue="jcdl" data-year="2018">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “Unobtrusive and Extensible Archival Replay Banners Using Custom Elements,” In <em>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>, Fort Worth, Texas, June 2018, pp. 319-320. (<a href="papers/2018_jcdl_banners.pdf">PDF</a>, <a href="publications/alam-jcdl2018.bib">BibTeX</a>, <a href="https://doi.org/10.1145/3197026.3203881">DOI</a>)</li>
           <li class="poster workshop" data-venue="wadl" data-year="2017"><em class="me">Mat Kelly</em>, Lulwah M. Alkwai, Sawood Alam, Michael L. Nelson, Michele C. Weigle, and Herbert Van de Sompel, “Impact of URI Canonicalization on Memento Count,” Presented at the <em>Web Archiving and Digital Libraries Workshop (WADL 2017)</em>. Toronto, Canada, June 2017. (<a href="papers/2017_wadl_countingMementos.pdf">PDF</a>)</li>
           <li class="poster workshop" data-venue="wadl" data-year="2017">Sawood Alam, <em class="me">Mat Kelly</em>, Michele C. Weigle, and Michael L. Nelson, “Avoiding Zombies in Archival Replay Using ServiceWorker,” Presented at the <em>Web Archiving and Digital Libraries Workshop (WADL 2017)</em>. Toronto, Canada, June 2017. (<a href="papers/2017_wadl_serviceWorkers.pdf">PDF</a>)</li>
           <li class="poster peerReviewed award" data-venue="jcdl" data-year="2017"><em class="me">Mat Kelly</em>, Lulwah M. Alkwai, Sawood Alam, Michael L. Nelson, Michele C. Weigle, and Herbert Van de Sompel, “Impact of URI Canonicalization on Memento Count,” In <em>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>. Toronto, Canada, June 2017, pp. 303-304.  <em class="best">Best Poster Award</em>. (<a href="papers/2017_jcdl_countingMementos.pdf">PDF</a>, <a href="publications/kelly-jcdl2017.bib">BibTeX</a>, <a href="https://doi.org/10.1109/JCDL.2017.7991601">DOI</a>)</li>
@@ -144,32 +156,69 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
         </ul>
     </section>
 
+    <section id="funding">
+      <h2>Funding</h2>
+      <p>I am thankful for the financial support that has helped to continue research projects. This is a not-yet-complete listing of the support I have received post-PhD.</p>
+      <ul>
+        <li>Venom: Archiving the Dark Web<ul>
+          <li>Sponsor/Program: MITRE Corp.</li>
+          <!--<li>Role: PI</li>-->
+          <li>Amount: $10,000.00</li>
+          <li>Term: 2022</li>
+        </ul>
+        <li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2122525&HistoricalAwards=false" target="_blank">Examining the effects of academic mobility on individual professors’ research activity and institutional human capital at HBCUs</a><ul>
+          <li>Sponsor/Program: National Science Foundation (NSF), Science of Science: Discovery, Communication, and Impact</li>
+          <li>Role: Co-PI</li>
+          <li>Amount: $396,691.00</li>
+          <li>Term: 2021-2024</li>
+        </ul>
+        <li><a href="https://drexel.edu/cci/news/2021/August/summer-2021-cci-faculty-awards/" target="_blank">Advancing Access Regulation to Private Content Preserved from the Web</a><ul>
+          <li>Sponsor/Program: Drexel University Office of Research, 2021 Faculty Summer Research Awards for Tenure/Tenure-Track Faculty</li>
+          <li>Role: PI</li>
+          <li>Amount: $7,000.00</li>
+          <li>Term: 2021-2022</li>
+        </ul>
+        <li><a href="https://www.imls.gov/grants/awarded/re-246450-ols-20" target="_blank">LIS Education And Data Science-Integrated Network Group (LEADING)</a><ul>
+          <li>Sponsor/Program: Institute of Museum and Library Services (IMLS), Laura Bush 21st Century Librarian Program (LB21)</li>
+          <li>Role: Senior Personnel</li>
+          <li>Amount: $887,154.00</li>
+          <li>Term: 2021-2023</li>
+        </ul>
+      </ul>
+    </section>
+
     <section id="recognitionAndParticipation">
       <h2>Recognition &amp; Participation</h2>
       <ul>
+        <li>Invited Participant, <a href="https://ischools.org/iConference-2022-Summary">iConference Early Career Colloquium (ECC)</a>, March 2022.</li>
+        <li>Program Committee (Reviewer), <a href="https://websci22.webscience.org/">ACM Conference on Web Science (WebSci) 2022</a>, February 2022.</li>
+        <li>Senior Program Committee, <a href="https://2022.jcdl.org/">ACM/IEEE Joint Conference on Digital Libraries (JCDL) 2022</a>, February 2022.</li>  
+        <li>Program Committee (Reviewer), <a href="https://2020.jcdl.org/">ACM/IEEE Joint Conference on Digital Libraries (JCDL) 2021</a>, May 2021.</li>
+        <li>Invited Guest Presenter, “<a href="/presentations/2021_drexel_info871.pdf">On Topic Evolution, Selection, and Future Work</a>”, <a href="https://cci.drexel.edu/faculty/asarcevic/">Aleksandra Sarcevic</a>'s INFO871 - PhD Process and Practice, Drexel University, November 2021.</li>
+        <li>Reviewer, <a href="https://asistdl.onlinelibrary.wiley.com/journal/23301643">Journal of the Association for Information Science and Technology (JASIST)</a>, October 2021.</li>
         <li>Reviewer, <a href="https://www.iospress.nl/journal/journal-of-computer-security/">Journal of Computer Security</a>, May 2021.</li>
         <li><a href="https://www.springer.com/journal/799/editors">Managing Editor</a>, <a href="https://www.springer.com/journal/799">International Journal on Digital Libraries (IJDL)</a>, April 2021-present.</li>  
-        <li>Organizing Committee, Virtual Meeting Support Commitee Chair, <a href="https://2021.jcdl.org/">Joint Conference on Digital Libraries (JCDL) 2021</a> (Upcoming September 2021).</li>  
-        <li>Reviewer, <a href="https://2020.jcdl.org/">Joint Conference on Digital Libraries (JCDL) 2021</a>, May 2021.</li>
+        <li>Organizing Committee, <a href="https://2021.jcdl.org/about/committees/#:~:text=Mat%20Kelly">Virtual Meeting Support Commitee Chair</a>, <a href="https://2021.jcdl.org/">ACM/IEEE Joint Conference on Digital Libraries (JCDL) 2021</a>.</li>  
+        <li>Program Committee (Reviewer), <a href="https://2020.jcdl.org/">ACM/IEEE Joint Conference on Digital Libraries (JCDL) 2021</a>, May 2021.</li>
         <li><a href="https://www.diglib.org/catching-up-with-past-ndsa-innovation-awards-winners-mat-kelly-phd/">Featured Interviewee</a>, National Digital Stewardship Alliance (NDSA) blog, July 2020.</li>
-        <li>Reviewer, <a href="https://2020.jcdl.org/">Joint Conference on Digital Libraries (JCDL) 2020</a>, February 2020.</li>
+        <li>Program Committee (Reviewer), <a href="https://2020.jcdl.org/">ACM/IEEE Joint Conference on Digital Libraries (JCDL) 2020</a>, February 2020.</li>
         <li>Sole Presenter, <a href="https://matkelly.com/presentations/2020_drexelccimsiwebinar.pdf" >“Save My Web Things For Me and Others but Not All”</a> for the <a href="https://drexel.edu/cci/events/details/?eid=28714&iid=76409">Drexel CCI Master's of Information Webinar Series</a>, February 2020.</li>
         <li>Invited Guest Presenter, <a href="https://www.cs.odu.edu/~mweigle/">Michele C. Weigle</a>'s <a href="https://www.cs.odu.edu/~mweigle/CS800-S20/">CS800 - Research Methods</a>, Old Dominion University, January 2020.</li>
-        <li>Reviewer, <a href="https://ecir2020.org/">European Conference on Information Retrieval (ECIR) 2020</a>, November 2019.</li>
+        <li>Program Committee (Reviewer), <a href="https://ecir2020.org/">European Conference on Information Retrieval (ECIR) 2020</a>, November 2019.</li>
         <li>Invited Guest Presenter, “<a href="presentations/2019_drexel_info821.pdf" target="_blank" rel="external noopener noreferrer">On Archival Negotiation Beyond Time</a>”, <a href="https://drexel.edu/cci/about/directory/G/Greenberg-Jane/">Jane Greenberg</a>'s Foundations of Information Science, Drexel University, October 2019.</li>
         <li>Invited Guest Presenter, “<a href="presentations/2019_psu_aframework.pdf" target="_blank" rel="external noopener noreferrer">A Framework for Aggregating Private and Public Web Archives</a>”, <a href="http://wang.ist.psu.edu/docs/home.shtml">James Z. Wang</a>'s Data Science course, Penn State University, February 2019.</li>
         <li>Invited Guest Presenter, “<a href="presentations/2019_psu_tools.pdf" target="_blank" rel="external noopener noreferrer">On Tool Building and Evaluation of the Archived Web</a>”, <a href="http://clgiles.ist.psu.edu/IST441/">IST441 - Information Retrieval and Search Engines</a>, Penn State University, February 2019.</li>
-        <li>Organizing Committee, <a href="https://2019.jcdl.org/2019.jcdl.org/about/organizing-committees/index.html">Publicity Chair</a>, <a href="https://2019.jcdl.org/">Joint Conference on Digital Libraries (JCDL) 2019</a>.</li>
-        <li>Reviewer, <a href="https://2019.jcdl.org/">Joint Conference on Digital Libraries (JCDL) 2019</a>, February 2019.</li>
+        <li>Organizing Committee, <a href="https://2019.jcdl.org/2019.jcdl.org/about/organizing-committees/index.html">Publicity Chair</a>, <a href="https://2019.jcdl.org/">ACM/IEEE Joint Conference on Digital Libraries (JCDL) 2019</a>.</li>
+        <li>Program Committee (Reviewer), <a href="https://2019.jcdl.org/">ACM/IEEE Joint Conference on Digital Libraries (JCDL) 2019</a>, February 2019.</li>
         <li>Reviewer, <a href="https://link.springer.com/journal/799">International Journal on Digital Libraries (IJDL)</a>, 2018.</li>
         <li>Best Paper Finalist for <a href="papers/2018_jcdl_hierarchy.pdf">“A Framework for Aggregating Private and Public Web Archives”</a> at the ACM/IEEE Joint Conference on Digital Libraries (JCDL), June 2018.</li>
         <li><a href="http://jcdl.org/awards.php">Best Poster</a> for <a href="papers/2018_jcdl_archivenow.pdf">“ArchiveNow: Simplified, Extensible, Multi-Archive Preservation”</a> at the ACM/IEEE Joint Conference on Digital Libraries (JCDL), June 2018.</li>
-        <li>Reviewer, <a href="https://2018.jcdl.org/">Joint Conference on Digital Libraries (JCDL) 2018</a>, January 2018.</li>
+        <li>Program Committee (Reviewer), <a href="https://2018.jcdl.org/">ACM/IEEE Joint Conference on Digital Libraries (JCDL) 2018</a>, January 2018.</li>
         <li>Organizing Committee, <a href="https://2018.jcdl.org/organizing_committee.htm">Publicity Chair</a>, <a href="https://2018.jcdl.org/">Joint Conference on Digital Libraries (JCDL) 2018</a>.</li>
         <li><a href="http://jcdl.org/awards.php">Best Poster</a> for <a href="papers/2017_jcdl_countingMementos.pdf">“Impact of URI Canonicalization on Memento Count”</a> at the ACM/IEEE Joint Conference on Digital Libraries (JCDL), June 2017.</li>
         <li>Participant and Presenter, <a href="https://archivesunleashed.com/au4-0-british-invasion/">Archives Unleashed 4.0: Web Archive Datathon</a>, June 2017.</li>
-        <li>Reviewer, <a href="https://accessconference.ca/">Access 2017</a>, May 2017.</li>
-        <li>Scholarship Awardee, <a href="https://www.rjionline.org/stories/graduate-students-receive-scholarships-to-attend-digital-news-preservati">Donald W. Reynolds Journalism Institute</a>, October 2016.</li>
+        <li>Program Committee (Reviewer), <a href="https://accessconference.ca/">Access 2017</a>, May 2017.</li>
+        <li>Scholarship Awardee, <a href="http://web.archive.org/web/20160930141701/https://www.rjionline.org/stories/graduate-students-receive-scholarships-to-attend-digital-news-preservati">Donald W. Reynolds Journalism Institute</a>, October 2016.</li>
         <li>Participant, <a href="http://web.archive.org/web/20170316134941/http://netpreserve.org/events/iipc-crawler-hackathon-london-2016">IIPC “Building Better Crawlers” Hackathon</a>, September 2016.</li>
         <li>Invited Participant and Presenter, <a href="https://archivesunleashed.com/au2-0-library-of-congress/">Archives Unleashed 2.0: Web Archive Datathon</a>, June 2016.</li>
         <li>Invited Participant, <a href="https://archivesunleashed.ca">Archives Unleashed: Web Archive Hackathon</a>, March 2016.</li>
@@ -184,13 +233,14 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
         <li><a href="https://cs.harding.edu/wac-workshop2012/participants.html">Participant</a>, Web Archiving Cooperative (WAC) Summer Workshop, June 2012.</li>
         <li><a href="https://blogs.loc.gov/thesignal/2012/06/announcing-five-ndsa-innovation-award-winners/">Future Steward Innovation Award Recipient</a>, National Digital Stewardship Alliance (NDSA) / Library of Congress, July 2012.</li>
         <li><a href="http://web.archive.org/web/20160920041500/http://www.cs.odu.edu:80/show_past_features.shtml?64">Featured Grad Student</a>, Old Dominion University Computer Science Department, June 2012.</li>
-        <li>Reviewer, Joint Conference on Digital Libraries (JCDL) 2012, March 2012.</li>
+        <li>Reviewer, <a href="https://2012.jcdl.org/">ACM/IEEE Joint Conference on Digital Libraries (JCDL) 2012</a>, March 2012.</li>
       </ul>
     </section>
 
     <section id="teaching">
       <h2>Teaching</h2>
       <ul>
+        <li class="drexel">Winter 2022: INFO624 - Information Retrieval Systems</li>
         <li class="drexel">Spring 2021: INFO202 - Data Curation</li>
         <li class="drexel">Winter 2021: INFO624 - Information Retrieval Systems</li>
         <li class="drexel">Fall 2020: INFO600 - Web Systems &amp; Architecture</li>
@@ -299,7 +349,7 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
         </li>
         <li class="oduphd">Spring 2013
           <ul>
-            <li>CS895 - <a href="http://www.cs.odu.edu/~mweigle/CS795-S13/Home">Applied Visual Analytics</a> (<a href="http://www.cs.odu.edu/~mweigle/">Dr. Michele C. Weigle</a>)
+            <li>CS895 - <a href="https://web.archive.org/web/20130729073125/https://www.cs.odu.edu/~mweigle/CS795-S13/Home">Applied Visual Analytics</a> (<a href="http://www.cs.odu.edu/~mweigle/">Dr. Michele C. Weigle</a>)
               <ul>
                 <li>Project: You're Gonna Die: Diet Edition (<a href="http://www.cs.odu.edu/~mkelly/semester/2013_spring/project1/finalReport.pdf">report</a>, <a href="http://www.cs.odu.edu/~mkelly/semester/2013_spring/project1/">visualization</a>)</li>
                 <li>Project: Box Office Movie Rating and Take Prediction (<a href="http://www.cs.odu.edu/~mkelly/semester/2013_spring/project2/CS895S13P2_FinalReport_Kelly.pdf">report</a>, <a href="http://www.cs.odu.edu/~mkelly/semester/2013_spring/project2/">visualization</a>)</li>
@@ -309,7 +359,7 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
         </li>
         <li class="oduphd">Fall 2012
           <ul>
-            <li>CS895 - <a href="http://www.cs.odu.edu/~mweigle/CS795-F12/Home">Information Visualization</a> (<a href="http://www.cs.odu.edu/~mweigle/">Dr. Michele C. Weigle</a>)
+            <li>CS895 - <a href="http://web.archive.org/web/20130729095535/http://www.cs.odu.edu/~mweigle/CS795-F12/Home">Information Visualization</a> (<a href="http://www.cs.odu.edu/~mweigle/">Dr. Michele C. Weigle</a>)
               <ul>
                 <li>Project: <a href="http://www.cs.odu.edu/~mkelly/cs795f12/final/finalReport.pdf">BibT<sub class="texE">e</sub>X Corpus Visualizer</a></li>
               </ul>
@@ -401,7 +451,7 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
             <li>CAP4800 - Systems Simulation (<a href="https://atec.utdallas.edu/content/fishwick-paul/">Dr. Paul Fishwick</a>)<ul>
                 <li>Project: Deadlocked Philosophers, a simulation illustrating the Dining Philosophers and Resource Deadlock ideas</li></ul>
             </li>
-            <li>CIS4914 - Senior Project (<a href="https://www.cise.ufl.edu/~mssz/">Dr. Mark S. Schmalz</a>, <a href="https://www.cise.ufl.edu/~dts/">Dave Small</a>)<ul>
+            <li>CIS4914 - Senior Project (<a href="https://www.cise.ufl.edu/~mssz/">Dr. Mark S. Schmalz</a>, <a href="http://web.archive.org/web/20161211003615/http://www.cise.ufl.edu/~dts/">Dave Small</a>)<ul>
                 <li>Project: “<a href="https://sourceforge.net/projects/ufseniorproject/">Project: Bob</a>” - a team-based rapidly developed networked 3-D turn-based strategy game.</li></ul>
             </li>
             <li>COT4501 - Numerical Analysis - A Computational Approach (<a href="http://www.math.ufl.edu/~rs/">Dr. Rick L. Smith</a>)</li>
