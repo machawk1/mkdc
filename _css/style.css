@@ -90,6 +90,7 @@ h3#advisor {margin-inline-end: 200px;}
 #thumbnailFrame {height: 100px; overflow: hidden;}
 .otaygugel {display: none;}
 #currentProjects em {font-weight: bold; font-style: normal;}
+#funding li {margin: 0 1em 0em 1em;}
 
 @media only screen and (min-width: 100px) and (max-width: 650px) {
   img#mugShot {position: relative; inset-block-start: auto; inset-inline-end: auto; margin: 0 auto; display: block; clip-path: circle(100px at center);}
