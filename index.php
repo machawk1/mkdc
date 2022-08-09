@@ -72,8 +72,9 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
     <section id="currentProjects">
       <h2>Current Projects &amp; News</h2>
         <ul>
+          <li>Our <a href="https://www.imls.gov/grants/available/national-leadership-grants-libraries">IMLS NLG-L</a> grant, "Saving Ads: Assessing and Improving Web Archives' Holdings of Online Advertisements" has been <a href="https://www.imls.gov/grants/awarded/lg-252362-ols-22">selected for funding</a>!</li>
           <li>Our paper submission to <a href="https://www.asist.org/am22/">ASIS&amp;T 2022</a> has been accepted to be presented on November 1, 2022!</li>
-          <li>Investigating and implementing deliverables for the funded "Venom: Archiving the Dark Web" project with MITRE Corp.</li>
+          <!--<li>Investigating and implementing deliverables for the funded "Venom: Archiving the Dark Web" project with MITRE Corp.</li>-->
           <li>Collecting data for <a href="#funding">our awarded NSF SoS:DCI project</a>, "Examining the effects of academic mobility on individual professors' research activity and institutional human capital at HBCUs".</li>
           <!--<li>Programmatic development for the <a href="https://drexel.edu/cci/news/2021/August/summer-2021-cci-faculty-awards/">Drexel 2021 Faculty Summer Research Award</a> relating to access and security of private web archives (ongoing to March 2022).</li>-->
           <li>Continued development of free and open-source web archiving software like <a href="https://github.com/oduwsdl/ipwb">InterPlanetary Wayback (ipwb)</a>, <a href="https://github.com/machawk1/warcreate">WARCreate</a>, <a href="https://matkelly.com/wail">Web Archiving Integration Layer (WAIL)</a>, and <a href="https://github.com/machawk1/mink">Mink</a>.</li>
@@ -91,7 +92,7 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
         </ul>
         <ul id="ppp" class="unfiltered">
           <li class="paper peerReviewed">Deanna Zarrillo, <em class="me">Mat Kelly</em>, Christopher Jackson, and Erjia Yan, “Collecting Diachronic Affiliation Data for Faculty at HBCUs Using Memento,” Accepted to be In <em>Proceedings of the Association for Information Science and Technology (ASIS&amp;T) Annual Meeting</em>, Pittsburgh, Pennsylvania, October 29-November 1, 2022.</li>
-          <li class="poster peerReviewed">Hyung Wook Choi and <em class="me">Mat Kelly</em>, “Examining Existing Approaches Toward Semantic Disambiguation,” To be presented at the <em>International Society for Knowledge Organization (ISKO) Conference 2022</em>, Aalborg, Denmark, July 6-8, 2022. (<a href="https://www.communication.aau.dk/research/knowledge_groups/e-learning-lab/isko/">Info</a>)</li>
+          <li class="poster peerReviewed">Hyung Wook Choi and <em class="me">Mat Kelly</em>, “Examining Existing Approaches Toward Semantic Disambiguation,” In <em>Proceedings of the Seventeenth International Society for Knowledge Organization (ISKO) Conference 2022</em>, Aalborg, Denmark, pp. 349-352, July 6-8, 2022. (<a href="https://www.communication.aau.dk/research/knowledge_groups/e-learning-lab/isko/">Info</a>, <a href="publications/choi-isko2022.bib">BibTeX</a>, <a href="https://doi.org/10.5771/9783956509568-349">DOI</a>)</li>
           <li class="paper workshop" data-venue="wadl" data-year="2022"><em class="me">Mat Kelly</em>, Deanna Zarrillo, Christopher Jackson, and Erjia Yan, “First steps in Identifying Academic Migration using Memento and Quasi-Canonicalization,” Presented at the <em>ACM/IEEE JCDL 2022 Workshop on Web Archiving and Digital Libraries (WADL 2022)</em>, Cologne, Germany, June 20-24, 2022. (<a href="papers/2022_wadl_hbcus.pdf">PDF</a>, <a href="publications/kelly-wadl2022.bib">BibTeX</a>, <a href="/wadl2022">slides</a>)</li>
           <li class="paper workshop" data-venue="jcdl" data-year="2022">Martin Klein, <em class="me">Mat Kelly</em>, Zhiwu Xie, and Edward A. Fox, “Web Archiving and Digital Libraries (WADL) 2022,” In <em>Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)</em>, pp. 1-2, Cologne, Germany, June 2022. (<a href="papers/2022_wadl.pdf">PDF</a>, <a href="publications/klein-jcdl2022.bib">BibTeX</a>, <a href="https://doi.org/10.1145/3529372.3530920">DOI</a>)</li>
           <li class="paper peerReviewed">Christopher B. Rauch, <em class="me">Mat Kelly</em>, John Kunze, and Jane Greenberg, “FAIR Metadata A Community-driven Vocabulary Application,” In <em>Proceedings of the 15th International Conference on Metadata and Semantic Research (MTSR 2021)</em>, Online, pp. 187-198, November 29-December 3, 2021. (<a href="https://arxiv.org/abs/2111.03910">arXiv</a>, <a href="publications/rauch-mtsr2021.bib">BibTeX</a>, <a href="https://doi.org/10.1007/978-3-030-98876-0_16">DOI</a>)</li>
@@ -160,6 +161,12 @@ header('Link: <https://matkelly.com/>; rel="original", <https://matkelly.com/arc
       <h2>Funding</h2>
       <p>I am thankful for the financial support that has helped to continue research projects. This is a not-yet-complete listing of the support I have received post-PhD.</p>
       <ul>
+        <li><a href="https://www.imls.gov/grants/awarded/lg-252362-ols-22">Saving Ads: Assessing and Improving Web Archives' Holdings of Online Advertisements</a><ul>
+          <li>Sponsor/Program: Institute of Museum and Library Services (IMLS) FY2022 National Leadership Grants</li>
+          <li>Role: PI</li>
+          <li>Amount: $149,479.00</li>
+          <li>Term: 2022-2024</li>
+        </ul>
         <li>Venom: Archiving the Dark Web<ul>
           <li>Sponsor/Program: MITRE Corp.</li>
           <!--<li>Role: PI</li>-->
