@@ -89,10 +89,25 @@ h3#advisor {margin-inline-end: 200px;}
 #screenshot {width: 200px;}
 #thumbnailFrame {height: 100px; overflow: hidden;}
 .otaygugel {display: none;}
-#currentProjects em {font-weight: bold; font-style: normal;}
+#currentProjects em {font-weight: normal; font-style: italic;}
 #funding li {margin: 0 1em 0em 1em;}
+#students h3 {margin-top: 0.5em;}
+
+#fall2022week2:hover {color: red; text-decoration:underline; cursor:pointer;}
+
+#usa:hover {cursor: pointer; text-shadow: 0px 1px 2px #999;}
+#usa:hover #u {color:red;}
+#usa:hover #s {color: white;}
+#usa:hover #a {color:blue;}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 @media only screen and (min-width: 100px) and (max-width: 650px) {
+  body {margin: 0; padding: 0.5em;}
   img#mugShot {position: relative; inset-block-start: auto; inset-inline-end: auto; margin: 0 auto; display: block; clip-path: circle(100px at center);}
   header h1, header h2, header h3 {text-align: center;}
   h1 {margin-block-start: 0.25em;}
@@ -108,10 +123,11 @@ h3#advisor {margin-inline-end: 200px;}
 
   header {margin-block-end: 0;}
   a.goToTop {display: inline; margin-inline-start: 1.0em; font-size: 0.8em; color: white; background-color: blue; text-decoration: none; font-family: sans-serif; white-space: nowrap;}
-  section {width: 95%;}
+  section {width: 90%;} /* If this is 95%, it breaks the pinned header */
   section ul {list-style-type: none; margin: 0.5em auto 0.5em 0.5em;}
   section ul li {margin: 0 1.0em 1.5em 1.0em; list-style-type: circle;}
-  section#papersPostersAndPresentations ul li {margin-inline-start: 0; margin-block-end: 0.5em;}
+  section#papersPostersAndPresentations {width: 100%;}
+  section#papersPostersAndPresentations ul li {margin-inline-start: 0; margin-block-end: 0.5em; list-style-type: none;}
   section#courseworkHistory {width: 80%;}
   section#courseworkHistory ul {list-style-type: disc; margin-inline-start: 1.0em;}
   section#courseworkHistory ul ul {margin-inline-start: -2.0em;}
@@ -147,6 +163,8 @@ h3#advisor {margin-inline-end: 200px;}
   li.uf, li.odu, li.citadel, li.oduphd, li.drexel {list-style-image: none;}
   body section > ul { padding: 0;}
   em.best {white-space: nowrap;}
+
+  #hamburger {width: 35px; height: 5px; background-color: black; margin: 6px 0; position: absolute;}
 }
 
 @media only screen and (min-width: 100px) and (max-width: 1130px) {

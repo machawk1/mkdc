@@ -80,16 +80,34 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
   document.body.appendChild(headerClone)  // Add it to the DOM.
   document.querySelector('#clonedHeader #mugShot').id = 'mugShot_cloned'
-  
-  
+
+  // Add nav to cloned header
+  /*let hamburger = document.createElement('div')
+  hamburger.id = 'hamburger'
+  console.log('Nav:')
+  const sections = document.getElementById('sections')
+  console.log(sections.children[2])
+  for(let i = 0; i < sections.children.length; i++) {
+    console.log(sections.children[i].innerHTML)
+  }*/
+  //headerClone.appendChild(hamburger)
+
+  /*
+  document.querySelector('#fall2022week2').addEventListener('click', (element) => {
+	const dt = Date.now()
+	fetch(`/term/2022_fall/index.php?dt=${dt}`).then((resp) => {
+		// Do nothing, the point is not the payload.
+	})
+  }, {once: true})*/
+
   document.onscroll = function () {
 		let header = document.getElementById('clonedHeader')
 		if (window.innerWidth <= 600) { // Responsive design, small width viewport
 			const offsetTarget = 250  // At what y-value to have cloned header at full opacity
-			if (window.pageYOffset > offsetTarget) {
+			if (window.scrollY > offsetTarget) {
 				header.classList.add('pinned')
 				header.classList.remove('hide')
-				header.style.opacity = Math.min((window.pageYOffset - offsetTarget) / offsetTarget, 1.0)
+				header.style.opacity = Math.min((window.scrollY - offsetTarget) / offsetTarget, 1.0)
 			} else {
 				header.classList.remove('pinned')
 				header.classList.add('hide')
@@ -102,3 +120,32 @@ document.addEventListener('DOMContentLoaded', function (event) {
 	
 	addPPPFilters()
 })
+
+let beerState = 0
+window.addEventListener("keyup", function (event) {
+  if (event.defaultPrevented) {
+    return
+  }
+
+  if (event.key == 'b') {
+    if (beerState == 0) {
+      beerState++
+    }
+    else {
+      beerState = 0
+    }
+  } else if(event.key == 'e') {
+    if (beerState == 1 || beerState == 2) {
+      beerState++
+    } else {
+      beerState = 0
+    }
+  } else if(event.key == 'r' && beerState == 3) {
+    window.location.replace('/brew')
+    beerState = 0
+  } else {
+    beerState = 0
+  }
+
+  event.preventDefault()
+}, true)
