@@ -1,0 +1,17 @@
+{
+  "updated": "2026-07-30",
+  "contact": {
+    "email": "mkelly@drexel.edu",
+    "department": "Department of Information Science",
+    "institution": "Drexel University",
+    "address": ["3675 Market Street", "Philadelphia, Pennsylvania 19104", "United States"]
+  },
+  "profiles": [
+    {"index": "A", "label": "Primary", "title": "Email", "summary": "Research, students, teaching, invitations, and collaboration.", "linkLabel": "mkelly@drexel.edu", "url": "mailto:mkelly@drexel.edu"},
+    {"index": "B", "label": "Code", "title": "GitHub", "summary": "Research software, web-archiving tools, and technical artifacts.", "linkLabel": "@machawk1", "url": "https://github.com/machawk1"},
+    {"index": "C", "label": "Identifier", "title": "ORCID", "summary": "Persistent researcher identity and connected scholarly outputs.", "linkLabel": "0000-0002-0236-7389", "url": "https://orcid.org/0000-0002-0236-7389"},
+    {"index": "D", "label": "Community", "title": "Mastodon", "summary": "Digital-preservation conversation and public updates.", "linkLabel": "@machawk1@digipres.club", "url": "https://digipres.club/@machawk1"},
+    {"index": "E", "label": "Public updates", "title": "Bluesky", "summary": "Research, conference, and professional notes.", "linkLabel": "@machawk1.bsky.social", "url": "https://bsky.app/profile/machawk1.bsky.social"},
+    {"index": "F", "label": "Scholarly profiles", "title": "Profile directory", "summary": "Google Scholar, Semantic Scholar, DBLP, and Web of Science.", "linkLabel": "Open directory", "url": "https://matkelly.com/#contact"}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "updated": "2026-07-30",
+  "appointments": [
+    {"period": "2019–", "institution": "Drexel University", "title": "Assistant Professor, Information Science", "summary": "Tenure-track faculty appointment in Philadelphia, Pennsylvania."},
+    {"period": "2011–19", "institution": "Old Dominion University", "title": "Graduate Research Assistant, Computer Science", "summary": "Research in web science, digital libraries, Memento, and personal web archiving."},
+    {"period": "2011–19", "institution": "NASA Langley via SSAI", "title": "Mobile Applications Developer", "summary": "Applied software development in support of scientific and technical information systems."},
+    {"period": "2006–19", "institution": "Independent practice", "title": "Web programmer & information designer", "summary": "Long-running professional work in web systems, design, publishing, and application development."}
+  ],
+  "education": [
+    {"index": "01", "period": "2012–2019", "institution": "Old Dominion University", "degree": "Doctor of Philosophy", "field": "Computer Science", "recordLabel": "Dissertation", "record": "Aggregating Private and Public Web Archives Using the Mementity Framework"},
+    {"index": "02", "period": "2010–2012", "institution": "Old Dominion University", "degree": "Master of Science", "field": "Computer Science", "recordLabel": "Thesis", "record": "An Extensible Framework for Creating Personal Archives of Web Resources Requiring Authentication"},
+    {"index": "03", "period": "2001–2006", "institution": "University of Florida", "degree": "Bachelor of Science", "field": "Computer Science", "recordLabel": "Foundation", "record": "Software engineering, systems, algorithms, databases, networking, and technical communication"}
+  ],
+  "funding": [
+    {"period": "2024–26", "sponsor": "IMLS", "title": "Personalized advertisements in web archives", "role": "Principal Investigator"},
+    {"period": "2022–24", "sponsor": "IMLS", "title": "Saving Ads", "role": "Principal Investigator"},
+    {"period": "2021–24", "sponsor": "NSF", "title": "Academic mobility and institutional human capital at HBCUs", "role": "Co-Principal Investigator"}
+  ],
+  "service": [
+    {"period": "2021–present", "title": "Managing Editor", "organization": "International Journal on Digital Libraries"},
+    {"period": "2025", "title": "General Chair", "organization": "ACM/IEEE Joint Conference on Digital Libraries"},
+    {"period": "2026", "title": "Website Chair", "organization": "ACM/IEEE Joint Conference on Digital Libraries"},
+    {"period": "Recurring", "title": "Program committee & reviewer", "organization": "JCDL, iConference, TPDL, WebSci, ASIS&T, JASIST, and related venues"}
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "updated": "2026-07-30",
+  "active": [
+    {
+      "id": "personalized-ads",
+      "index": "01",
+      "status": "Active · 2024–2026",
+      "label": "IMLS National Leadership Grant",
+      "title": "Preserving Personalized Advertisements for More Accurate Web Archives",
+      "shortTitle": "Personalized Advertising in Web Archives",
+      "summary": "Web advertisements are often personalized, dynamically assembled, and absent or altered in later replay. This project studies how those conditions affect the accuracy of the archived record.",
+      "homeSummary": "IMLS-funded research on more accurate web archives.",
+      "question": "How can archives more faithfully preserve personalized advertising?",
+      "contribution": "Assessment methods, capture approaches, and evidence about archival gaps.",
+      "url": "https://www.imls.gov/grants/awarded/lg-256695-ols-24",
+      "urlLabel": "Funder record"
+    },
+    {
+      "id": "semantic-evolution",
+      "index": "02",
+      "status": "Conference work · 2026",
+      "label": "Semantic evolution & provenance",
+      "title": "From Detection to Documentation",
+      "shortTitle": "Semantic Evolution & Provenance",
+      "summary": "Semantic change is not only a computational signal. It is a scholarly event that requires evidence, context, uncertainty, and an inspectable record of transformation.",
+      "homeSummary": "Documenting how meaning changes across domains.",
+      "question": "How can changes in meaning be documented across domains and time?",
+      "contribution": "A provenance-aware framework for semantic-evolution research.",
+      "url": "https://www.dublincore.org/conferences/2026/",
+      "urlLabel": "DCMI 2026"
+    },
+    {
+      "id": "wadl",
+      "index": "03",
+      "status": "Workshop · 2026",
+      "label": "Community infrastructure",
+      "title": "Web Archiving and Digital Libraries (WADL)",
+      "shortTitle": "Web Archiving and Digital Libraries",
+      "summary": "The WADL workshop series creates a forum where preservation practice, web-archive research, digital libraries, and emerging scholarly methods can shape one another.",
+      "homeSummary": "WADL 2026 workshop at JCDL.",
+      "question": "Where should research and operational web archiving meet?",
+      "contribution": "A recurring venue for shared problems, methods, and infrastructure.",
+      "url": "https://2026.jcdl.org/",
+      "urlLabel": "JCDL 2026"
+    }
+  ],
+  "systems": [
+    {"index": "01", "label": "Semantic analysis", "title": "OntExtract", "summary": "Extracts and compares specialized terms while tracking document-analysis provenance with PROV-O."},
+    {"index": "02", "label": "Persona-driven capture", "title": "A-Proxy", "summary": "A targeted web-archiving system for studying and preserving personalized representations."},
+    {"index": "03", "label": "Distributed records", "title": "IPARO", "summary": "A simulator and evaluator for decentralized InterPlanetary Archival Record Objects."},
+    {"index": "04", "label": "Persistent replay", "title": "InterPlanetary Wayback", "summary": "Integrates WARC content with IPFS to explore redundant, distributed web archives."},
+    {"index": "05", "label": "Personal archiving", "title": "WAIL", "summary": "A one-click environment for user-instigated collection and replay of web resources."},
+    {"index": "06", "label": "Live + archived web", "title": "Mink", "summary": "Browser tools that connect current pages to prior states through the Memento protocol."}
+  ],
+  "timeline": [
+    {"year": "2012", "label": "Capture", "title": "WARCreate & personal web archiving", "summary": "Making WARC creation accessible from ordinary browsing environments."},
+    {"year": "2014", "label": "Access", "title": "Mink & the live/archived web", "summary": "Connecting present web pages with prior states through browser interfaces."},
+    {"year": "2016", "label": "Distribution", "title": "InterPlanetary Wayback", "summary": "Exploring peer-to-peer permanence and decentralized archival replay."},
+    {"year": "2021", "label": "Description", "title": "ARKs, vocabularies & provenance", "summary": "Extending preservation questions into durable semantic infrastructure."},
+    {"year": "2024", "label": "Representation", "title": "Personalized advertising", "summary": "Returning to archival accuracy when one web page has many possible experiences."}
+  ]
+}

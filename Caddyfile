@@ -1,0 +1,13 @@
+:8080 {
+	root * .
+	file_server
+
+	@data path /data/*
+	header @data Cache-Control "no-cache"
+
+	@pages path / /index.html /*.html
+	header @pages Cache-Control "no-cache"
+
+	@assets path /assets/* /styles.css /script.js
+	header @assets Cache-Control "public, max-age=86400"
+}

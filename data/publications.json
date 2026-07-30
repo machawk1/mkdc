@@ -1,0 +1,116 @@
+{
+  "updated": "2026-07-30",
+  "items": [
+    {
+      "id": "wadl-2026",
+      "year": 2026,
+      "category": "conference",
+      "theme": "infrastructure",
+      "venue": "Workshop · JCDL",
+      "title": "Web Archiving and Digital Libraries (WADL) Workshop 2026",
+      "authors": ["Mat Kelly", "Brenda Reyes Ayala"]
+    },
+    {
+      "id": "matsci-yamz-2026",
+      "year": 2026,
+      "category": "journal",
+      "theme": "metadata",
+      "venue": "Data Science Journal · 25:23",
+      "title": "MatSci-YAMZ: Integrating Human and Artificial Intelligence Vocabulary",
+      "authors": ["Scott McClellan", "Addison Ireland", "Colton Gerber", "Joel Pepper", "Christopher B. Rauch", "Mat Kelly", "John Kunze", "Jane Greenberg"],
+      "homepageOrder": 1
+    },
+    {
+      "id": "semantic-evolution-2026",
+      "year": 2026,
+      "category": "conference",
+      "theme": "metadata",
+      "venue": "Conference · DCMI",
+      "title": "From Detection to Documentation: A Provenance-Aware Framework for Semantic Evolution",
+      "authors": ["Hyung Wook Choi", "Mat Kelly"]
+    },
+    {
+      "id": "hbcu-faculty-2026",
+      "year": 2026,
+      "category": "journal",
+      "theme": "infrastructure",
+      "venue": "Journal of Diversity in Higher Education · In press",
+      "title": "A Deeper Look Into the Experiences of Faculty at Historically Black Colleges and Universities",
+      "authors": ["Robert T. Palmer", "Erjia Yan", "Mat Kelly", "Nicole Johnson"]
+    },
+    {
+      "id": "web-advertisements-2025",
+      "year": 2025,
+      "category": "journal",
+      "theme": "archive",
+      "venue": "JASIST · 76(13)",
+      "title": "Problems With Archiving and Replaying Current Web Advertisements",
+      "authors": ["Travis Reid", "Alex H. Poole", "Hyung Wook Choi", "Christopher Rauch", "Mat Kelly", "Michael L. Nelson", "Michele C. Weigle"],
+      "homepageOrder": 2
+    },
+    {
+      "id": "ontextract-2025",
+      "year": 2025,
+      "category": "conference",
+      "theme": "metadata",
+      "venue": "Proceedings · JCDL",
+      "title": "OntExtract: PROV-O Provenance Tracking for Document Analysis Workflows",
+      "authors": ["Christopher Rauch", "Hyung Wook Choi", "Mat Kelly"]
+    },
+    {
+      "id": "linking-policies-2025",
+      "year": 2025,
+      "category": "conference",
+      "theme": "infrastructure",
+      "venue": "Proceedings · JCDL",
+      "title": "Linking Policies for the Permanent Web",
+      "authors": ["Quang Bui", "Alexander Grigorian", "Alexey Kuraev", "Thiyazan Salman", "Tu Nguyen", "Mat Kelly", "Sawood Alam"],
+      "homepageOrder": 3
+    },
+    {
+      "id": "no-one-saw-2025",
+      "year": 2025,
+      "category": "presentation",
+      "theme": "archive",
+      "venue": "IIPC Web Archiving Conference · Oslo",
+      "title": "What You See No One Saw",
+      "authors": ["Mat Kelly", "Alexander H. Poole", "Michele C. Weigle", "Michael L. Nelson", "Travis Reid", "Christopher Rauch", "Hyung Wook Choi"]
+    },
+    {
+      "id": "idols-marketplace-2024",
+      "year": 2024,
+      "category": "conference",
+      "theme": "metadata",
+      "venue": "Document Academy · 11(2)",
+      "title": "Beyond the “Idols of the Marketplace”: Managing Semantic Change in Research",
+      "authors": ["Christopher B. Rauch", "Hyung Wook Choi", "Mat Kelly"]
+    },
+    {
+      "id": "ethics-case-study-2024",
+      "year": 2024,
+      "category": "journal",
+      "theme": "archive",
+      "venue": "Accountability in Research · 32(8)",
+      "title": "Web Archives for Data Collection: An Ethics Case Study",
+      "authors": ["Deanna Zarrillo", "Mat Kelly", "Erjia Yan", "Chaoqun Ni"]
+    },
+    {
+      "id": "memento-aggregators-2024",
+      "year": 2024,
+      "category": "journal",
+      "theme": "infrastructure",
+      "venue": "International Journal on Digital Libraries · 25(1)",
+      "title": "Exploiting the Untapped Functional Potential of Memento Aggregators Beyond Aggregation",
+      "authors": ["Mat Kelly"]
+    },
+    {
+      "id": "re-experience-web-2023",
+      "year": 2023,
+      "category": "journal",
+      "theme": "archive",
+      "venue": "ACM Transactions on the Web · 17(4)",
+      "title": "To Re-experience the Web: A Framework for the Transformation and Replay of Archived Web Pages",
+      "authors": ["John Berlin", "Mat Kelly", "Michael L. Nelson", "Michele C. Weigle"]
+    }
+  ]
+}

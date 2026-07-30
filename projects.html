@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" data-data-root="data">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Active research projects and software systems from Mat Kelly’s work in web archives, metadata, and digital libraries."
+    />
+    <meta name="theme-color" content="#f3f0e8" />
+    <title>Projects — Mat Kelly</title>
+    <link rel="icon" href="assets/archive-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="subpage">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html#profile" aria-label="Mat Kelly, home">
+          <img src="assets/archive-mark.svg" alt="" width="72" height="72" />
+          <span class="brand-copy"><strong>Mat Kelly</strong><small>Assistant Professor · Department of Information Science · Drexel University</small></span>
+        </a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-button><span>Menu</span><i aria-hidden="true"></i></button>
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation" data-nav>
+          <a href="research.html">Research</a><a href="publications.html">Publications</a>
+          <a href="projects.html" aria-current="page">Projects</a><a href="students.html">Students</a>
+          <a href="teaching.html">Teaching</a><a href="lab.html">Lab</a>
+          <a href="contact.html">Contact</a><a class="cv-link" href="cv.html">C.V.</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="page-shell">
+      <aside class="index-rail" aria-label="Projects page index">
+        <p class="rail-title">Project Ledger</p>
+        <nav>
+          <a class="rail-link is-active" href="#overview" data-section-link="overview"><span>01</span><small>Overview</small></a>
+          <a class="rail-link" href="#active" data-section-link="active"><span>02</span><small>Active</small></a>
+          <a class="rail-link" href="#systems" data-section-link="systems"><span>03</span><small>Systems</small></a>
+          <a class="rail-link" href="#continuity" data-section-link="continuity"><span>04</span><small>Continuity</small></a>
+          <a class="rail-link" href="#collaborate" data-section-link="collaborate"><span>05</span><small>Connect</small></a>
+        </nav>
+      </aside>
+
+      <div class="page-content">
+        <section id="overview" class="editorial-hero observed-section" aria-labelledby="projects-page-title">
+          <div class="subpage-hero-copy">
+            <p class="folio-label">Project ledger / Active &amp; enduring work</p>
+            <p class="hero-kicker">Research becomes concrete through artifacts.</p>
+            <h1 id="projects-page-title">Projects for a more durable web record.</h1>
+            <p class="hero-deck">
+              Current initiatives combine empirical research, documentary frameworks,
+              scholarly convening, and open systems that make archives easier to inspect.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-solid" href="#active">View active work <span aria-hidden="true">→</span></a>
+              <a class="button button-text" href="#systems">Browse research systems <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+          <aside class="hero-register" aria-label="Project portfolio summary">
+            <p class="note-label">Portfolio signals</p>
+            <ol>
+              <li><span>03</span><p><strong>Active programs</strong>Preservation, provenance, and community</p></li>
+              <li><span>06</span><p><strong>Selected systems</strong>Tools spanning capture, replay, and metadata</p></li>
+              <li><span>15+</span><p><strong>Years of continuity</strong>Personal and institutional web archiving</p></li>
+            </ol>
+            <p class="register-note">Projects are indexed by the problem they address, the artifact they leave, and the community they support.</p>
+          </aside>
+        </section>
+
+        <section id="active" class="section observed-section" aria-labelledby="active-title">
+          <header class="section-heading">
+            <div><p class="folio-label">Section 02 / Active projects</p><h2 id="active-title">Work currently in motion.</h2></div>
+            <p>Three active programs connect the accuracy of archived experience, the documentation of semantic change, and the exchange of digital-library knowledge.</p>
+          </header>
+          <div class="project-cases" data-render="project-cases" data-source="projects.json">
+            <p class="data-loading">Loading active projects…</p>
+          </div>
+        </section>
+
+        <section id="systems" class="section section-muted observed-section" aria-labelledby="systems-title">
+          <header class="section-heading compact">
+            <div><p class="folio-label">Section 03 / Research systems</p><h2 id="systems-title">Tools that carry the inquiry.</h2></div>
+            <p>Selected software projects show a long-running interest in making capture, replay, persistence, and provenance more usable.</p>
+          </header>
+          <div class="system-grid" data-render="systems" data-source="projects.json">
+            <p class="data-loading">Loading research systems…</p>
+          </div>
+          <a class="button button-outline bibliography-link" href="https://matkelly.com/#assortedSoftwareProjects">Open public software index <span aria-hidden="true">↗</span></a>
+        </section>
+
+        <section id="continuity" class="section observed-section" aria-labelledby="continuity-title">
+          <header class="section-heading">
+            <div><p class="folio-label">Section 04 / Project continuity</p><h2 id="continuity-title">One problem, many generations.</h2></div>
+            <p>Individual systems change, but the underlying research program remains legible across capture, aggregation, replay, and preservation.</p>
+          </header>
+          <ol class="timeline-register" data-render="project-timeline" data-source="projects.json">
+            <li class="data-loading">Loading project history…</li>
+          </ol>
+        </section>
+
+        <section id="collaborate" class="join-section observed-section" aria-labelledby="collaborate-title">
+          <div class="join-copy">
+            <p class="folio-label">Section 05 / Project collaboration</p><h2 id="collaborate-title">A project can begin with a gap.</h2>
+            <p>If your archive, collection, system, or research workflow exposes a problem of temporal access, provenance, representation, or reuse, it may be the beginning of a useful collaboration.</p>
+            <a class="button button-light" href="contact.html">Discuss a project <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="join-notes"><p class="note-label">Project routes</p><ol>
+            <li><span>01</span><p><strong>Research program</strong><a href="research.html">See the questions behind the work →</a></p></li>
+            <li><span>02</span><p><strong>People</strong><a href="students.html">Meet students and collaborators →</a></p></li>
+            <li><span>03</span><p><strong>Lab record</strong><a href="lab.html">Read how the group works →</a></p></li>
+          </ol></div>
+        </section>
+
+        <footer class="site-footer">
+          <div><img src="assets/archive-mark.svg" alt="" width="48" height="48" /><p>Mat Kelly · Projects</p></div>
+          <p>Artifacts for a more durable record.</p><a href="index.html#profile">Return to main index ↑</a>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en" data-data-root="data">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Teaching by Mat Kelly at Drexel University in data curation, intelligent search, web systems, programming, and digital stewardship."
+    />
+    <meta name="theme-color" content="#f3f0e8" />
+    <title>Teaching — Mat Kelly</title>
+    <link rel="icon" href="assets/archive-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="subpage">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html#profile" aria-label="Mat Kelly, home">
+          <img src="assets/archive-mark.svg" alt="" width="72" height="72" />
+          <span class="brand-copy"><strong>Mat Kelly</strong><small>Assistant Professor · Department of Information Science · Drexel University</small></span>
+        </a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-button><span>Menu</span><i aria-hidden="true"></i></button>
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation" data-nav>
+          <a href="research.html">Research</a><a href="publications.html">Publications</a>
+          <a href="projects.html">Projects</a><a href="students.html">Students</a>
+          <a href="teaching.html" aria-current="page">Teaching</a><a href="lab.html">Lab</a>
+          <a href="contact.html">Contact</a><a class="cv-link" href="cv.html">C.V.</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="page-shell">
+      <aside class="index-rail" aria-label="Teaching page index">
+        <p class="rail-title">Teaching Register</p>
+        <nav>
+          <a class="rail-link is-active" href="#overview" data-section-link="overview"><span>01</span><small>Overview</small></a>
+          <a class="rail-link" href="#current" data-section-link="current"><span>02</span><small>Current</small></a>
+          <a class="rail-link" href="#approach" data-section-link="approach"><span>03</span><small>Approach</small></a>
+          <a class="rail-link" href="#archive" data-section-link="archive"><span>04</span><small>Archive</small></a>
+          <a class="rail-link" href="#mentoring" data-section-link="mentoring"><span>05</span><small>Mentoring</small></a>
+        </nav>
+      </aside>
+
+      <div class="page-content">
+        <section id="overview" class="editorial-hero observed-section" aria-labelledby="teaching-page-title">
+          <div class="subpage-hero-copy">
+            <p class="folio-label">Teaching / Information in practice</p>
+            <p class="hero-kicker">Systems become clearer when students interrogate them.</p>
+            <h1 id="teaching-page-title">Learning to read information systems carefully.</h1>
+            <p class="hero-deck">
+              Courses connect technical architecture with the documentary, ethical, and
+              social responsibilities of collecting, describing, retrieving, and sustaining information.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-solid" href="#current">Current course register <span aria-hidden="true">→</span></a>
+              <a class="button button-text" href="#approach">Teaching approach <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+          <aside class="hero-register" aria-label="Teaching areas">
+            <p class="note-label">Course domains</p>
+            <ol>
+              <li><span>01</span><p><strong>Data stewardship</strong>Curation, preservation, and responsible reuse</p></li>
+              <li><span>02</span><p><strong>Search &amp; language models</strong>Retrieval, ranking, evaluation, and generative systems</p></li>
+              <li><span>03</span><p><strong>Web systems</strong>Architecture, programming, and networked information</p></li>
+            </ol>
+            <p class="register-note">Assignments favor inspectable processes, concrete artifacts, and reflection on the consequences of design decisions.</p>
+          </aside>
+        </section>
+
+        <section id="current" class="section observed-section" aria-labelledby="current-title">
+          <header class="section-heading">
+            <div><p class="folio-label">Section 02 / Current &amp; forthcoming</p><h2 id="current-title">The next academic sequence.</h2></div>
+            <p>Upcoming courses move from digital stewardship to intelligent retrieval and then to the long-term care of research data.</p>
+          </header>
+          <div class="course-register" data-render="current-courses" data-source="teaching.json">
+            <p class="data-loading">Loading current courses…</p>
+          </div>
+        </section>
+
+        <section id="approach" class="section section-muted observed-section" aria-labelledby="approach-title">
+          <header class="section-heading compact">
+            <div><p class="folio-label">Section 03 / Teaching approach</p><h2 id="approach-title">Technical fluency with documentary judgment.</h2></div>
+            <p>Students learn not only how information systems operate, but how to question their evidence, assumptions, exclusions, and maintenance.</p>
+          </header>
+          <div class="method-register">
+            <article><span>01</span><div><p class="note-label">Read</p><h3>Trace the system</h3></div><p>Follow data and documents through collection, transformation, retrieval, and presentation.</p></article>
+            <article><span>02</span><div><p class="note-label">Build</p><h3>Make an artifact</h3></div><p>Use code, metadata, and models to turn an abstract information problem into inspectable work.</p></article>
+            <article><span>03</span><div><p class="note-label">Reflect</p><h3>Document the decision</h3></div><p>Explain tradeoffs, uncertainty, provenance, and the responsibilities introduced by design choices.</p></article>
+          </div>
+          <blockquote class="editorial-quote">
+            <p>“The aim is not simply to make a system work. It is to understand what the system makes possible to know.”</p>
+          </blockquote>
+        </section>
+
+        <section id="archive" class="section observed-section" aria-labelledby="archive-title">
+          <header class="section-heading">
+            <div><p class="folio-label">Section 04 / Course archive</p><h2 id="archive-title">A recurring curriculum.</h2></div>
+            <p>The teaching record shows a sustained arc across data curation, information retrieval, web architecture, programming, and introductory systems.</p>
+          </header>
+          <ol
+            class="timeline-register course-history"
+            data-render="course-history"
+            data-source="teaching.json"
+          >
+            <li class="data-loading">Loading course history…</li>
+          </ol>
+          <a class="button button-outline bibliography-link" href="https://matkelly.com/#teaching">Open complete teaching history <span aria-hidden="true">↗</span></a>
+        </section>
+
+        <section id="mentoring" class="join-section observed-section" aria-labelledby="mentoring-title">
+          <div class="join-copy">
+            <p class="folio-label">Section 05 / Beyond the course</p><h2 id="mentoring-title">Learning continues through research.</h2>
+            <p>Independent studies, doctoral advising, committee work, and project collaboration extend classroom questions into original scholarship.</p>
+            <a class="button button-light" href="students.html">Students &amp; collaborations <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="join-notes"><p class="note-label">Continue</p><ol>
+            <li><span>01</span><p><strong>Lab notes</strong><a href="lab.html">See teaching and research reports →</a></p></li>
+            <li><span>02</span><p><strong>Research program</strong><a href="research.html">Connect courses to larger questions →</a></p></li>
+            <li><span>03</span><p><strong>Correspondence</strong><a href="contact.html">Discuss teaching or mentorship →</a></p></li>
+          </ol></div>
+        </section>
+
+        <footer class="site-footer">
+          <div><img src="assets/archive-mark.svg" alt="" width="48" height="48" /><p>Mat Kelly · Teaching</p></div>
+          <p>Technical fluency and documentary judgment.</p><a href="index.html#profile">Return to main index ↑</a>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>

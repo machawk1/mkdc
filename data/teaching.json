@@ -1,0 +1,20 @@
+{
+  "updated": "2026-07-30",
+  "upcoming": [
+    {"term": "Fall", "year": "2026", "code": "INFO 591", "title": "Data and Digital Stewardship", "summary": "Principles and practices for responsible care, preservation, description, access, and reuse of digital materials.", "level": "Graduate seminar"},
+    {"term": "Winter", "year": "2027", "code": "INFO 624", "title": "Intelligent Search and Language Models", "summary": "Retrieval foundations, ranking, evaluation, embeddings, language models, and the changing design of search systems.", "level": "Graduate course"},
+    {"term": "Spring", "year": "2027", "code": "INFO 202", "title": "Data Curation", "summary": "Lifecycle decisions, documentation, metadata, provenance, ethics, and the preparation of data for durable use.", "level": "Undergraduate course"}
+  ],
+  "homepageAreas": [
+    {"index": "01", "title": "Web Systems & Architecture", "summary": "How networked information is structured, delivered, experienced, and sustained."},
+    {"index": "02", "title": "Metadata & Resource Description", "summary": "Models and practices for making collections findable, interpretable, and reusable."},
+    {"index": "03", "title": "Research mentorship", "summary": "Project-based guidance in archival informatics, digital libraries, and open scholarly systems."}
+  ],
+  "history": [
+    {"year": "2026", "terms": "Spring · Winter", "codes": "INFO 202 · INFO 624 · INFO 152", "summary": "Data Curation; Intelligent Search and Language Models; Web Systems and Services II."},
+    {"year": "2025", "terms": "Spring · Winter", "codes": "INFO 202 · INFO 655", "summary": "Data Curation; Introduction to Web Programming."},
+    {"year": "2024", "terms": "Spring · Winter · Fall", "codes": "INFO 202 · INFO 655 · INFO 101", "summary": "Data Curation; Introduction to Web Programming; Introduction to Computing and Security Technology."},
+    {"year": "2023", "terms": "Fall · Spring · Winter", "codes": "INFO 624 · INFO 202 · INFO 102", "summary": "Information Retrieval Systems; Data Curation; Introduction to Information Systems."},
+    {"year": "2020–22", "terms": "Recurring foundations", "codes": "INFO 600 · INFO 624 · INFO 202", "summary": "Web Systems & Architecture; Information Retrieval Systems; Data Curation."}
+  ]
+}

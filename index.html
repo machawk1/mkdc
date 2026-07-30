@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en" data-data-root="data">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Mat Kelly is an Assistant Professor of Information Science at Drexel University researching web archives, digital libraries, metadata, and provenance."
+    />
+    <meta name="theme-color" content="#f3f0e8" />
+    <title>Mat Kelly — Information Science &amp; Web Archives</title>
+    <link rel="icon" href="assets/archive-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#profile" aria-label="Mat Kelly, home">
+          <img src="assets/archive-mark.svg" alt="" width="72" height="72" />
+          <span class="brand-copy">
+            <strong>Mat Kelly</strong>
+            <small>
+              Assistant Professor · Department of Information Science · Drexel University
+            </small>
+          </span>
+        </a>
+
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          data-menu-button
+        >
+          <span>Menu</span>
+          <i aria-hidden="true"></i>
+        </button>
+
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation" data-nav>
+          <a href="research.html">Research</a>
+          <a href="publications.html">Publications</a>
+          <a href="projects.html">Projects</a>
+          <a href="students.html">Students</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="lab.html">Lab</a>
+          <a href="contact.html">Contact</a>
+          <a class="cv-link" href="cv.html">C.V.</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="page-shell">
+      <aside class="index-rail" aria-label="Page index">
+        <p class="rail-title">The Scholarly Index</p>
+        <nav>
+          <a class="rail-link is-active" href="#profile" data-section-link="profile">
+            <span>01</span>
+            <small>Profile</small>
+          </a>
+          <a class="rail-link" href="#research" data-section-link="research">
+            <span>02</span>
+            <small>Research</small>
+          </a>
+          <a class="rail-link" href="#publications" data-section-link="publications">
+            <span>03</span>
+            <small>Publications</small>
+          </a>
+          <a class="rail-link" href="#students" data-section-link="students">
+            <span>04</span>
+            <small>Students</small>
+          </a>
+          <a class="rail-link" href="#teaching" data-section-link="teaching">
+            <span>05</span>
+            <small>Teaching</small>
+          </a>
+        </nav>
+      </aside>
+
+      <div class="page-content">
+        <section id="profile" class="hero observed-section" aria-labelledby="hero-title">
+          <div class="hero-main">
+            <div class="hero-copy">
+              <p class="folio-label">Research profile / 2026</p>
+              <h1 id="hero-title">Preserving the web’s changing record.</h1>
+              <p class="hero-deck">
+                I study how the web is archived, described, replayed, and understood across
+                time.
+              </p>
+              <div class="hero-actions">
+                <a class="button button-solid" href="publications.html">
+                  View publications <span aria-hidden="true">→</span>
+                </a>
+                <a class="button button-text" href="projects.html">
+                  Explore current projects <span aria-hidden="true">→</span>
+                </a>
+              </div>
+              <p class="research-themes">
+                Research themes:
+                <span>web archiving</span>
+                <span>semantic change</span>
+                <span>scholarly infrastructure</span>
+              </p>
+            </div>
+
+            <figure class="portrait">
+              <div class="portrait-frame">
+                <img
+                  src="assets/mat-kelly-portrait.jpg"
+                  alt="Illustrated portrait of Mat Kelly"
+                  width="936"
+                  height="936"
+                />
+              </div>
+              <figcaption>
+                <span>[A]</span>
+                <strong>Mat Kelly</strong>
+                <small>Information scientist · educator · web archivist</small>
+              </figcaption>
+            </figure>
+
+            <aside class="profile-notes" aria-label="Profile details">
+              <div class="margin-note">
+                <span>[A]</span>
+                <p class="note-label">Based in</p>
+                <p>Philadelphia,<br />Pennsylvania</p>
+              </div>
+              <div class="margin-note">
+                <span>[B]</span>
+                <p class="note-label">Research areas</p>
+                <ul>
+                  <li><i class="icon globe" aria-hidden="true"></i>Web Archives</li>
+                  <li><i class="icon book" aria-hidden="true"></i>Digital Libraries</li>
+                  <li><i class="icon archive" aria-hidden="true"></i>Metadata &amp; Provenance</li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+
+          <div class="overview-band" aria-label="Research overview">
+            <article>
+              <p class="entry-index">[01]</p>
+              <div>
+                <h2>Current work</h2>
+                <ul data-render="home-projects" data-source="projects.json" data-limit="3">
+                  <li class="data-loading">Loading current projects…</li>
+                </ul>
+                <a href="projects.html">View all projects <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+
+            <article>
+              <p class="entry-index">[02]</p>
+              <div>
+                <h2>Recent publications</h2>
+                <ul data-render="home-publications" data-source="publications.json" data-limit="3">
+                  <li class="data-loading">Loading recent publications…</li>
+                </ul>
+                <a href="publications.html">View all publications <span aria-hidden="true">→</span></a>
+              </div>
+            </article>
+
+            <article>
+              <p class="entry-index">[03]</p>
+              <div>
+                <h2>Teaching &amp; advising</h2>
+                <ul>
+                  <li>
+                    <strong>Teaching</strong>
+                    <span>Web Systems &amp; Architecture · Metadata &amp; Resource Description</span>
+                  </li>
+                  <li>
+                    <strong>Graduate advising</strong>
+                    <span>Web archives · Digital libraries · Semantic change</span>
+                  </li>
+                  <li>
+                    <strong>Students</strong>
+                    <span>Meet current doctoral and graduate researchers.</span>
+                  </li>
+                </ul>
+                <a href="students.html">
+                  Meet students and collaborators <span aria-hidden="true">→</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="research" class="section observed-section" aria-labelledby="research-title">
+          <header class="section-heading">
+            <div>
+              <p class="folio-label">Section 02 / Research</p>
+              <h2 id="research-title">Research organized around the web’s long memory.</h2>
+            </div>
+            <p>
+              Across projects, I examine what web archives contain, what they omit, and how
+              their records can remain understandable as platforms, language, and audiences
+              change.
+            </p>
+          </header>
+
+          <div class="research-register">
+            <article>
+              <p class="register-number">01</p>
+              <h3>Web archives</h3>
+              <p>
+                Improving the capture and replay of dynamic, personalized, and distributed
+                web experiences.
+              </p>
+              <ul>
+                <li>Memento &amp; time-based access</li>
+                <li>Personalized advertisements</li>
+                <li>Replay fidelity &amp; context</li>
+              </ul>
+            </article>
+            <article>
+              <p class="register-number">02</p>
+              <h3>Semantic change</h3>
+              <p>
+                Tracing how concepts and vocabularies evolve across domains, communities,
+                documents, and time.
+              </p>
+              <ul>
+                <li>Provenance-aware methods</li>
+                <li>Metadata vocabularies</li>
+                <li>Knowledge organization</li>
+              </ul>
+            </article>
+            <article>
+              <p class="register-number">03</p>
+              <h3>Scholarly infrastructure</h3>
+              <p>
+                Building open, interoperable systems for researchers, librarians,
+                archivists, and students.
+              </p>
+              <ul>
+                <li>Digital libraries</li>
+                <li>Persistent identifiers</li>
+                <li>Open research tools</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="section projects observed-section" aria-labelledby="projects-title">
+          <header class="section-heading compact">
+            <div>
+              <p class="folio-label">Working file / Current projects</p>
+              <h2 id="projects-title">What is underway now.</h2>
+            </div>
+            <p>
+              Selected research, workshops, and scholarly milestones from the current work
+              file.
+            </p>
+          </header>
+
+          <div class="project-ledger" data-render="homepage-project-ledger" data-source="projects.json">
+            <p class="data-loading">Loading project records…</p>
+          </div>
+        </section>
+
+        <section
+          id="publications"
+          class="section publications observed-section"
+          aria-labelledby="publications-title"
+        >
+          <header class="section-heading compact">
+            <div>
+              <p class="folio-label">Section 03 / Publications</p>
+              <h2 id="publications-title">Selected papers &amp; proceedings.</h2>
+            </div>
+            <p>
+              A short index of recent work. The full bibliography, PDFs, BibTeX records, and
+              presentation materials remain available on the current site.
+            </p>
+          </header>
+
+          <div class="publication-toolbar" role="group" aria-label="Filter publications">
+            <button class="filter-button is-active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="archive">Web archives</button>
+            <button class="filter-button" type="button" data-filter="metadata">Metadata</button>
+            <button class="filter-button" type="button" data-filter="infrastructure">
+              Infrastructure
+            </button>
+          </div>
+
+          <ol
+            class="publication-list"
+            data-render="publications"
+            data-source="publications.json"
+            data-limit="6"
+            data-category-mode="theme"
+          >
+            <li class="data-loading">Loading publication records…</li>
+          </ol>
+
+          <a
+            class="button button-outline bibliography-link"
+            href="publications.html"
+          >
+            Browse the publication index <span aria-hidden="true">→</span>
+          </a>
+        </section>
+
+        <section id="students" class="section people observed-section" aria-labelledby="students-title">
+          <header class="section-heading">
+            <div>
+              <p class="folio-label">Section 04 / Students</p>
+              <h2 id="students-title">Research is a collective practice.</h2>
+            </div>
+            <p>
+              I advise graduate researchers working across web archives, digital libraries,
+              knowledge organization, provenance, and scholarly infrastructure.
+            </p>
+          </header>
+
+          <div class="people-grid">
+            <article>
+              <p class="entry-index">[A]</p>
+              <h3>Prospective graduate students</h3>
+              <p>
+                Students interested in web archiving, metadata, semantic change, or durable
+                scholarly systems are encouraged to review current projects and get in touch.
+              </p>
+              <a href="contact.html">Start a conversation <span aria-hidden="true">→</span></a>
+            </article>
+            <article>
+              <p class="entry-index">[B]</p>
+              <h3>Recent doctoral milestones</h3>
+              <p data-render="home-student-milestones" data-source="people.json">
+                Loading doctoral milestones…
+              </p>
+              <a href="students.html">
+                View students and collaborators <span aria-hidden="true">→</span>
+              </a>
+            </article>
+            <aside>
+              <p class="note-label">Advising areas</p>
+              <ul>
+                <li>Web archives</li>
+                <li>Digital libraries</li>
+                <li>Metadata &amp; provenance</li>
+                <li>Semantic change</li>
+                <li>Open research systems</li>
+              </ul>
+            </aside>
+          </div>
+        </section>
+
+        <section id="teaching" class="section teaching observed-section" aria-labelledby="teaching-title">
+          <header class="section-heading compact">
+            <div>
+              <p class="folio-label">Section 05 / Teaching</p>
+              <h2 id="teaching-title">Learning to read information systems carefully.</h2>
+            </div>
+            <p>
+              Teaching connects technical architecture with the social responsibilities of
+              preserving, describing, and providing access to information.
+            </p>
+          </header>
+
+          <div class="teaching-register" data-render="home-teaching" data-source="teaching.json">
+            <p class="data-loading">Loading teaching areas…</p>
+          </div>
+        </section>
+
+        <section id="lab" class="lab-section" aria-labelledby="lab-title">
+          <div class="lab-monogram" aria-hidden="true">
+            <span>MAT</span>
+            <small>Memento · Archive · Time</small>
+          </div>
+          <div class="lab-copy">
+            <p class="folio-label">Research environment / MAT Lab</p>
+            <h2 id="lab-title">A lab for the web’s long memory.</h2>
+            <p>
+              The MAT Lab studies how people and systems collect, revisit, and understand web
+              resources over time—across archives, metadata, and open-source infrastructure.
+            </p>
+            <a class="button button-light" href="lab.html">
+              Explore the MAT Lab <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </section>
+
+        <section id="contact" class="contact-section" aria-labelledby="contact-title">
+          <div>
+            <p class="folio-label">Correspondence / Contact</p>
+            <h2 id="contact-title">Let’s discuss the remembered web.</h2>
+          </div>
+          <div class="contact-details">
+            <div>
+              <p class="note-label">Academic home</p>
+              <p>
+                Department of Information Science<br />
+                Drexel University<br />
+                Philadelphia, Pennsylvania, USA
+              </p>
+            </div>
+            <div>
+              <p class="note-label">Continue</p>
+              <a href="contact.html">Contact information →</a>
+              <a href="cv.html">Curriculum Vitæ →</a>
+            </div>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <div>
+            <img src="assets/archive-mark.svg" alt="" width="48" height="48" />
+            <p>Mat Kelly · Information Science</p>
+          </div>
+          <p>A scholarly index for a changing web.</p>
+          <a href="#profile">Return to profile ↑</a>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en" data-data-root="data">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Selected publications by Mat Kelly on web archives, digital libraries, metadata, provenance, and scholarly infrastructure."
+    />
+    <meta name="theme-color" content="#f3f0e8" />
+    <title>Publications — Mat Kelly</title>
+    <link rel="icon" href="assets/archive-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="subpage">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html#profile" aria-label="Mat Kelly, home">
+          <img src="assets/archive-mark.svg" alt="" width="72" height="72" />
+          <span class="brand-copy"><strong>Mat Kelly</strong><small>Assistant Professor · Department of Information Science · Drexel University</small></span>
+        </a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-button>
+          <span>Menu</span><i aria-hidden="true"></i>
+        </button>
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation" data-nav>
+          <a href="research.html">Research</a>
+          <a href="publications.html" aria-current="page">Publications</a>
+          <a href="projects.html">Projects</a>
+          <a href="students.html">Students</a>
+          <a href="teaching.html">Teaching</a>
+          <a href="lab.html">Lab</a>
+          <a href="contact.html">Contact</a>
+          <a class="cv-link" href="cv.html">C.V.</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="page-shell">
+      <aside class="index-rail" aria-label="Publications page index">
+        <p class="rail-title">Publication Index</p>
+        <nav>
+          <a class="rail-link is-active" href="#overview" data-section-link="overview"><span>01</span><small>Overview</small></a>
+          <a class="rail-link" href="#selected" data-section-link="selected"><span>02</span><small>Selected</small></a>
+          <a class="rail-link" href="#themes" data-section-link="themes"><span>03</span><small>Themes</small></a>
+          <a class="rail-link" href="#records" data-section-link="records"><span>04</span><small>Records</small></a>
+        </nav>
+      </aside>
+
+      <div class="page-content">
+        <section id="overview" class="editorial-hero observed-section" aria-labelledby="publications-page-title">
+          <div class="subpage-hero-copy">
+            <p class="folio-label">Selected scholarship / 2026 edition</p>
+            <p class="hero-kicker">Publications are records of shared inquiry.</p>
+            <h1 id="publications-page-title">Papers, proceedings &amp; presentations.</h1>
+            <p class="hero-deck">
+              A curated bibliography spanning archival replay, metadata, semantic evolution,
+              persistent infrastructure, and the ethics of using web records as evidence.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-solid" href="#selected">Browse selected work <span aria-hidden="true">→</span></a>
+              <a class="button button-text" href="https://matkelly.com/#papersPostersAndPresentations">
+                Complete bibliography <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+          <aside class="hero-register" aria-label="Publication summary">
+            <p class="note-label">Bibliographic scope</p>
+            <ol>
+              <li><span>13</span><p><strong>Journal articles</strong>Peer-reviewed work across information and web research</p></li>
+              <li><span>34</span><p><strong>Conference papers</strong>Peer-reviewed proceedings through 2026</p></li>
+              <li><span>12</span><p><strong>Selected below</strong>A compact reading path through recent work</p></li>
+            </ol>
+            <p class="register-note">PDFs, DOIs, BibTeX records, slides, and the full chronology remain linked from the public bibliography and C.V.</p>
+          </aside>
+        </section>
+
+        <section id="selected" class="section publications observed-section" aria-labelledby="selected-title">
+          <header class="section-heading compact">
+            <div><p class="folio-label">Section 02 / Selected bibliography</p><h2 id="selected-title">Recent and representative work.</h2></div>
+            <p>Filter this local reading list by publication form. Each item is presented as a bibliographic record rather than a promotional card.</p>
+          </header>
+          <div class="publication-toolbar" role="group" aria-label="Filter publications">
+            <button class="filter-button is-active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="journal">Journals</button>
+            <button class="filter-button" type="button" data-filter="conference">Proceedings</button>
+            <button class="filter-button" type="button" data-filter="presentation">Presentations</button>
+          </div>
+          <ol
+            class="publication-list expanded-publications"
+            data-render="publications"
+            data-source="publications.json"
+          >
+            <li class="data-loading">Loading publication records…</li>
+          </ol>
+        </section>
+
+        <section id="themes" class="section section-muted observed-section" aria-labelledby="themes-title">
+          <header class="section-heading"><div><p class="folio-label">Section 03 / Reading paths</p><h2 id="themes-title">Follow a question through the record.</h2></div><p>The bibliography is easier to enter through a research problem than through chronology alone.</p></header>
+          <div class="route-grid">
+            <a href="research.html#questions"><span>[A]</span><p class="note-label">Archive representation</p><h3>Capture, replay &amp; personalization</h3><p>How archived pages differ from the experiences people originally encountered.</p><strong>Research context →</strong></a>
+            <a href="research.html#questions"><span>[B]</span><p class="note-label">Semantic provenance</p><h3>Metadata, vocabulary &amp; change</h3><p>How meaning evolves—and how that evolution can remain inspectable.</p><strong>Research context →</strong></a>
+            <a href="projects.html"><span>[C]</span><p class="note-label">Durable infrastructure</p><h3>Persistence, access &amp; reuse</h3><p>Systems and policies that keep digital records usable across time.</p><strong>Related projects →</strong></a>
+          </div>
+        </section>
+
+        <section id="records" class="join-section observed-section" aria-labelledby="records-title">
+          <div class="join-copy">
+            <p class="folio-label">Section 04 / Complete records</p><h2 id="records-title">Need the full citation trail?</h2>
+            <p>The public bibliography carries the complete chronology and associated PDFs, DOI links, BibTeX records, slides, and presentation materials.</p>
+            <a class="button button-light" href="https://matkelly.com/#papersPostersAndPresentations">Open complete bibliography <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="join-notes">
+            <p class="note-label">Other scholarly records</p>
+            <ol>
+              <li><span>01</span><p><strong>Curriculum Vitæ</strong><a href="cv.html">Review the local C.V. overview →</a></p></li>
+              <li><span>02</span><p><strong>Scholarly profiles</strong><a href="contact.html#directory">Open the profile directory →</a></p></li>
+              <li><span>03</span><p><strong>ORCID</strong><a href="https://orcid.org/0000-0002-0236-7389">0000-0002-0236-7389 ↗</a></p></li>
+            </ol>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <div><img src="assets/archive-mark.svg" alt="" width="48" height="48" /><p>Mat Kelly · Publications</p></div>
+          <p>A selective record of shared inquiry.</p><a href="index.html#profile">Return to main index ↑</a>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>

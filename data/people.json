@@ -1,0 +1,68 @@
+{
+  "updated": "2026-07-30",
+  "advisees": [
+    {
+      "index": "A",
+      "name": "Christopher B. Rauch",
+      "role": "PhD advisee",
+      "status": "Defended · 09 Jun 2026",
+      "dissertation": "A Case-Based Methodology for Computational Support of Professional Ethics Evaluation",
+      "summary": "Research connecting computational systems, structured evidence, and the evaluation of professional ethical cases.",
+      "url": "https://christopher-rauch.info"
+    },
+    {
+      "index": "B",
+      "name": "Hyung Wook Choi",
+      "role": "PhD advisee",
+      "status": "Defended · 20 May 2026",
+      "dissertation": "Semantic Shift as Scholarly Record: A Framework for Fuzziness-Aware Detection and Provenance-Aware Documentation Across Domains and Time",
+      "summary": "Research treating semantic evolution as a documentable scholarly record, with methods for detecting and preserving changes in meaning.",
+      "url": "https://choihywook.github.io"
+    }
+  ],
+  "committees": {
+    "current": [
+      {"name": "Kio Polson", "advisor": "Jane Greenberg"},
+      {"name": "Samira Vaez Barenji", "advisor": "Michael D. Ekstrand"},
+      {"name": "Travis Reid", "advisor": "Michele C. Weigle", "institution": "ODU"},
+      {"name": "Prateek Goel", "advisor": "Rosina Weber"},
+      {"name": "Danielle Boccelli", "advisor": "Jake Ryland Williams"},
+      {"name": "Deanna Zarrillo", "advisor": "Erjia Yan"}
+    ],
+    "completed": [
+      {"name": "Sonia Pascua", "dissertation": "A novel information-theoretic framework for information representation, knowledge organization, and predictive analytics"},
+      {"name": "Hanieh Razzaghi", "dissertation": "Semantic data quality assessment: an investigation of fitness for use in large clinical datasets"},
+      {"name": "Sam Grabus", "dissertation": "Historical subject representation: an analysis of historical vocabularies for temporally-aligned and contextual access points"}
+    ]
+  },
+  "collaborations": [
+    {
+      "index": "A",
+      "label": "Archived web & personalization",
+      "title": "What was captured—and for whom?",
+      "summary": "Research on personalized advertising, archival replay, web-page transformation, and the evidentiary limits of archived experiences.",
+      "people": ["Michael L. Nelson", "Michele C. Weigle", "Travis Reid", "Alex H. Poole", "Christopher B. Rauch", "Hyung Wook Choi"]
+    },
+    {
+      "index": "B",
+      "label": "Metadata & semantic evolution",
+      "title": "How does meaning change and remain traceable?",
+      "summary": "Work on provenance-aware documentation, community vocabularies, FAIR metadata, and the versioning of knowledge across domains.",
+      "people": ["Jane Greenberg", "Hyung Wook Choi", "Christopher B. Rauch", "John Kunze", "Scott McClellan"]
+    },
+    {
+      "index": "C",
+      "label": "Academic mobility & institutional knowledge",
+      "title": "What do scholarly careers reveal?",
+      "summary": "Data-intensive research on faculty mobility, institutional human capital, and the research experiences of faculty at HBCUs.",
+      "people": ["Erjia Yan", "Robert T. Palmer", "Chaoqun Ni", "Jiangen He", "Deanna Zarrillo"]
+    },
+    {
+      "index": "D",
+      "label": "Community & scholarly infrastructure",
+      "title": "Where can research communities convene?",
+      "summary": "Workshops and shared infrastructure connecting web archiving practice with digital-library research, including the WADL series.",
+      "people": ["Brenda Reyes Ayala", "Zhiwu Xie", "Edward A. Fox", "Martin Klein"]
+    }
+  ]
+}
