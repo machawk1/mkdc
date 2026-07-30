@@ -79,7 +79,7 @@
         <section id="selected" class="section publications observed-section" aria-labelledby="selected-title">
           <header class="section-heading compact">
             <div><p class="folio-label">Section 02 / Selected bibliography</p><h2 id="selected-title">Recent and representative work.</h2></div>
-            <p>Filter this local reading list by publication form. Each item is presented as a bibliographic record rather than a promotional card.</p>
+            <p>Filter this local reading list by publication form. Available PDFs, DOI records, and BibTeX files link directly to the existing scholarly assets.</p>
           </header>
           <div class="publication-toolbar" role="group" aria-label="Filter publications">
             <button class="filter-button is-active" type="button" data-filter="all">All</button>
@@ -91,6 +91,7 @@
             class="publication-list expanded-publications"
             data-render="publications"
             data-source="publications.json"
+            data-show-links="true"
           >
             <li class="data-loading">Loading publication records…</li>
           </ol>

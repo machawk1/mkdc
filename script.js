@@ -110,7 +110,24 @@ const renderHomePublications = (mount, data) => {
   );
 };
 
-const publicationItem = (item, index, useTheme = false) => {
+const publicationAssets = (item) => {
+  if (!item.links?.length) return null;
+
+  const nav = createElement("nav", "publication-assets");
+  nav.setAttribute("aria-label", `Publication files for ${item.title}`);
+
+  item.links.forEach((asset) => {
+    const link = createElement("a", "", externalMark(asset.label));
+    link.href = asset.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    nav.append(link);
+  });
+
+  return nav;
+};
+
+const publicationItem = (item, index, useTheme = false, showLinks = false) => {
   const li = createElement("li");
   li.dataset.category = useTheme ? item.theme : item.category;
   const year = createElement("p", "publication-year", String(item.year));
@@ -119,7 +136,8 @@ const publicationItem = (item, index, useTheme = false) => {
     copy,
     createElement("p", "publication-venue", item.venue),
     createElement("h3", "", item.title),
-    createElement("p", "", item.authors.join(", ")),
+    createElement("p", "publication-authors", item.authors.join(", ")),
+    showLinks ? publicationAssets(item) : null,
   );
   const number = createElement("span", "", String(index + 1).padStart(2, "0"));
   number.setAttribute("aria-hidden", "true");
@@ -131,7 +149,10 @@ const renderPublications = (mount, data) => {
   const limit = Number(mount.dataset.limit || data.items.length);
   const items = data.items.slice(0, limit);
   const useTheme = mount.dataset.categoryMode === "theme";
-  mount.replaceChildren(...items.map((item, index) => publicationItem(item, index, useTheme)));
+  const showLinks = mount.dataset.showLinks === "true";
+  mount.replaceChildren(
+    ...items.map((item, index) => publicationItem(item, index, useTheme, showLinks)),
+  );
 };
 
 const projectMeta = (item) => {

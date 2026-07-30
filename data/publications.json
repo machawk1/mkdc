@@ -1,5 +1,6 @@
 {
   "updated": "2026-07-30",
+  "sourcePage": "https://matkelly.com/index_July2026.php",
   "items": [
     {
       "id": "wadl-2026",
@@ -18,6 +19,12 @@
       "venue": "Data Science Journal · 25:23",
       "title": "MatSci-YAMZ: Integrating Human and Artificial Intelligence Vocabulary",
       "authors": ["Scott McClellan", "Addison Ireland", "Colton Gerber", "Joel Pepper", "Christopher B. Rauch", "Mat Kelly", "John Kunze", "Jane Greenberg"],
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.5334/dsj-2026-023"
+        }
+      ],
       "homepageOrder": 1
     },
     {
@@ -36,7 +43,17 @@
       "theme": "infrastructure",
       "venue": "Journal of Diversity in Higher Education · In press",
       "title": "A Deeper Look Into the Experiences of Faculty at Historically Black Colleges and Universities",
-      "authors": ["Robert T. Palmer", "Erjia Yan", "Mat Kelly", "Nicole Johnson"]
+      "authors": ["Robert T. Palmer", "Erjia Yan", "Mat Kelly", "Nicole Johnson"],
+      "links": [
+        {
+          "label": "Archived PDF",
+          "url": "https://web.archive.org/web/20260409190811/https://psycnet.apa.org/fulltext/2027-39216-001.pdf?auth_token=83734c5666d0ac279d366acacc23b9158ae4e05d&returnUrl=https%3A%2F%2Fpsycnet.apa.org%2FdoiLanding%3Fdoi%3D10.1037%252Fdhe0000719"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1037/dhe0000719"
+        }
+      ]
     },
     {
       "id": "web-advertisements-2025",
@@ -46,6 +63,20 @@
       "venue": "JASIST · 76(13)",
       "title": "Problems With Archiving and Replaying Current Web Advertisements",
       "authors": ["Travis Reid", "Alex H. Poole", "Hyung Wook Choi", "Christopher Rauch", "Mat Kelly", "Michael L. Nelson", "Michele C. Weigle"],
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2025_jasist_webads.pdf"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1002/asi.70039"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/reid-jasist2025.bib"
+        }
+      ],
       "homepageOrder": 2
     },
     {
@@ -55,7 +86,21 @@
       "theme": "metadata",
       "venue": "Proceedings · JCDL",
       "title": "OntExtract: PROV-O Provenance Tracking for Document Analysis Workflows",
-      "authors": ["Christopher Rauch", "Hyung Wook Choi", "Mat Kelly"]
+      "authors": ["Christopher Rauch", "Hyung Wook Choi", "Mat Kelly"],
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2025_jcdl_ontextract.pdf"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/JCDL67857.2025.00038"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/rauch-jcdl2025.bib"
+        }
+      ]
     },
     {
       "id": "linking-policies-2025",
@@ -65,6 +110,20 @@
       "venue": "Proceedings · JCDL",
       "title": "Linking Policies for the Permanent Web",
       "authors": ["Quang Bui", "Alexander Grigorian", "Alexey Kuraev", "Thiyazan Salman", "Tu Nguyen", "Mat Kelly", "Sawood Alam"],
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2025_jcdl_iparo.pdf"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/JCDL67857.2025.00033"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/bui-jcdl2025.bib"
+        }
+      ],
       "homepageOrder": 3
     },
     {
@@ -74,7 +133,13 @@
       "theme": "archive",
       "venue": "IIPC Web Archiving Conference · Oslo",
       "title": "What You See No One Saw",
-      "authors": ["Mat Kelly", "Alexander H. Poole", "Michele C. Weigle", "Michael L. Nelson", "Travis Reid", "Christopher Rauch", "Hyung Wook Choi"]
+      "authors": ["Mat Kelly", "Alexander H. Poole", "Michele C. Weigle", "Michael L. Nelson", "Travis Reid", "Christopher Rauch", "Hyung Wook Choi"],
+      "links": [
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-iipcwac2025.bib"
+        }
+      ]
     },
     {
       "id": "idols-marketplace-2024",
@@ -83,7 +148,21 @@
       "theme": "metadata",
       "venue": "Document Academy · 11(2)",
       "title": "Beyond the “Idols of the Marketplace”: Managing Semantic Change in Research",
-      "authors": ["Christopher B. Rauch", "Hyung Wook Choi", "Mat Kelly"]
+      "authors": ["Christopher B. Rauch", "Hyung Wook Choi", "Mat Kelly"],
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2024_docam_idols.pdf"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.35492/docam/11/2/3"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/rauch-docam-2024.bib"
+        }
+      ]
     },
     {
       "id": "ethics-case-study-2024",
@@ -92,7 +171,21 @@
       "theme": "archive",
       "venue": "Accountability in Research · 32(8)",
       "title": "Web Archives for Data Collection: An Ethics Case Study",
-      "authors": ["Deanna Zarrillo", "Mat Kelly", "Erjia Yan", "Chaoqun Ni"]
+      "authors": ["Deanna Zarrillo", "Mat Kelly", "Erjia Yan", "Chaoqun Ni"],
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2024_air_ethics.pdf"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1080/08989621.2024.2396940"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/zarrillo-ethics-2024.bib"
+        }
+      ]
     },
     {
       "id": "memento-aggregators-2024",
@@ -101,7 +194,21 @@
       "theme": "infrastructure",
       "venue": "International Journal on Digital Libraries · 25(1)",
       "title": "Exploiting the Untapped Functional Potential of Memento Aggregators Beyond Aggregation",
-      "authors": ["Mat Kelly"]
+      "authors": ["Mat Kelly"],
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://link.springer.com/content/pdf/10.1007/s00799-023-00391-0.pdf"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1007/s00799-023-00391-0"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-ijdl2024.bib"
+        }
+      ]
     },
     {
       "id": "re-experience-web-2023",
@@ -110,7 +217,21 @@
       "theme": "archive",
       "venue": "ACM Transactions on the Web · 17(4)",
       "title": "To Re-experience the Web: A Framework for the Transformation and Replay of Archived Web Pages",
-      "authors": ["John Berlin", "Mat Kelly", "Michael L. Nelson", "Michele C. Weigle"]
+      "authors": ["John Berlin", "Mat Kelly", "Michael L. Nelson", "Michele C. Weigle"],
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://dl.acm.org/doi/pdf/10.1145/3589206"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1145/3589206"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/berlin-tweb2023.bib"
+        }
+      ]
     }
   ]
 }

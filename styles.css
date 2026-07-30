@@ -874,12 +874,36 @@ a:focus-visible {
   line-height: 1.28;
 }
 
-.publication-list li > div > p:last-child {
+.publication-authors {
   max-width: 960px;
   margin: 0;
   color: var(--soft-ink);
   font-size: 0.78rem;
   line-height: 1.5;
+}
+
+.publication-assets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.publication-assets a {
+  padding: 7px 10px;
+  border: 1px solid var(--rule);
+  color: var(--ink);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.publication-assets a:hover {
+  border-color: var(--brick);
+  color: var(--paper);
+  background: var(--brick);
 }
 
 .publication-list li > span {
@@ -2109,7 +2133,7 @@ a:focus-visible {
     font-size: 1.16rem;
   }
 
-  .publication-list li > div > p:last-child {
+  .publication-authors {
     font-size: 0.7rem;
   }
 
