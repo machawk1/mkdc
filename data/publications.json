@@ -1,24 +1,46 @@
 {
   "updated": "2026-07-30",
   "sourcePage": "https://matkelly.com/index_July2026.php",
+  "scope": "Complete Papers, Posters, & Presentations list from the July 2026 source page.",
   "items": [
     {
       "id": "wadl-2026",
       "year": 2026,
       "category": "conference",
-      "theme": "infrastructure",
-      "venue": "Workshop · JCDL",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
       "title": "Web Archiving and Digital Libraries (WADL) Workshop 2026",
-      "authors": ["Mat Kelly", "Brenda Reyes Ayala"]
+      "authors": [
+        "Mat Kelly",
+        "Brenda Reyes Ayala"
+      ],
+      "citation": "Mat Kelly and Brenda Reyes Ayala, “Web Archiving and Digital Libraries (WADL) Workshop 2026,” To appear in the Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), Dallas, Texas, October 2026.",
+      "sourceOrder": 1,
+      "sourceVenue": "jcdl"
     },
     {
       "id": "matsci-yamz-2026",
       "year": 2026,
       "category": "journal",
+      "kind": "journal-article",
       "theme": "metadata",
-      "venue": "Data Science Journal · 25:23",
+      "venue": "Data Science Journal",
       "title": "MatSci-YAMZ: Integrating Human and Artificial Intelligence Vocabulary",
-      "authors": ["Scott McClellan", "Addison Ireland", "Colton Gerber", "Joel Pepper", "Christopher B. Rauch", "Mat Kelly", "John Kunze", "Jane Greenberg"],
+      "authors": [
+        "Scott McClellan",
+        "Addison Ireland",
+        "Colton Gerber",
+        "Joel Pepper",
+        "Christopher B. Rauch",
+        "Mat Kelly",
+        "John Kunze",
+        "Jane Greenberg"
+      ],
+      "citation": "Scott McClellan, Addison Ireland, Colton Gerber, Joel Pepper, Christopher B. Rauch, Mat Kelly, John Kunze, and Jane Greenberg, “MatSci-YAMZ: Integrating Human and Artificial Intelligence Vocabulary,” Data Science Journal, 25:23, pp. 1–11, July 2026.",
+      "sourceOrder": 2,
+      "sourceVenue": "dsj",
+      "peerReviewed": true,
       "links": [
         {
           "label": "DOI",
@@ -31,19 +53,43 @@
       "id": "semantic-evolution-2026",
       "year": 2026,
       "category": "conference",
+      "kind": "conference-paper",
       "theme": "metadata",
-      "venue": "Conference · DCMI",
+      "venue": "Proceedings of the International Conference on Dublin Core and Metadata Applications (DCMI)",
       "title": "From Detection to Documentation: A Provenance-Aware Framework for Semantic Evolution",
-      "authors": ["Hyung Wook Choi", "Mat Kelly"]
+      "authors": [
+        "Hyung Wook Choi",
+        "Mat Kelly"
+      ],
+      "citation": "Hyung Wook Choi and Mat Kelly, “From Detection to Documentation: A Provenance-Aware Framework for Semantic Evolution,” To appear in the Proceedings of the International Conference on Dublin Core and Metadata Applications (DCMI), August 3–7, 2026.",
+      "sourceOrder": 3,
+      "sourceVenue": "dcmi",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "Info",
+          "url": "https://www.dublincore.org/conferences/2026/"
+        }
+      ]
     },
     {
       "id": "hbcu-faculty-2026",
       "year": 2026,
       "category": "journal",
-      "theme": "infrastructure",
-      "venue": "Journal of Diversity in Higher Education · In press",
-      "title": "A Deeper Look Into the Experiences of Faculty at Historically Black Colleges and Universities",
-      "authors": ["Robert T. Palmer", "Erjia Yan", "Mat Kelly", "Nicole Johnson"],
+      "kind": "journal-article",
+      "theme": "metadata",
+      "venue": "Journal of Diversity in Higher Education",
+      "title": "A Deeper Look Into the Experiences of Faculty at Historically Black Colleges and Universities: Understanding Factors Germane to Their Retention and Attrition",
+      "authors": [
+        "Robert T. Palmer",
+        "Erjia Yan",
+        "Mat Kelly",
+        "Nicole Johnson"
+      ],
+      "citation": "Robert T. Palmer, Erjia Yan, Mat Kelly, and Nicole Johnson, “A Deeper Look Into the Experiences of Faculty at Historically Black Colleges and Universities: Understanding Factors Germane to Their Retention and Attrition,” Journal of Diversity in Higher Education, In Press, 2026.",
+      "sourceOrder": 4,
+      "sourceVenue": "jdhe",
+      "peerReviewed": true,
       "links": [
         {
           "label": "Archived PDF",
@@ -56,85 +102,361 @@
       ]
     },
     {
+      "id": "human-in-the-loop-and-ai-crowdsourcing-metadata-vocabulary-for-materials-science-2025",
+      "year": 2025,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "metadata",
+      "venue": "19th International Conference on Metadata and Semantics Research (MTSR)",
+      "title": "Human-in-the-Loop and AI: Crowdsourcing Metadata Vocabulary for Materials Science",
+      "authors": [
+        "Jane Greenberg",
+        "Scott McClellan",
+        "Addy Ireland",
+        "Colton Gerber",
+        "Christopher B. Rauch",
+        "Mat Kelly",
+        "John Kunze",
+        "Yuan An",
+        "Eric Toberer"
+      ],
+      "citation": "Jane Greenberg, Scott McClellan, Addy Ireland, Colton Gerber, Christopher B. Rauch, Mat Kelly, John Kunze, Yuan An, and Eric Toberer, “Human-in-the-Loop and AI: Crowdsourcing Metadata Vocabulary for Materials Science,” To appear in the Proceedings of the 19th International Conference on Metadata and Semantics Research (MTSR), Thessaloniki, Greece, December 15–19, 2025.",
+      "sourceOrder": 5,
+      "sourceVenue": "mtsr",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "Info",
+          "url": "https://www.mtsr-conf.org/home"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2512.09895"
+        }
+      ]
+    },
+    {
       "id": "web-advertisements-2025",
       "year": 2025,
       "category": "journal",
+      "kind": "journal-article",
       "theme": "archive",
-      "venue": "JASIST · 76(13)",
+      "venue": "Journal of the Association for Information Science and Technology (JASIST)",
       "title": "Problems With Archiving and Replaying Current Web Advertisements",
-      "authors": ["Travis Reid", "Alex H. Poole", "Hyung Wook Choi", "Christopher Rauch", "Mat Kelly", "Michael L. Nelson", "Michele C. Weigle"],
+      "authors": [
+        "Travis Reid",
+        "Alex H. Poole",
+        "Hyung Wook Choi",
+        "Christopher Rauch",
+        "Mat Kelly",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Travis Reid, Alex H. Poole, Hyung Wook Choi, Christopher Rauch, Mat Kelly, Michael L. Nelson, and Michele C. Weigle, “Problems With Archiving and Replaying Current Web Advertisements,” Journal of the Association for Information Science and Technology (JASIST), 76(13), pp. 1803–1830.",
+      "sourceOrder": 6,
+      "sourceVenue": "jasist",
+      "sourceYear": 2026,
+      "peerReviewed": true,
       "links": [
         {
           "label": "PDF",
           "url": "https://matkelly.com/papers/2025_jasist_webads.pdf"
         },
         {
-          "label": "DOI",
-          "url": "https://doi.org/10.1002/asi.70039"
-        },
-        {
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/reid-jasist2025.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1002/asi.70039"
         }
       ],
       "homepageOrder": 2
     },
     {
-      "id": "ontextract-2025",
-      "year": 2025,
-      "category": "conference",
-      "theme": "metadata",
-      "venue": "Proceedings · JCDL",
-      "title": "OntExtract: PROV-O Provenance Tracking for Document Analysis Workflows",
-      "authors": ["Christopher Rauch", "Hyung Wook Choi", "Mat Kelly"],
-      "links": [
-        {
-          "label": "PDF",
-          "url": "https://matkelly.com/papers/2025_jcdl_ontextract.pdf"
-        },
-        {
-          "label": "DOI",
-          "url": "https://doi.org/10.1109/JCDL67857.2025.00038"
-        },
-        {
-          "label": "BibTeX",
-          "url": "https://matkelly.com/publications/rauch-jcdl2025.bib"
-        }
-      ]
-    },
-    {
       "id": "linking-policies-2025",
       "year": 2025,
       "category": "conference",
-      "theme": "infrastructure",
-      "venue": "Proceedings · JCDL",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
       "title": "Linking Policies for the Permanent Web",
-      "authors": ["Quang Bui", "Alexander Grigorian", "Alexey Kuraev", "Thiyazan Salman", "Tu Nguyen", "Mat Kelly", "Sawood Alam"],
+      "authors": [
+        "Quang Bui",
+        "Alexander Grigorian",
+        "Alexey Kuraev",
+        "Thiyazan Salman",
+        "Tu Nguyen",
+        "Mat Kelly",
+        "Sawood Alam"
+      ],
+      "citation": "Quang Bui, Alexander Grigorian, Alexey Kuraev, Thiyazan Salman, Tu Nguyen, Mat Kelly, and Sawood Alam, “Linking Policies for the Permanent Web,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), pp. 217–226, December 15–19, 2025.",
+      "sourceOrder": 7,
+      "sourceVenue": "jcdl",
+      "peerReviewed": true,
       "links": [
         {
           "label": "PDF",
           "url": "https://matkelly.com/papers/2025_jcdl_iparo.pdf"
         },
         {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/bui-jcdl2025.bib"
+        },
+        {
           "label": "DOI",
           "url": "https://doi.org/10.1109/JCDL67857.2025.00033"
         },
         {
-          "label": "BibTeX",
-          "url": "https://matkelly.com/publications/bui-jcdl2025.bib"
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2025_jcdl_iparo.pdf"
         }
       ],
       "homepageOrder": 3
     },
     {
+      "id": "ontextract-2025",
+      "year": 2025,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "OntExtract: PROV-O Provenance Tracking for Document Analysis Workflows",
+      "authors": [
+        "Christopher Rauch",
+        "Hyung Wook Choi",
+        "Mat Kelly"
+      ],
+      "citation": "Christopher Rauch, Hyung Wook Choi, and Mat Kelly, “OntExtract: PROV-O Provenance Tracking for Document Analysis Workflows,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), pp. 249–252, December 15–19, 2025.",
+      "sourceOrder": 8,
+      "sourceVenue": "jcdl",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2025_jcdl_ontextract.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/rauch-jcdl2025.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/JCDL67857.2025.00038"
+        },
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2025_jcdl_ontextract.pdf"
+        }
+      ]
+    },
+    {
+      "id": "liberation-of-lms-siloed-instructional-data-2025",
+      "year": 2025,
+      "category": "journal",
+      "kind": "online-publication",
+      "theme": "archive",
+      "venue": "Code4Lib Journal",
+      "title": "Liberation of LMS-siloed Instructional Data",
+      "authors": [
+        "Hyung Wook Choi",
+        "Jonathan Wheeler",
+        "Weimao Ke",
+        "Lei Wang",
+        "Jane Greenberg",
+        "Mat Kelly"
+      ],
+      "citation": "Hyung Wook Choi, Jonathan Wheeler, Weimao Ke, Lei Wang, Jane Greenberg, and Mat Kelly, “Liberation of LMS-siloed Instructional Data,” Code4Lib Journal, Issue 61, Oct 2025.",
+      "sourceOrder": 9,
+      "sourceVenue": "code4lib",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "article",
+          "url": "https://journal.code4lib.org/articles/18462"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/choi-c4l2025.bib"
+        }
+      ]
+    },
+    {
+      "id": "web-archiving-and-digital-libraries-wadl-workshop-2025-2025",
+      "year": 2025,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "36th ACM Conference on Hypertext and Social Media (HT Adjunct '25)",
+      "title": "Web Archiving and Digital Libraries (WADL) Workshop 2025",
+      "authors": [
+        "Mat Kelly",
+        "Brenda Reyes Ayala"
+      ],
+      "citation": "Mat Kelly and Brenda Reyes Ayala, “Web Archiving and Digital Libraries (WADL) Workshop 2025,” In Adjunct Proceedings of the 36th ACM Conference on Hypertext and Social Media (HT Adjunct '25), pp. 51–53, Chicago, Illinois, September 15, 2025.",
+      "sourceOrder": 10,
+      "sourceVenue": "acmht",
+      "links": [
+        {
+          "label": "Workshop Website",
+          "url": "https://wadlworkshop.github.io/2025/"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-wadl2025.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1145/3720533.3756896"
+        }
+      ]
+    },
+    {
+      "id": "matsci-yamz-integrating-ai-into-metadata-dictionaries-2025",
+      "year": 2025,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "metadata",
+      "venue": "Poster presented at the ID4-Affiliated Summer Research Experience Symposium, Northwestern University, August 15, 2025",
+      "title": "MatSci YAMZ: Integrating AI into Metadata Dictionaries",
+      "authors": [
+        "Addy Ireland",
+        "Scott McClellan",
+        "John Kunze",
+        "Christopher Rauch",
+        "Joel Pepper",
+        "Colton Gerber",
+        "Mat Kelly",
+        "Jane Greenberg"
+      ],
+      "citation": "Addy Ireland, Scott McClellan, John Kunze, Christopher Rauch, Joel Pepper, Colton Gerber, Mat Kelly, and Jane Greenberg, “MatSci YAMZ: Integrating AI into Metadata Dictionaries,” Poster presented at the ID4-Affiliated Summer Research Experience Symposium, Northwestern University, August 15, 2025. .",
+      "sourceOrder": 11,
+      "links": [
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/ireland-nsfreu2025.bib"
+        },
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/posters/2025_reu_matsciyamz.pdf"
+        }
+      ]
+    },
+    {
+      "id": "what-you-see-no-one-saw-archive-it-2025",
+      "year": 2025,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "Archive-It Partner Meeting",
+      "title": "What You See No One Saw",
+      "authors": [
+        "Mat Kelly"
+      ],
+      "citation": "Mat Kelly, “What You See No One Saw,” Presented at the Archive-It Partner Meeting, Philadelphia, PA, June 26, 2025.",
+      "sourceOrder": 12,
+      "sourceVenue": "ait",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/ait2025"
+        }
+      ]
+    },
+    {
+      "id": "diversity-of-hbcus-institutional-human-capital-a-cross-discipline-longitudinal-analysis-of-facul-2025",
+      "year": 2025,
+      "category": "journal",
+      "kind": "journal-article",
+      "theme": "metadata",
+      "venue": "Innovative Higher Education",
+      "title": "Diversity of HBCUs' Institutional Human Capital: A Cross-Discipline, Longitudinal Analysis of Faculty Hiring and Placement at HBCUs",
+      "authors": [
+        "Erjia Yan",
+        "Robert T. Palmer",
+        "Jiangen He",
+        "Chaoqun Ni",
+        "Mat Kelly"
+      ],
+      "citation": "Erjia Yan, Robert T. Palmer, Jiangen He, Chaoqun Ni, and Mat Kelly, “Diversity of HBCUs' Institutional Human Capital: A Cross-Discipline, Longitudinal Analysis of Faculty Hiring and Placement at HBCUs,” Innovative Higher Education, 50, pp. 1021–1039, June 2025.",
+      "sourceOrder": 13,
+      "sourceVenue": "ihe",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2024_innovativehighereducation_hbcus.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/yan-ihe-2025.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1007/s10755-024-09772-y"
+        }
+      ]
+    },
+    {
+      "id": "archiving-and-replaying-current-web-advertisements-challenges-and-opportunities-2025",
+      "year": 2025,
+      "category": "conference",
+      "kind": "technical-report",
+      "theme": "archive",
+      "venue": "Technical Report arXiv:2502.01525, 2025",
+      "title": "Archiving and Replaying Current Web Advertisements: Challenges and Opportunities",
+      "authors": [
+        "Travis Reid",
+        "Alex H. Poole",
+        "Hyung Wook Choi",
+        "Christopher Rauch",
+        "Mat Kelly",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Travis Reid, Alex H. Poole, Hyung Wook Choi, Christopher Rauch, Mat Kelly, Michael L. Nelson, and Michele C. Weigle, “Archiving and Replaying Current Web Advertisements: Challenges and Opportunities,” Technical Report arXiv:2502.01525, 2025.",
+      "sourceOrder": 14,
+      "sourceVenue": "arxiv",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2502.01525"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/reid-arxiv2025.bib"
+        }
+      ]
+    },
+    {
       "id": "no-one-saw-2025",
       "year": 2025,
       "category": "presentation",
+      "kind": "presentation",
       "theme": "archive",
-      "venue": "IIPC Web Archiving Conference · Oslo",
+      "venue": "International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2025",
       "title": "What You See No One Saw",
-      "authors": ["Mat Kelly", "Alexander H. Poole", "Michele C. Weigle", "Michael L. Nelson", "Travis Reid", "Christopher Rauch", "Hyung Wook Choi"],
+      "authors": [
+        "Mat Kelly",
+        "Alexander H. Poole",
+        "Michele C. Weigle",
+        "Michael L. Nelson",
+        "Travis Reid",
+        "Christopher Rauch",
+        "Hyung Wook Choi"
+      ],
+      "citation": "Mat Kelly, Alexander H. Poole, Michele C. Weigle, Michael L. Nelson, Travis Reid, Christopher Rauch, and Hyung Wook Choi, “What You See No One Saw,” Presented at the International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2025, Oslo, Norway, April 8–10, 2025.",
+      "sourceOrder": 15,
+      "sourceVenue": "iipcwac",
       "links": [
+        {
+          "label": "Info",
+          "url": "https://www.conftool.pro/iipc2025/sessions.php"
+        },
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/iipcwac2025"
+        },
         {
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/kelly-iipcwac2025.bib"
@@ -145,22 +467,110 @@
       "id": "idols-marketplace-2024",
       "year": 2024,
       "category": "conference",
+      "kind": "conference-paper",
       "theme": "metadata",
-      "venue": "Document Academy · 11(2)",
-      "title": "Beyond the “Idols of the Marketplace”: Managing Semantic Change in Research",
-      "authors": ["Christopher B. Rauch", "Hyung Wook Choi", "Mat Kelly"],
+      "venue": "Proceedings from the 2024 Annual Meeting of the Document Academy",
+      "title": "Beyond the 'Idols of the Marketplace': Managing Semantic Change in Research",
+      "authors": [
+        "Christopher B. Rauch",
+        "Hyung Wook Choi",
+        "Mat Kelly"
+      ],
+      "citation": "Christopher B. Rauch, Hyung Wook Choi, and Mat Kelly, “Beyond the 'Idols of the Marketplace': Managing Semantic Change in Research,” In Proceedings from the 2024 Annual Meeting of the Document Academy, Vol. 11, Issue 2, Article 3.",
+      "sourceOrder": 16,
+      "sourceVenue": "docam",
+      "peerReviewed": true,
       "links": [
         {
           "label": "PDF",
           "url": "https://matkelly.com/papers/2024_docam_idols.pdf"
         },
         {
-          "label": "DOI",
-          "url": "https://doi.org/10.35492/docam/11/2/3"
-        },
-        {
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/rauch-docam-2024.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.35492/docam/11/2/3"
+        }
+      ]
+    },
+    {
+      "id": "re-experience-web-2023",
+      "year": 2024,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "infrastructure",
+      "venue": "ACM International Conference on Information and Knowledge Management (CIKM)",
+      "title": "To Re-experience the Web: A Framework for the Transformation and Replay of Archived Web Pages",
+      "authors": [
+        "John Berlin",
+        "Mat Kelly",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "John Berlin, Mat Kelly, Michael L. Nelson, and Michele C. Weigle, “To Re-experience the Web: A Framework for the Transformation and Replay of Archived Web Pages,” Presented at the ACM International Conference on Information and Knowledge Management (CIKM), Boise, Idaho, October 22, 2024.",
+      "sourceOrder": 17,
+      "sourceVenue": "cikm",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2024_cikm_tweb.pptx"
+        },
+        {
+          "label": "Info",
+          "url": "https://cikm2024.org/"
+        }
+      ]
+    },
+    {
+      "id": "documenting-semantic-shifts-across-domains-with-version-control-2024",
+      "year": 2024,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "metadata",
+      "venue": "Annual Meeting of the Document Academy (DOCAM '24)",
+      "title": "Documenting Semantic Shifts Across Domains with Version Control",
+      "authors": [
+        "Hyung Wook Choi",
+        "Mat Kelly"
+      ],
+      "citation": "Hyung Wook Choi and Mat Kelly, “Documenting Semantic Shifts Across Domains with Version Control,” Presented at the Annual Meeting of the Document Academy (DOCAM '24), Philadelphia, Pennsylvania, September 19–21, 2024.",
+      "sourceOrder": 18,
+      "sourceVenue": "da",
+      "links": [
+        {
+          "label": "Info",
+          "url": "https://documentacademy.org/?2024"
+        }
+      ]
+    },
+    {
+      "id": "longitudinal-academic-mobility-patterns-at-howard-university-2024",
+      "year": 2024,
+      "category": "journal",
+      "kind": "preprint",
+      "theme": "metadata",
+      "venue": "Preprint, September 2, 2024",
+      "title": "Longitudinal Academic Mobility Patterns at Howard University",
+      "authors": [
+        "Deanna Zarrillo",
+        "Erjia Yan",
+        "Mat Kelly",
+        "Jiangen He",
+        "Chaoqun Ni",
+        "Robert Palmer"
+      ],
+      "citation": "Deanna Zarrillo, Erjia Yan, Mat Kelly, Jiangen He, Chaoqun Ni, and Robert Palmer, “Longitudinal Academic Mobility Patterns at Howard University,” Preprint, September 2, 2024.",
+      "sourceOrder": 19,
+      "links": [
+        {
+          "label": "Online",
+          "url": "https://www.qeios.com/read/F0GW8P"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.32388/F0GW8P"
         }
       ]
     },
@@ -168,22 +578,141 @@
       "id": "ethics-case-study-2024",
       "year": 2024,
       "category": "journal",
+      "kind": "journal-article",
       "theme": "archive",
-      "venue": "Accountability in Research · 32(8)",
+      "venue": "Accountability in Research: Ethics, Integrity and Policy",
       "title": "Web Archives for Data Collection: An Ethics Case Study",
-      "authors": ["Deanna Zarrillo", "Mat Kelly", "Erjia Yan", "Chaoqun Ni"],
+      "authors": [
+        "Deanna Zarrillo",
+        "Mat Kelly",
+        "Erjia Yan",
+        "Chaoqun Ni"
+      ],
+      "citation": "Deanna Zarrillo, Mat Kelly, Erjia Yan, and Chaoqun Ni, “Web Archives for Data Collection: An Ethics Case Study,” Accountability in Research: Ethics, Integrity and Policy, 32(8), pp. 1408–1425, September 2024.",
+      "sourceOrder": 20,
+      "sourceVenue": "re",
+      "peerReviewed": true,
       "links": [
+        {
+          "label": "Info",
+          "url": "https://www.tandfonline.com/journals/gacr20"
+        },
         {
           "label": "PDF",
           "url": "https://matkelly.com/papers/2024_air_ethics.pdf"
         },
         {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/zarrillo-ethics-2024.bib"
+        },
+        {
           "label": "DOI",
           "url": "https://doi.org/10.1080/08989621.2024.2396940"
+        }
+      ]
+    },
+    {
+      "id": "archiving-digital-marketing-examining-preservation-of-dynamic-content-on-the-web-through-the-len-2024",
+      "year": 2024,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "Proceedings of the 20th International Conference on Digital Preservation (iPRES) 2024",
+      "title": "Archiving Digital Marketing: Examining Preservation of Dynamic Content on the Web Through the Lens of Online Advertisements",
+      "authors": [
+        "Christopher Rauch",
+        "Alex H. Poole",
+        "Travis Reid",
+        "Michele C. Weigle",
+        "Michael L. Nelson",
+        "Faryaneh Poursardar",
+        "Mat Kelly"
+      ],
+      "citation": "Christopher Rauch, Alex H. Poole, Travis Reid, Michele C. Weigle, Michael L. Nelson, Faryaneh Poursardar, and Mat Kelly, “Archiving Digital Marketing: Examining Preservation of Dynamic Content on the Web Through the Lens of Online Advertisements,” In Proceedings of the 20th International Conference on Digital Preservation (iPRES) 2024, Ghent, Belgium, September 16–20, 2024.",
+      "sourceOrder": 21,
+      "sourceVenue": "ipres",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "Info",
+          "url": "https://ipres2024.pubpub.org/"
+        },
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/rauch-ipres2024.pdf"
+        },
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/ipres2024"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.21428/5676bf2d.b7f36c7f"
+        }
+      ]
+    },
+    {
+      "id": "contextual-archiving-of-web-page-advertisements-using-persona-based-tools-2024",
+      "year": 2024,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "Society of American Archivists (SAA) Research Forum",
+      "title": "Contextual Archiving of Web Page Advertisements Using Persona-Based Tools",
+      "authors": [
+        "Christopher Rauch",
+        "Mat Kelly",
+        "Alex H. Poole",
+        "Travis Reid",
+        "Faryaneh Poursardar",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Christopher Rauch, Mat Kelly, Alex H. Poole, Travis Reid, Faryaneh Poursardar, Michael L. Nelson, and Michele C. Weigle, “Contextual Archiving of Web Page Advertisements Using Persona-Based Tools,” Presented at the Society of American Archivists (SAA) Research Forum, Online, July 17, 2024.",
+      "sourceOrder": 22,
+      "sourceVenue": "saa",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/SAA2024"
+        },
+        {
+          "label": "Info",
+          "url": "https://www2.archivists.org/am2024/research-forum-2024"
+        }
+      ]
+    },
+    {
+      "id": "saving-ads-assessing-and-improving-web-archives-holdings-of-online-advertisements-2024",
+      "year": 2024,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2024",
+      "title": "Saving Ads: Assessing and Improving Web Archives’ Holdings of Online Advertisements",
+      "authors": [
+        "Christopher Rauch",
+        "Mat Kelly",
+        "Alexander H. Poole",
+        "Michele C. Weigle",
+        "Michael L. Nelson",
+        "Travis Reid"
+      ],
+      "citation": "Christopher Rauch, Mat Kelly, Alexander H. Poole, Michele C. Weigle, Michael L. Nelson, and Travis Reid, “Saving Ads: Assessing and Improving Web Archives’ Holdings of Online Advertisements,” Presented at the International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2024, Paris, France, April 24–26, 2024.",
+      "sourceOrder": 23,
+      "sourceVenue": "iipcwac",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2024_iipcwac_webads.pdf"
+        },
+        {
+          "label": "Presentation Recording",
+          "url": "https://www.youtube.com/watch?v=xZQrY4r1oeM"
         },
         {
           "label": "BibTeX",
-          "url": "https://matkelly.com/publications/zarrillo-ethics-2024.bib"
+          "url": "https://matkelly.com/publications/rauch-iipcwac2024.bib"
         }
       ]
     },
@@ -191,45 +720,2171 @@
       "id": "memento-aggregators-2024",
       "year": 2024,
       "category": "journal",
+      "kind": "journal-article",
       "theme": "infrastructure",
-      "venue": "International Journal on Digital Libraries · 25(1)",
+      "venue": "International Journal on Digital Libraries (IJDL)",
       "title": "Exploiting the Untapped Functional Potential of Memento Aggregators Beyond Aggregation",
-      "authors": ["Mat Kelly"],
+      "authors": [
+        "Mat Kelly"
+      ],
+      "citation": "Mat Kelly, “Exploiting the Untapped Functional Potential of Memento Aggregators Beyond Aggregation,” International Journal on Digital Libraries (IJDL), 25(1), pp. 93–104, March 2024.",
+      "sourceOrder": 24,
+      "sourceVenue": "ijdl",
+      "peerReviewed": true,
       "links": [
         {
           "label": "PDF",
           "url": "https://link.springer.com/content/pdf/10.1007/s00799-023-00391-0.pdf"
         },
         {
-          "label": "DOI",
-          "url": "https://doi.org/10.1007/s00799-023-00391-0"
-        },
-        {
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/kelly-ijdl2024.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1007/s00799-023-00391-0"
         }
       ]
     },
     {
-      "id": "re-experience-web-2023",
+      "id": "re-experience-web-2023-2",
       "year": 2023,
       "category": "journal",
-      "theme": "archive",
-      "venue": "ACM Transactions on the Web · 17(4)",
+      "kind": "journal-article",
+      "theme": "infrastructure",
+      "venue": "ACM Transactions on the Web (TWEB)",
       "title": "To Re-experience the Web: A Framework for the Transformation and Replay of Archived Web Pages",
-      "authors": ["John Berlin", "Mat Kelly", "Michael L. Nelson", "Michele C. Weigle"],
+      "authors": [
+        "John Berlin",
+        "Mat Kelly",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "John Berlin, Mat Kelly, Michael L. Nelson, and Michele C. Weigle, “To Re-experience the Web: A Framework for the Transformation and Replay of Archived Web Pages,” ACM Transactions on the Web (TWEB), 17(4), pp. 1–49, November 2023.",
+      "sourceOrder": 25,
+      "sourceVenue": "tweb",
+      "peerReviewed": true,
       "links": [
         {
           "label": "PDF",
           "url": "https://dl.acm.org/doi/pdf/10.1145/3589206"
         },
         {
-          "label": "DOI",
-          "url": "https://doi.org/10.1145/3589206"
+          "label": "Preprint",
+          "url": "https://matkelly.com/papers/2023_tweb_preprint.pdf"
         },
         {
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/berlin-tweb2023.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1145/3589206"
+        }
+      ]
+    },
+    {
+      "id": "on-identifying-points-of-semantic-shift-across-domains-2023",
+      "year": 2023,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "metadata",
+      "venue": "the 17th International Conference on Metadata and Semantics Research (MTSR)",
+      "title": "On Identifying Points of Semantic Shift Across Domains",
+      "authors": [
+        "Hyung Wook Choi",
+        "Mat Kelly"
+      ],
+      "citation": "Hyung Wook Choi and Mat Kelly, “On Identifying Points of Semantic Shift Across Domains,” Presented at the 17th International Conference on Metadata and Semantics Research (MTSR), Milan, Italy, October 25–27, 2023.",
+      "sourceOrder": 26,
+      "sourceVenue": "mtsr",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "Info",
+          "url": "http://www.mtsr-conf.org/programme"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/pdf/2310.12369.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/choi-mtsr2023.bib"
+        }
+      ]
+    },
+    {
+      "id": "examining-the-academic-mobility-at-historically-black-colleges-and-universities-in-the-u-s-2023",
+      "year": 2023,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "metadata",
+      "venue": "Proceedings of the 19th International Conference of the International Society for Scientometrics and Informetrics (ISSI)",
+      "title": "Examining the academic mobility at Historically Black Colleges and Universities in the U.S",
+      "authors": [
+        "Erjia Yan",
+        "Mat Kelly",
+        "Deanna Zarrillo",
+        "Jiangen He",
+        "Chaoqun Ni",
+        "Robert Palmer"
+      ],
+      "citation": "Erjia Yan, Mat Kelly, Deanna Zarrillo, Jiangen He, Chaoqun Ni, and Robert Palmer, “Examining the academic mobility at Historically Black Colleges and Universities in the U.S.,” In Proceedings of the 19th International Conference of the International Society for Scientometrics and Informetrics (ISSI), pp. 507-513, Bloomington, Indiana, July 2–⁠5, 2023.",
+      "sourceOrder": 27,
+      "sourceVenue": "issi",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2023_issi_yan.pdf"
+        },
+        {
+          "label": "Info",
+          "url": "https://cns-iu.github.io/workshops/2023-07-02_issi/"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/yan-issi2023.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.5281/zenodo.8432290"
+        }
+      ]
+    },
+    {
+      "id": "web-archiving-and-digital-libraries-wadl-2023-2023",
+      "year": 2023,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "Web Archiving and Digital Libraries (WADL) 2023",
+      "authors": [
+        "Mat Kelly",
+        "Brenda Reyes Ayala",
+        "Zhiwu Xie",
+        "Edward A. Fox"
+      ],
+      "citation": "Mat Kelly, Brenda Reyes Ayala, Zhiwu Xie, and Edward A. Fox, “Web Archiving and Digital Libraries (WADL) 2023,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), pp. 314–⁠315, Santa Fe, New Mexico, June 2023.",
+      "sourceOrder": 28,
+      "sourceVenue": "jcdl",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2023_wadl.pdf"
+        },
+        {
+          "label": "Info",
+          "url": "https://2023.jcdl.org/program/workshops-tutorials/#wadl"
+        },
+        {
+          "label": "Schedule",
+          "url": "https://fox.cs.vt.edu/wadl2023.html"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-wadl2023.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/JCDL57899.2023.00074"
+        }
+      ]
+    },
+    {
+      "id": "using-web-archives-to-model-academic-migration-and-identify-brain-drain-2023",
+      "year": 2023,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2023",
+      "title": "Using Web Archives to Model Academic Migration and Identify Brain Drain",
+      "authors": [
+        "Mat Kelly",
+        "Deanna Zarrillo",
+        "Erjia Yan"
+      ],
+      "citation": "Mat Kelly, Deanna Zarrillo, and Erjia Yan, “Using Web Archives to Model Academic Migration and Identify Brain Drain,” Presented at the International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2023, Online, May 3, 2023.",
+      "sourceOrder": 29,
+      "sourceVenue": "iipcwac",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2023_iipcwac_braindrain.pdf"
+        },
+        {
+          "label": "Schedule",
+          "url": "https://netpreserve.org/ga2023/programme/wac/"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-iipcwac2023.bib"
+        }
+      ]
+    },
+    {
+      "id": "building-community-consensus-for-scientific-metadata-with-yamz-2023",
+      "year": 2023,
+      "category": "journal",
+      "kind": "journal-article",
+      "theme": "metadata",
+      "venue": "Data Intelligence",
+      "title": "Building Community Consensus for Scientific Metadata with YAMZ",
+      "authors": [
+        "Jane Greenberg",
+        "Scott McClellan",
+        "Christopher Rauch",
+        "Xintong Zhao",
+        "Mat Kelly",
+        "Yuan An",
+        "John Kunze",
+        "Rachel Orenstein",
+        "Claire Porter",
+        "Vanessa Meschke",
+        "Eric Toberer"
+      ],
+      "citation": "Jane Greenberg, Scott McClellan, Christopher Rauch, Xintong Zhao, Mat Kelly, Yuan An, John Kunze, Rachel Orenstein, Claire Porter, Vanessa Meschke, and Eric Toberer, “Building Community Consensus for Scientific Metadata with YAMZ,” Data Intelligence, 5(1), pp. 242–⁠260, February 2023.",
+      "sourceOrder": 30,
+      "sourceVenue": "dint",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2023_dint_yamz.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/greenberg-dint2023.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1162/dint_a_00211"
+        }
+      ]
+    },
+    {
+      "id": "aggregator-reuse-and-extension-for-richer-web-archive-interaction-2022",
+      "year": 2022,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "infrastructure",
+      "venue": "Proceedings of the 24th International Conference on Asia-Pacific Digital Libraries (ICADL 2022)",
+      "title": "Aggregator Reuse and Extension for Richer Web Archive Interaction",
+      "authors": [
+        "Mat Kelly"
+      ],
+      "citation": "Mat Kelly, “Aggregator Reuse and Extension for Richer Web Archive Interaction,” In Proceedings of the 24th International Conference on Asia-Pacific Digital Libraries (ICADL 2022), pp. 313–328, Hanoi, Vietnam, November 30–December 2, 2022.",
+      "sourceOrder": 31,
+      "sourceVenue": "icadl",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2022_icadl_chaining.pdf"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2210.01196"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-icadl2022.bib"
+        },
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2022_icadl_cyclic.pdf"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1007/978-3-031-21756-2_25"
+        }
+      ]
+    },
+    {
+      "id": "collecting-diachronic-affiliation-data-for-faculty-at-hbcus-using-memento-2022",
+      "year": 2022,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "metadata",
+      "venue": "Proceedings of the Association for Information Science and Technology",
+      "title": "Collecting Diachronic Affiliation Data for Faculty at HBCUs Using Memento",
+      "authors": [
+        "Deanna Zarrillo",
+        "Mat Kelly",
+        "Christopher Jackson",
+        "Erjia Yan"
+      ],
+      "citation": "Deanna Zarrillo, Mat Kelly, Christopher Jackson, and Erjia Yan, “Collecting Diachronic Affiliation Data for Faculty at HBCUs Using Memento,” In Proceedings of the Association for Information Science and Technology, Vol. 59, pp. 528–532, Pittsburgh, Pennsylvania, October 29–November 1, 2022.",
+      "sourceOrder": 32,
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2022_asist_hbcus.pdf"
+        },
+        {
+          "label": "Info",
+          "url": "https://asistdl.onlinelibrary.wiley.com/doi/epdf/10.1002/pra2.664"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/zarrillo-asist2022.bib"
+        },
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2022_asist_hbcus.pdf"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1002/pra2.664"
+        }
+      ]
+    },
+    {
+      "id": "examining-existing-approaches-toward-semantic-disambiguation-2022",
+      "year": 2022,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "metadata",
+      "venue": "Proceedings of the Seventeenth International Society for Knowledge Organization (ISKO) Conference 2022",
+      "title": "Examining Existing Approaches Toward Semantic Disambiguation",
+      "authors": [
+        "Hyung Wook Choi",
+        "Mat Kelly"
+      ],
+      "citation": "Hyung Wook Choi and Mat Kelly, “Examining Existing Approaches Toward Semantic Disambiguation,” In Proceedings of the Seventeenth International Society for Knowledge Organization (ISKO) Conference 2022, Aalborg, Denmark, pp. 349–352, July 6–8, 2022.",
+      "sourceOrder": 33,
+      "sourceVenue": "isko",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2022_isko_disambiguation.pdf"
+        },
+        {
+          "label": "Info",
+          "url": "https://www.communication.aau.dk/research/knowledge_groups/e-learning-lab/isko/"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/choi-isko2022.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.5771/9783956509568-349"
+        }
+      ]
+    },
+    {
+      "id": "first-steps-in-identifying-academic-migration-using-memento-and-quasi-canonicalization-2022",
+      "year": 2022,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "ACM/IEEE JCDL 2022 Workshop on Web Archiving and Digital Libraries (WADL 2022)",
+      "title": "First steps in Identifying Academic Migration using Memento and Quasi-Canonicalization",
+      "authors": [
+        "Mat Kelly",
+        "Deanna Zarrillo",
+        "Christopher Jackson",
+        "Erjia Yan"
+      ],
+      "citation": "Mat Kelly, Deanna Zarrillo, Christopher Jackson, and Erjia Yan, “First steps in Identifying Academic Migration using Memento and Quasi-Canonicalization,” Presented at the ACM/IEEE JCDL 2022 Workshop on Web Archiving and Digital Libraries (WADL 2022), Cologne, Germany, June 20–24, 2022.",
+      "sourceOrder": 34,
+      "sourceVenue": "wadl",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2022_wadl_hbcus.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-wadl2022.bib"
+        },
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/wadl2022"
+        }
+      ]
+    },
+    {
+      "id": "web-archiving-and-digital-libraries-wadl-2022-2022",
+      "year": 2022,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "Web Archiving and Digital Libraries (WADL) 2022",
+      "authors": [
+        "Martin Klein",
+        "Mat Kelly",
+        "Zhiwu Xie",
+        "Edward A. Fox"
+      ],
+      "citation": "Martin Klein, Mat Kelly, Zhiwu Xie, and Edward A. Fox, “Web Archiving and Digital Libraries (WADL) 2022,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), pp. 1–2, Cologne, Germany, June 2022.",
+      "sourceOrder": 35,
+      "sourceVenue": "jcdl",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2022_wadl.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/klein-jcdl2022.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1145/3529372.3530920"
+        }
+      ]
+    },
+    {
+      "id": "fair-metadata-a-community-driven-vocabulary-application-2021",
+      "year": 2021,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "metadata",
+      "venue": "Proceedings of the 15th International Conference on Metadata and Semantics Research (MTSR)",
+      "title": "FAIR Metadata: A Community-driven Vocabulary Application",
+      "authors": [
+        "Christopher B. Rauch",
+        "Mat Kelly",
+        "John Kunze",
+        "Jane Greenberg"
+      ],
+      "citation": "Christopher B. Rauch, Mat Kelly, John Kunze, and Jane Greenberg, “FAIR Metadata: A Community-driven Vocabulary Application,” In Proceedings of the 15th International Conference on Metadata and Semantics Research (MTSR), Online, pp. 187–198, November 29–December 3, 2021.",
+      "sourceOrder": 36,
+      "sourceVenue": "mtsr",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2111.03910"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/rauch-mtsr2021.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1007/978-3-030-98876-0_16"
+        }
+      ]
+    },
+    {
+      "id": "project-pipeline-preservation-persistence-and-performance-2021",
+      "year": 2021,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "Proceedings of the 17th International Conference on Digital Preservation (iPRES) 2021",
+      "title": "Project Pipeline: Preservation, Persistence, and Performance",
+      "authors": [
+        "Jane Greenberg",
+        "Christopher B. Rauch",
+        "Mat Kelly"
+      ],
+      "citation": "Jane Greenberg, Christopher B. Rauch, and Mat Kelly, “Project Pipeline: Preservation, Persistence, and Performance,” In Proceedings of the 17th International Conference on Digital Preservation (iPRES) 2021, Beijing, China, October 19–22, 2021.",
+      "sourceOrder": 37,
+      "sourceVenue": "ipres",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2109.06317"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/greenberg-ipres2021.bib"
+        },
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2021_ipres_ppppp.pdf"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.17605/OSF.IO/JRH54"
+        }
+      ]
+    },
+    {
+      "id": "modeling-ephraim-chambers-knowledge-structure-from-a-na-ve-standpoint-2021",
+      "year": 2021,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "metadata",
+      "venue": "The 8th North American Symposium on Knowledge Organization (NASKO 2021)",
+      "title": "Modeling Ephraim Chambers' Knowledge Structure From a Naïve Standpoint",
+      "authors": [
+        "Scott McClellan",
+        "Mat Kelly",
+        "Jane Greenberg"
+      ],
+      "citation": "Scott McClellan, Mat Kelly, and Jane Greenberg, “Modeling Ephraim Chambers' Knowledge Structure From a Naïve Standpoint,” Presented at The 8th North American Symposium on Knowledge Organization (NASKO 2021), Online, July 9–11, 2021.",
+      "sourceOrder": 38,
+      "sourceVenue": "nasko",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2021_nasko_chambers.pdf"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2109.13915"
+        },
+        {
+          "label": "program",
+          "url": "https://www.iskocus.org/nasko2021-program.php"
+        },
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2021_nasko_chambers.pptx"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/mcclellan-nasko2021.bib"
+        }
+      ]
+    },
+    {
+      "id": "archival-resource-keys-for-collaborative-historical-ontology-publication-2021",
+      "year": 2021,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "metadata",
+      "venue": "International Conference on ICT enhanced Social Sciences and Humanities (ICTeSSH 2021)",
+      "title": "Archival Resource Keys for Collaborative Historical Ontology Publication",
+      "authors": [
+        "Mat Kelly",
+        "Christopher B. Rauch",
+        "John Kunze",
+        "Sam Grabus",
+        "Joan Boone",
+        "Peter M. Logan",
+        "Jane Greenberg"
+      ],
+      "citation": "Mat Kelly, Christopher B. Rauch, John Kunze, Sam Grabus, Joan Boone, Peter M. Logan, and Jane Greenberg, “Archival Resource Keys for Collaborative Historical Ontology Publication,” In Proceedings of the International Conference on ICT enhanced Social Sciences and Humanities (ICTeSSH 2021), June 28–30, 2021.",
+      "sourceOrder": 39,
+      "sourceVenue": "ictessh",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2021_ictessh_arks.pdf"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.21428/7a45813f.906ecfac"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-ictessh2021.bib"
+        }
+      ]
+    },
+    {
+      "id": "wasapifying-private-web-archiving-tools-for-persistence-and-collaboration-2021",
+      "year": 2021,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2021",
+      "title": "WASAPIfying private web archiving tools for persistence and collaboration",
+      "authors": [
+        "Mat Kelly"
+      ],
+      "citation": "Mat Kelly, “WASAPIfying private web archiving tools for persistence and collaboration,” Presented at the International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2021, Online, June 15–16, 2021.",
+      "sourceOrder": 40,
+      "sourceVenue": "iipcwac",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/iipcwac2021"
+        },
+        {
+          "label": "schedule",
+          "url": "https://netpreserve.org/ga2021/overview/"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-iipcwac2021.bib"
+        }
+      ]
+    },
+    {
+      "id": "advancing-arks-in-the-historical-ontology-space-2020",
+      "year": 2020,
+      "category": "journal",
+      "kind": "online-publication",
+      "theme": "metadata",
+      "venue": "Code4Lib Journal",
+      "title": "Advancing ARKs in the Historical Ontology Space",
+      "authors": [
+        "Mat Kelly",
+        "Christopher B. Rauch",
+        "Jane Greenberg",
+        "Sam Grabus",
+        "Joan Boone",
+        "John Kunze",
+        "Peter M. Logan"
+      ],
+      "citation": "Mat Kelly, Christopher B. Rauch, Jane Greenberg, Sam Grabus, Joan Boone, John Kunze, and Peter M. Logan, “Advancing ARKs in the Historical Ontology Space,” Code4Lib Journal, Issue 50, Feb 2021.",
+      "sourceOrder": 41,
+      "sourceVenue": "code4lib",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "article",
+          "url": "https://journal.code4lib.org/articles/15608"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-c4l2021.bib"
+        }
+      ]
+    },
+    {
+      "id": "of-arks-and-ontologies-2021",
+      "year": 2021,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "Presented at PIDapalooza 2021, Online Meeting, 27–28 January 2021",
+      "title": "Of ARKs and Ontologies",
+      "authors": [
+        "Mat Kelly",
+        "Jane Greenberg",
+        "Christopher B. Rauch",
+        "Joan P. Boone",
+        "John Kunze",
+        "Peter Logan"
+      ],
+      "citation": "Mat Kelly, Jane Greenberg, Christopher B. Rauch, Joan P. Boone, John Kunze, and Peter Logan, “Of ARKs and Ontologies,” Presented at PIDapalooza 2021, Online Meeting, 27–28 January 2021.",
+      "sourceOrder": 42,
+      "sourceVenue": "pidapalooza",
+      "links": [
+        {
+          "label": "Info",
+          "url": "https://pidapalooza2021.sched.com/event/gD2D/of-arks-and-ontologies"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-pidapalooza2021.bib"
+        }
+      ]
+    },
+    {
+      "id": "a-computational-approach-to-historical-ontologies-2020",
+      "year": 2020,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "2020 IEEE International Conference on Big Data (IEEE BigData 2020)",
+      "title": "A Computational Approach to Historical Ontologies",
+      "authors": [
+        "Mat Kelly",
+        "Jane Greenberg",
+        "Christopher B. Rauch",
+        "Sam Grabus",
+        "Joan P. Boone",
+        "John A. Kunze",
+        "Peter Melville Logan"
+      ],
+      "citation": "Mat Kelly, Jane Greenberg, Christopher B. Rauch, Sam Grabus, Joan P. Boone, John A. Kunze, and Peter Melville Logan, “A Computational Approach to Historical Ontologies,” In Proceedings of the 5th Computational Archival Science Workshop at the 2020 IEEE International Conference on Big Data (IEEE BigData 2020), Atlanta, Georgia, pp. 1878–1883, December 2020.",
+      "sourceOrder": 43,
+      "sourceVenue": "cas",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2011.13114"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-bigdata2020.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/BigData50022.2020.9378268"
+        },
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2020_ieeebigdata.pptx"
+        }
+      ]
+    },
+    {
+      "id": "older-adults-and-technology-use-a-systematic-literature-review-2020",
+      "year": 2020,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "Gerontological Society of America 2020 Annual Scientific Meeting",
+      "title": "Older Adults and Technology Use: A Systematic Literature Review",
+      "authors": [
+        "Hyung Wook Choi",
+        "Rose Ann DiMaria-Ghalili",
+        "Mat Kelly",
+        "Alexander Poole",
+        "Erjia Yan",
+        "Jina Huh-Yoo",
+        "(2020)"
+      ],
+      "citation": "Hyung Wook Choi, Rose Ann DiMaria-Ghalili, Mat Kelly, Alexander Poole, Erjia Yan, and Jina Huh-Yoo, (2020) “Older Adults and Technology Use: A Systematic Literature Review,” Symposium presentation at the Gerontological Society of America 2020 Annual Scientific Meeting, Vol 4 (Suppl 1), pp. 823, Online Meeting, 4–7 November 2020.",
+      "sourceOrder": 44,
+      "sourceVenue": "gsa",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7743231/pdf/igaa057.3004.pdf"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1093/geroni/igaa057.3004"
+        }
+      ]
+    },
+    {
+      "id": "an-automatic-approach-to-extending-the-consumer-health-vocabulary-2021",
+      "year": 2021,
+      "category": "journal",
+      "kind": "journal-article",
+      "theme": "metadata",
+      "venue": "Journal of Data and Information Science (JDIS)",
+      "title": "An Automatic Approach to Extending the Consumer Health Vocabulary",
+      "authors": [
+        "Michal Monselise",
+        "Jane Greenberg",
+        "Ou Stella Liang",
+        "Sonia Pascua",
+        "Heejun Kim",
+        "Mat Kelly",
+        "Joan P. Boone",
+        "Christopher C. Yang"
+      ],
+      "citation": "Michal Monselise, Jane Greenberg, Ou Stella Liang, Sonia Pascua, Heejun Kim, Mat Kelly, Joan P. Boone, and Christopher C. Yang, “An Automatic Approach to Extending the Consumer Health Vocabulary,” Journal of Data and Information Science (JDIS), 6(1), pp. 35–49. 2021.",
+      "sourceOrder": 45,
+      "sourceVenue": "jdis",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2020_jdis_chv.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/monselise-jdis2020.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.2478/jdis-2021-0003"
+        }
+      ]
+    },
+    {
+      "id": "tmvis-visualizing-webpage-changes-over-time-2020",
+      "year": 2020,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "ACM/IEEE JCDL 2020 Workshop on Web Archiving and Digital Libraries (WADL 2020)",
+      "title": "TMVis: Visualizing Webpage Changes Over Time",
+      "authors": [
+        "Abigail Mabe",
+        "Dhruv Patel",
+        "Maheedhar Gunnam",
+        "Surbhi Shankar",
+        "Mat Kelly",
+        "Sawood Alam",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Abigail Mabe, Dhruv Patel, Maheedhar Gunnam, Surbhi Shankar, Mat Kelly, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “TMVis: Visualizing Webpage Changes Over Time,” Presented at the ACM/IEEE JCDL 2020 Workshop on Web Archiving and Digital Libraries (WADL 2020), Wuhan, China, August 2020.",
+      "sourceOrder": 46,
+      "sourceVenue": "wadl",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2020_wadl_tmvis.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/mabe-wadl2020.bib"
+        }
+      ]
+    },
+    {
+      "id": "visualizing-webpage-changes-over-time-2020",
+      "year": 2020,
+      "category": "conference",
+      "kind": "technical-report",
+      "theme": "archive",
+      "venue": "Technical Report arXiv:2006.02487, 2020",
+      "title": "Visualizing Webpage Changes Over Time",
+      "authors": [
+        "Abigail Mabe",
+        "Dhruv Patel",
+        "Maheedhar Gunnam",
+        "Surbhi Shankar",
+        "Mat Kelly",
+        "Sawood Alam",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Abigail Mabe, Dhruv Patel, Maheedhar Gunnam, Surbhi Shankar, Mat Kelly, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “Visualizing Webpage Changes Over Time,” Technical Report arXiv:2006.02487, 2020.",
+      "sourceOrder": 47,
+      "sourceVenue": "arxiv",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2006.02487"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/mabe-arxiv2020.bib"
+        }
+      ]
+    },
+    {
+      "id": "weaving-in-the-loose-ends-of-novel-web-archiving-approaches-2020",
+      "year": 2020,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "Save All the Internet: Web Archiving Tools and Tips",
+      "title": "Weaving in the Loose Ends of Novel Web Archiving Approaches",
+      "authors": [
+        "Mat Kelly"
+      ],
+      "citation": "Mat Kelly, “Weaving in the Loose Ends of Novel Web Archiving Approaches,” Presented at Save All the Internet: Web Archiving Tools and Tips, Newark, Delaware, 30 March 2020.",
+      "sourceOrder": 48,
+      "sourceVenue": "sati",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/saveTheInternet"
+        }
+      ]
+    },
+    {
+      "id": "interplanetary-wayback-the-next-step-towards-decentralized-web-archiving-2018",
+      "year": 2018,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "infrastructure",
+      "venue": "Decentralized Web Summit",
+      "title": "InterPlanetary Wayback: The Next Step Towards Decentralized Web Archiving",
+      "authors": [
+        "Sawood Alam",
+        "Mat Kelly",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Sawood Alam, Mat Kelly, Michele C. Weigle, and Michael L. Nelson, “InterPlanetary Wayback: The Next Step Towards Decentralized Web Archiving,” Presented at the Decentralized Web Summit, San Francisco, California, August 2018.",
+      "sourceOrder": 49,
+      "sourceVenue": "dweb",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2018_dweb_ipwb.pdf"
+        }
+      ]
+    },
+    {
+      "id": "client-assisted-memento-aggregation-using-the-prefer-header-2018",
+      "year": 2018,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "infrastructure",
+      "venue": "Web Archiving and Digital Libraries Workshop (WADL 2018)",
+      "title": "Client-Assisted Memento Aggregation Using the Prefer Header",
+      "authors": [
+        "Mat Kelly",
+        "Sawood Alam",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Mat Kelly, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “Client-Assisted Memento Aggregation Using the Prefer Header,” Presented at the Web Archiving and Digital Libraries Workshop (WADL 2018), Fort Worth, Texas, June 2018.",
+      "sourceOrder": 50,
+      "sourceVenue": "wadl",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2018_wadl_preferData.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-wadl2018.bib"
+        }
+      ]
+    },
+    {
+      "id": "a-survey-of-archival-replay-banners-2018",
+      "year": 2018,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "archive",
+      "venue": "Web Archiving and Digital Libraries Workshop (WADL 2018)",
+      "title": "A Survey of Archival Replay Banners",
+      "authors": [
+        "Sawood Alam",
+        "Mat Kelly",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Sawood Alam, Mat Kelly, Michele C. Weigle, and Michael L. Nelson, “A Survey of Archival Replay Banners,” Presented at the Web Archiving and Digital Libraries Workshop (WADL 2018), Fort Worth, Texas, June 2018.",
+      "sourceOrder": 51,
+      "sourceVenue": "wadl",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2018_wadl_banners.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/alam-wadl2018.bib"
+        }
+      ]
+    },
+    {
+      "id": "a-framework-for-aggregating-private-and-public-web-archives-2018",
+      "year": 2018,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "infrastructure",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "A Framework for Aggregating Private and Public Web Archives",
+      "authors": [
+        "Mat Kelly",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Mat Kelly, Michael L. Nelson, and Michele C. Weigle, “A Framework for Aggregating Private and Public Web Archives,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), Fort Worth, Texas, June 2018, pp. 273–282. Best Paper Award Nominee.",
+      "sourceOrder": 52,
+      "sourceVenue": "jcdl",
+      "peerReviewed": true,
+      "award": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2018_jcdl_hierarchy.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-jcdl2018.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1145/3197026.3197045"
+        }
+      ]
+    },
+    {
+      "id": "archivenow-simplified-extensible-multi-archive-preservation-2018",
+      "year": 2018,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "infrastructure",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "ArchiveNow: Simplified, Extensible, Multi-Archive Preservation",
+      "authors": [
+        "Mohamed Aturban",
+        "Mat Kelly",
+        "Sawood Alam",
+        "John A. Berlin",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Mohamed Aturban, Mat Kelly, Sawood Alam, John A. Berlin, Michael L. Nelson, and Michele C. Weigle, “ArchiveNow: Simplified, Extensible, Multi-Archive Preservation,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), Fort Worth, Texas, June 2018, pp. 321–322. Best Poster Award.",
+      "sourceOrder": 53,
+      "sourceVenue": "jcdl",
+      "peerReviewed": true,
+      "award": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2018_jcdl_archivenow.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/aturban-jcdl2018.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1145/3197026.3203880"
+        }
+      ]
+    },
+    {
+      "id": "unobtrusive-and-extensible-archival-replay-banners-using-custom-elements-2018",
+      "year": 2018,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "archive",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "Unobtrusive and Extensible Archival Replay Banners Using Custom Elements",
+      "authors": [
+        "Sawood Alam",
+        "Mat Kelly",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Sawood Alam, Mat Kelly, Michele C. Weigle, and Michael L. Nelson, “Unobtrusive and Extensible Archival Replay Banners Using Custom Elements,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), Fort Worth, Texas, June 2018, pp. 319–320.",
+      "sourceOrder": 54,
+      "sourceVenue": "jcdl",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2018_jcdl_banners.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/alam-jcdl2018.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1145/3197026.3203881"
+        }
+      ]
+    },
+    {
+      "id": "impact-of-uri-canonicalization-on-memento-count-2017",
+      "year": 2017,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "archive",
+      "venue": "Web Archiving and Digital Libraries Workshop (WADL 2017)",
+      "title": "Impact of URI Canonicalization on Memento Count",
+      "authors": [
+        "Mat Kelly",
+        "Lulwah M. Alkwai",
+        "Sawood Alam",
+        "Michael L. Nelson",
+        "Michele C. Weigle",
+        "Herbert Van de Sompel"
+      ],
+      "citation": "Mat Kelly, Lulwah M. Alkwai, Sawood Alam, Michael L. Nelson, Michele C. Weigle, and Herbert Van de Sompel, “Impact of URI Canonicalization on Memento Count,” Presented at the Web Archiving and Digital Libraries Workshop (WADL 2017). Toronto, Canada, June 2017.",
+      "sourceOrder": 55,
+      "sourceVenue": "wadl",
+      "links": [
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-wadl2017.bib"
+        },
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2017_wadl_countingMementos.pdf"
+        }
+      ]
+    },
+    {
+      "id": "avoiding-zombies-in-archival-replay-using-serviceworker-2017",
+      "year": 2017,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "archive",
+      "venue": "Web Archiving and Digital Libraries Workshop (WADL 2017)",
+      "title": "Avoiding Zombies in Archival Replay Using ServiceWorker",
+      "authors": [
+        "Sawood Alam",
+        "Mat Kelly",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Sawood Alam, Mat Kelly, Michele C. Weigle, and Michael L. Nelson, “Avoiding Zombies in Archival Replay Using ServiceWorker,” Presented at the Web Archiving and Digital Libraries Workshop (WADL 2017). Toronto, Canada, June 2017.",
+      "sourceOrder": 56,
+      "sourceVenue": "wadl",
+      "links": [
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/alam-wadl2017.bib"
+        },
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2017_wadl_serviceWorkers.pdf"
+        }
+      ]
+    },
+    {
+      "id": "impact-of-uri-canonicalization-on-memento-count-2017-2",
+      "year": 2017,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "archive",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "Impact of URI Canonicalization on Memento Count",
+      "authors": [
+        "Mat Kelly",
+        "Lulwah M. Alkwai",
+        "Sawood Alam",
+        "Michael L. Nelson",
+        "Michele C. Weigle",
+        "Herbert Van de Sompel"
+      ],
+      "citation": "Mat Kelly, Lulwah M. Alkwai, Sawood Alam, Michael L. Nelson, Michele C. Weigle, and Herbert Van de Sompel, “Impact of URI Canonicalization on Memento Count,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). Toronto, Canada, June 2017, pp. 303–304. Best Poster Award.",
+      "sourceOrder": 57,
+      "sourceVenue": "jcdl",
+      "peerReviewed": true,
+      "award": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2017_jcdl_countingMementos.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-jcdl2017.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/JCDL.2017.7991601"
+        }
+      ]
+    },
+    {
+      "id": "client-side-reconstruction-of-composite-mementos-using-serviceworker-2017",
+      "year": 2017,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "Client-side Reconstruction of Composite Mementos Using ServiceWorker",
+      "authors": [
+        "Sawood Alam",
+        "Mat Kelly",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Sawood Alam, Mat Kelly, Michele C. Weigle, and Michael L. Nelson, “Client-side Reconstruction of Composite Mementos Using ServiceWorker,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). Toronto, Canada, June 2017, pp. 237–240.",
+      "sourceOrder": 58,
+      "sourceVenue": "jcdl",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2017_jcdl_serviceWorker.pdf"
+        },
+        {
+          "label": "Slides",
+          "url": "https://docs.google.com/presentation/d/18AjqyhpAmdRWsQLibXLdf6qg4a7_uGoaHBgEl1227YM/edit?ts=5948226b#slide=id.p"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/alam-jcdl2017.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/JCDL.2017.7991579"
+        }
+      ]
+    },
+    {
+      "id": "wail-collection-based-personal-web-archiving-2017",
+      "year": 2017,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "infrastructure",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "WAIL: Collection-Based Personal Web Archiving",
+      "authors": [
+        "John A. Berlin",
+        "Mat Kelly",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "John A. Berlin, Mat Kelly, Michael L. Nelson, and Michele C. Weigle, “WAIL: Collection-Based Personal Web Archiving,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). Toronto, Canada, June 2017, pp. 340–341.",
+      "sourceOrder": 59,
+      "sourceVenue": "jcdl",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2017_jcdl_wail.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/berlin-jcdl2017.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/JCDL.2017.7991619"
+        }
+      ]
+    },
+    {
+      "id": "a-collaborative-secure-and-private-interplanetary-wayback-archiving-system-using-ipfs-2017",
+      "year": 2017,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "infrastructure",
+      "venue": "International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2017",
+      "title": "A Collaborative, Secure, and Private InterPlanetary Wayback Archiving System using IPFS",
+      "authors": [
+        "Mat Kelly",
+        "David Dias"
+      ],
+      "citation": "Mat Kelly and David Dias, “A Collaborative, Secure, and Private InterPlanetary Wayback Archiving System using IPFS,” Presented at the International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC) 2017, London, England, 15 June 2017.",
+      "sourceOrder": 60,
+      "sourceVenue": "iipcwac",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2017_iipcwac_ipwb.pdf"
+        }
+      ]
+    },
+    {
+      "id": "archive-what-i-see-now-personal-web-archiving-with-warcs-2017",
+      "year": 2017,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC)",
+      "title": "Archive What I See Now - Personal Web Archiving with WARCS",
+      "authors": [
+        "Michele C. Weigle",
+        "Michael L. Nelson",
+        "Mat Kelly",
+        "John Berlin"
+      ],
+      "citation": "Michele C. Weigle, Michael L. Nelson, Mat Kelly, and John Berlin, “Archive What I See Now - Personal Web Archiving with WARCS,” Presented at the International Internet Preservation Consortium (IIPC) Web Archiving Conference (WAC), London, England, 15 June 2017.",
+      "sourceOrder": 61,
+      "sourceVenue": "iipcwac",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2017_iipcwac_neh.pdf"
+        }
+      ]
+    },
+    {
+      "id": "tools-for-the-personal-web-archivist-warcreate-wail-mink-interplanetary-wayback-2017",
+      "year": 2017,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "infrastructure",
+      "venue": "Archives Unleashed 4.0: Web Archive Datathon",
+      "title": "Tools for the Personal Web Archivist: WARCreate, WAIL, Mink, InterPlanetary Wayback",
+      "authors": [
+        "Mat Kelly"
+      ],
+      "citation": "Mat Kelly, “Tools for the Personal Web Archivist: WARCreate, WAIL, Mink, InterPlanetary Wayback,” Presented at Archives Unleashed 4.0: Web Archive Datathon, 12 June 2017.",
+      "sourceOrder": 62,
+      "sourceVenue": "archivesunleashed",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://docs.google.com/presentation/d/1MgtXbv7K-LJ4C7w9CrLaGvNbMzCD2eLeK1dhlQ-nzAc/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "interplanetary-wayback-the-permanent-web-archive-2017",
+      "year": 2017,
+      "category": "journal",
+      "kind": "online-publication",
+      "theme": "infrastructure",
+      "venue": "Bulletin of IEEE Technical Committee on Digital Libraries (IEEE-TCDL)",
+      "title": "InterPlanetary Wayback: The Permanent Web Archive",
+      "authors": [
+        "Sawood Alam",
+        "Mat Kelly",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Sawood Alam, Mat Kelly, Michele C. Weigle, and Michael L. Nelson, “InterPlanetary Wayback: The Permanent Web Archive,” Bulletin of IEEE Technical Committee on Digital Libraries (IEEE-TCDL), Vol. 13, No. 1, April 2017.",
+      "sourceOrder": 63,
+      "sourceVenue": "tcdl",
+      "links": [
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/alam-tcdl2017.bib"
+        },
+        {
+          "label": "PDF",
+          "url": "https://bulletin.jcdl.org/Bulletin/v13n1/papers/alam.pdf"
+        }
+      ]
+    },
+    {
+      "id": "impact-of-uri-canonicalization-on-memento-count-2017-3",
+      "year": 2017,
+      "category": "conference",
+      "kind": "technical-report",
+      "theme": "archive",
+      "venue": "Technical Report arXiv:1703.03302, 2017",
+      "title": "Impact of URI Canonicalization on Memento Count",
+      "authors": [
+        "Mat Kelly",
+        "Lulwah M. Alkwai",
+        "Michael L. Nelson",
+        "Michele C. Weigle",
+        "Herbert Van de Sompel"
+      ],
+      "citation": "Mat Kelly, Lulwah M. Alkwai, Michael L. Nelson, Michele C. Weigle, and Herbert Van de Sompel, “Impact of URI Canonicalization on Memento Count,” Technical Report arXiv:1703.03302, 2017.",
+      "sourceOrder": 64,
+      "sourceVenue": "arxiv",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/1703.03302"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-arXiv2017.bib"
+        }
+      ]
+    },
+    {
+      "id": "interplanetary-wayback-peer-to-peer-permanence-of-web-archives-2016",
+      "year": 2016,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "infrastructure",
+      "venue": "Proceedings of the International Conference on Theory and Practice of Digital Libraries (TPDL)",
+      "title": "InterPlanetary Wayback: Peer-To-Peer Permanence of Web Archives",
+      "authors": [
+        "Mat Kelly",
+        "Sawood Alam",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Mat Kelly, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “InterPlanetary Wayback: Peer-To-Peer Permanence of Web Archives,” In Proceedings of the International Conference on Theory and Practice of Digital Libraries (TPDL). Hannover, Germany, September 2016, pp. 411–416.",
+      "sourceOrder": 65,
+      "sourceVenue": "tpdl",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2016_tpdl_ipwb.pdf"
+        },
+        {
+          "label": "Slides",
+          "url": "https://matkelly.com/presentations/2016_tpdl_ipwb.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-tpdl2016.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1007/978-3-319-43997-6_35"
+        }
+      ]
+    },
+    {
+      "id": "interplanetary-wayback-the-permanent-web-archive-2016",
+      "year": 2016,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "infrastructure",
+      "venue": "Web Archiving and Digital Libraries Workshop (WADL 2016)",
+      "title": "InterPlanetary Wayback: The Permanent Web Archive",
+      "authors": [
+        "Mat Kelly",
+        "Sawood Alam",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Mat Kelly, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “InterPlanetary Wayback: The Permanent Web Archive,” At the Web Archiving and Digital Libraries Workshop (WADL 2016). Newark, NJ, June 2016.",
+      "sourceOrder": 66,
+      "sourceVenue": "wadl"
+    },
+    {
+      "id": "interplanetary-wayback-the-permanent-web-archive-2016-2",
+      "year": 2016,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "infrastructure",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "InterPlanetary Wayback: The Permanent Web Archive",
+      "authors": [
+        "Sawood Alam",
+        "Mat Kelly",
+        "Michael L. Nelson"
+      ],
+      "citation": "Sawood Alam, Mat Kelly, and Michael L. Nelson, “InterPlanetary Wayback: The Permanent Web Archive,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). Newark, NJ, June 2016, pp. 273–274.",
+      "sourceOrder": 67,
+      "sourceVenue": "jcdl",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2016_jcdl_ipwb.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/alam-jcdl2016.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1145/2910896.2925467"
+        }
+      ]
+    },
+    {
+      "id": "exploring-aggregation-of-personal-private-and-institutional-web-archives-2016",
+      "year": 2016,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "infrastructure",
+      "venue": "Archives Unleashed 2.0: Web Archive Datathon",
+      "title": "Exploring Aggregation of Personal, Private, and Institutional Web Archives",
+      "authors": [
+        "Mat Kelly"
+      ],
+      "citation": "Mat Kelly, “Exploring Aggregation of Personal, Private, and Institutional Web Archives,” Presented at Archives Unleashed 2.0: Web Archive Datathon, 2016 June 15.",
+      "sourceOrder": 68,
+      "sourceVenue": "archivesunleashed",
+      "links": [
+        {
+          "label": "PPTX",
+          "url": "https://matkelly.com/presentations/2016_archivesUnleashed_aggregation.pptx"
+        }
+      ]
+    },
+    {
+      "id": "the-impact-of-javascript-on-archivability-2016",
+      "year": 2016,
+      "category": "journal",
+      "kind": "journal-article",
+      "theme": "archive",
+      "venue": "International Journal on Digital Libraries (IJDL)",
+      "title": "The Impact of JavaScript on Archivability",
+      "authors": [
+        "Justin F. Brunelle",
+        "Mat Kelly",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Justin F. Brunelle, Mat Kelly, Michele C. Weigle, and Michael L. Nelson, “The Impact of JavaScript on Archivability,” International Journal on Digital Libraries (IJDL), 17(2), pp. 95–117. January 2016.",
+      "sourceOrder": 69,
+      "sourceVenue": "ijdl",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "article",
+          "url": "https://link.springer.com/article/10.1007%2Fs00799-015-0140-8"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/brunelle-ijdl2015-impact.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://dx.doi.org/10.1007%2Fs00799-015-0140-8"
+        }
+      ]
+    },
+    {
+      "id": "a-framework-for-aggregating-private-and-public-web-archives-2015",
+      "year": 2015,
+      "category": "journal",
+      "kind": "online-publication",
+      "theme": "infrastructure",
+      "venue": "Bulletin of IEEE Technical Committee on Digital Libraries (IEEE-TCDL)",
+      "title": "A Framework for Aggregating Private and Public Web Archives",
+      "authors": [
+        "Mat Kelly"
+      ],
+      "citation": "Mat Kelly, “A Framework for Aggregating Private and Public Web Archives,” Bulletin of IEEE Technical Committee on Digital Libraries (IEEE-TCDL), Vol. 11, No. 3, December 2015.",
+      "sourceOrder": 70,
+      "sourceVenue": "tcdl",
+      "links": [
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-tcdl2015.bib"
+        },
+        {
+          "label": "PDF",
+          "url": "https://bulletin.jcdl.org/Bulletin/v11n3/papers/149-Kelly.pdf"
+        }
+      ]
+    },
+    {
+      "id": "a-framework-for-aggregating-private-and-public-web-archives-2015-2",
+      "year": 2015,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "infrastructure",
+      "venue": "ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "A Framework for Aggregating Private and Public Web Archives",
+      "authors": [
+        "Mat Kelly"
+      ],
+      "citation": "Mat Kelly, “A Framework for Aggregating Private and Public Web Archives,” at the ACM/IEEE Joint Conference on Digital Libraries (JCDL). Doctoral Consortium. Knoxville, TN, June 2015.",
+      "sourceOrder": 71,
+      "sourceVenue": "jcdldc"
+    },
+    {
+      "id": "mobile-mink-merging-mobile-and-desktop-archived-webs-2015",
+      "year": 2015,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "infrastructure",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "Mobile Mink: Merging Mobile and Desktop Archived Webs",
+      "authors": [
+        "Wesley Jordan",
+        "Mat Kelly",
+        "Justin F. Brunelle",
+        "Laura Vobrak",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Wesley Jordan, Mat Kelly, Justin F. Brunelle, Laura Vobrak, Michele C. Weigle and Michael L. Nelson, “Mobile Mink: Merging Mobile and Desktop Archived Webs,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). Knoxville, TN, June 2015, pp. 243–244, Best Poster Award.",
+      "sourceOrder": 72,
+      "sourceVenue": "jcdl",
+      "peerReviewed": true,
+      "award": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2015_jcdl_mobileMink.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/jordan-jcdl2015.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1145/2756406.2756956"
+        }
+      ]
+    },
+    {
+      "id": "visualizing-digital-collections-of-web-archives-2015",
+      "year": 2015,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "Web Archiving Collaboration: New Tools and Models",
+      "title": "Visualizing Digital Collections of Web Archives",
+      "authors": [
+        "Mat Kelly",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Mat Kelly, Michael L. Nelson, and Michele C. Weigle, “Visualizing Digital Collections of Web Archives,” Web Archiving Collaboration: New Tools and Models; 2015 June 4; New York City, NY.",
+      "sourceOrder": 73,
+      "sourceVenue": "wac",
+      "links": [
+        {
+          "label": "PPTX",
+          "url": "https://matkelly.com/presentations/2015_columbiawac_thumbnails.pptx"
+        }
+      ]
+    },
+    {
+      "id": "not-all-mementos-are-created-equal-measuring-the-impact-of-missing-resources-2015",
+      "year": 2015,
+      "category": "journal",
+      "kind": "journal-article",
+      "theme": "archive",
+      "venue": "International Journal on Digital Libraries (IJDL)",
+      "title": "Not All Mementos Are Created Equal: Measuring the Impact of Missing Resources",
+      "authors": [
+        "Justin F. Brunelle",
+        "Mat Kelly",
+        "Hany SalahEldeen",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Justin F. Brunelle, Mat Kelly, Hany SalahEldeen, Michele C. Weigle, and Michael L. Nelson, “Not All Mementos Are Created Equal: Measuring the Impact of Missing Resources,” International Journal on Digital Libraries (IJDL), 16(3), pp. 283–301. May 2015.",
+      "sourceOrder": 74,
+      "sourceVenue": "ijdl",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "article",
+          "url": "https://link.springer.com/article/10.1007/s00799-015-0150-6"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/brunelle-ijdl2015-damage.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1007/s00799-015-0150-6"
+        }
+      ]
+    },
+    {
+      "id": "facilitation-of-the-a-posteriori-replication-of-web-published-satellite-imagery-2015",
+      "year": 2015,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "Virginia Space Grant Consortium 2015 Student Research Conference",
+      "title": "Facilitation of the A Posteriori Replication of Web Published Satellite Imagery",
+      "authors": [
+        "Mat Kelly"
+      ],
+      "citation": "Mat Kelly, “Facilitation of the A Posteriori Replication of Web Published Satellite Imagery,” Virginia Space Grant Consortium 2015 Student Research Conference. 2015 April 17; Hampton, VA.",
+      "sourceOrder": 75,
+      "sourceVenue": "vsgc",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2015_vsgc_imagery.pdf"
+        },
+        {
+          "label": "PPTX",
+          "url": "https://matkelly.com/presentations/2015_vsgc_imagery.pptx"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-vsgc2015.bib"
+        }
+      ]
+    },
+    {
+      "id": "a-retasking-framework-for-wireless-sensor-networks-2014",
+      "year": 2014,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "infrastructure",
+      "venue": "Proceedings of the IEEE Military Communications Conference (MILCOM)",
+      "title": "A Retasking Framework For Wireless Sensor Networks",
+      "authors": [
+        "Michael Ruffing",
+        "Yangyang He",
+        "Mat Kelly",
+        "Jason O. Hallstrom",
+        "Stephan Olariu",
+        "Michele C. Weigle"
+      ],
+      "citation": "Michael Ruffing, Yangyang He, Mat Kelly, Jason O. Hallstrom, Stephan Olariu, and Michele C. Weigle, “A Retasking Framework For Wireless Sensor Networks,” In Proceedings of the IEEE Military Communications Conference (MILCOM). Baltimore, MD, 2014 October 6–8, pp. 1066–1071",
+      "sourceOrder": 76,
+      "sourceVenue": "milcom",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2014_milcom_retasking.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/ruffing-milcom2014.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/MILCOM.2014.181"
+        }
+      ]
+    },
+    {
+      "id": "not-all-mementos-are-created-equal-measuring-the-impact-of-missing-resources-2014",
+      "year": 2014,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "Not All Mementos Are Created Equal: Measuring The Impact Of Missing Resources",
+      "authors": [
+        "Justin F. Brunelle",
+        "Mat Kelly",
+        "Hany SalahEldeen",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Justin F. Brunelle, Mat Kelly, Hany SalahEldeen, Michele C. Weigle, and Michael L. Nelson, “Not All Mementos Are Created Equal: Measuring The Impact Of Missing Resources,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). London, England, September 2014, pp. 321–330, Best Student Paper Award.",
+      "sourceOrder": 77,
+      "sourceVenue": "jcdl",
+      "peerReviewed": true,
+      "award": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2014_dl_damage.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/brunelle-dl2014.bib"
+        }
+      ]
+    },
+    {
+      "id": "the-archival-acid-test-evaluating-archive-performance-on-advanced-html-and-javascript-2014",
+      "year": 2014,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "The Archival Acid Test: Evaluating Archive Performance on Advanced HTML and JavaScript",
+      "authors": [
+        "Mat Kelly",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Mat Kelly, Michael L. Nelson, and Michele C. Weigle, “The Archival Acid Test: Evaluating Archive Performance on Advanced HTML and JavaScript,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). London, England, September 2014, pp. 25–28.",
+      "sourceOrder": 78,
+      "sourceVenue": "jcdl",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2014_dl_acid.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-dl2014-acid.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/JCDL.2014.6970146"
+        }
+      ]
+    },
+    {
+      "id": "mink-integrating-the-live-and-archived-web-viewing-experience-using-web-browsers-and-memento-2014",
+      "year": 2014,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "infrastructure",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "Mink: Integrating the Live and Archived Web Viewing Experience Using Web Browsers and Memento",
+      "authors": [
+        "Mat Kelly",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Mat Kelly, Michael L. Nelson, and Michele C. Weigle, “Mink: Integrating the Live and Archived Web Viewing Experience Using Web Browsers and Memento,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). London, England, September 2014, pp. 469–470.",
+      "sourceOrder": 79,
+      "sourceVenue": "jcdl",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2014_dl_mink.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-dl2014-mink.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/JCDL.2014.6970229"
+        }
+      ]
+    },
+    {
+      "id": "assessing-the-quality-of-web-archives-2014",
+      "year": 2014,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "Digital Preservation 2014",
+      "title": "Assessing the Quality of Web Archives",
+      "authors": [
+        "Michael L. Nelson",
+        "Scott G. Ainsworth",
+        "Justin F. Brunelle",
+        "Mat Kelly",
+        "Hany SalahEldeen",
+        "Michele C. Weigle"
+      ],
+      "citation": "Michael L. Nelson, Scott G. Ainsworth, Justin F. Brunelle, Mat Kelly, Hany SalahEldeen, and Michele C. Weigle, “Assessing the Quality of Web Archives,” Digital Preservation 2014, Future of Web Archiving Panel; 2014 July 23; Washington, DC.",
+      "sourceOrder": 80,
+      "sourceVenue": "digipres",
+      "links": [
+        {
+          "label": "PPT",
+          "url": "https://matkelly.com/presentations/2014_digitalPreservation.ppt"
+        }
+      ]
+    },
+    {
+      "id": "efficient-thumbnail-summarization-for-web-archives-2014",
+      "year": 2014,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "archive",
+      "venue": "Digital Preservation 2014, Poster Session; 2014 July 22; Washington, DC",
+      "title": "Efficient Thumbnail Summarization for Web Archives",
+      "authors": [
+        "Mat Kelly",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Mat Kelly, Michael L. Nelson, and Michele C. Weigle, “Efficient Thumbnail Summarization for Web Archives,” Digital Preservation 2014, Poster Session; 2014 July 22; Washington, DC.",
+      "sourceOrder": 81,
+      "sourceVenue": "digipres",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/posters/2014_digpres_thumbnails.pdf"
+        }
+      ]
+    },
+    {
+      "id": "a-method-for-identifying-personalized-representations-in-the-archives-2013",
+      "year": 2013,
+      "category": "journal",
+      "kind": "online-publication",
+      "theme": "archive",
+      "venue": "D-Lib Magazine",
+      "title": "A Method for Identifying Personalized Representations in the Archives",
+      "authors": [
+        "Mat Kelly",
+        "Justin F. Brunelle",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Mat Kelly, Justin F. Brunelle, Michele C. Weigle, and Michael L. Nelson, “A Method for Identifying Personalized Representations in the Archives,” D-Lib Magazine, 19(11/12), 2013.",
+      "sourceOrder": 82,
+      "sourceVenue": "dlib",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "article",
+          "url": "https://www.dlib.org/dlib/november13/kelly/11kelly.html"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-dlib2013.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1045/november2013-kelly"
+        }
+      ]
+    },
+    {
+      "id": "archive-what-i-see-now-2013",
+      "year": 2013,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "Archive-It Partner Meeting",
+      "title": "Archive What I See Now",
+      "authors": [
+        "Mat Kelly"
+      ],
+      "citation": "Mat Kelly, “Archive What I See Now,” Archive-It Partner Meeting. Salt Lake City, UT, 2013 November 12.",
+      "sourceOrder": 83,
+      "sourceVenue": "ait",
+      "links": [
+        {
+          "label": "PPTX",
+          "url": "https://matkelly.com/presentations/2013_archiveItPartnerMeeting_archiveWhatISeeNow.pptx"
+        }
+      ]
+    },
+    {
+      "id": "graph-based-navigation-of-a-box-office-prediction-system-2013",
+      "year": 2013,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "archive",
+      "venue": "Proceedings of the IEEE VIS 2013",
+      "title": "Graph-Based Navigation of a Box Office Prediction System",
+      "authors": [
+        "Mat Kelly",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Mat Kelly, Michael L. Nelson, and Michele C. Weigle, “Graph-Based Navigation of a Box Office Prediction System,” In Proceedings of the IEEE VIS 2013. Atlanta, GA, 2013 October 13–18.",
+      "sourceOrder": 84,
+      "sourceVenue": "ieeevis",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2013_ieeevis_boxofficeprediction.pdf"
+        },
+        {
+          "label": "Poster",
+          "url": "https://matkelly.com/posters/2013_vis_boxoffice.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-vis2013.bib"
+        }
+      ]
+    },
+    {
+      "id": "who-will-archive-the-archives-thoughts-about-the-future-of-web-archiving-2013",
+      "year": 2013,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "Wolfram Data Summit 2013. Washington, DC, 2013 September 5–6",
+      "title": "Who Will Archive the Archives? Thoughts About the Future of Web Archiving",
+      "authors": [
+        "Michael L. Nelson",
+        "Scott G. Ainsworth",
+        "Justin F. Brunelle",
+        "Mat Kelly",
+        "Hany SalahEldeen",
+        "Michele C. Weigle"
+      ],
+      "citation": "Michael L. Nelson, Scott G. Ainsworth, Justin F. Brunelle, Mat Kelly, Hany SalahEldeen, and Michele C. Weigle, “Who Will Archive the Archives? Thoughts About the Future of Web Archiving,” Wolfram Data Summit 2013. Washington, DC, 2013 September 5–6.",
+      "sourceOrder": 85,
+      "sourceVenue": "wds",
+      "links": [
+        {
+          "label": "PPT",
+          "url": "https://matkelly.com/presentations/2013_wolframDataSumnmit_archiveTheArchives.ppt"
+        }
+      ]
+    },
+    {
+      "id": "warcreate-and-wail-warc-wayback-and-heritrix-made-easy-2013",
+      "year": 2013,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "infrastructure",
+      "venue": "Digital Preservation 2013",
+      "title": "WARCreate and WAIL: WARC, Wayback and Heritrix Made Easy",
+      "authors": [
+        "Mat Kelly",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "citation": "Mat Kelly, Michael L. Nelson, and Michele C. Weigle, “WARCreate and WAIL: WARC, Wayback and Heritrix Made Easy,” Digital Preservation 2013, Workshops and Sessions: Web Archiving; 2013 July 24; Alexandria, VA.",
+      "sourceOrder": 86,
+      "sourceVenue": "digipres",
+      "links": [
+        {
+          "label": "PPTX",
+          "url": "https://matkelly.com/presentations/2013_digitalPreservation_heritrixMadeEasy.pptx"
+        }
+      ]
+    },
+    {
+      "id": "on-the-change-in-archivability-of-websites-over-time-2013",
+      "year": 2013,
+      "category": "conference",
+      "kind": "conference-paper",
+      "theme": "archive",
+      "venue": "Proceedings of the International Conference on Theory and Practice of Digital Libraries (TPDL)",
+      "title": "On the Change in Archivability of Websites Over Time",
+      "authors": [
+        "Mat Kelly",
+        "Justin F. Brunelle",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Mat Kelly, Justin F. Brunelle, Michele C. Weigle, and Michael L. Nelson, “On the Change in Archivability of Websites Over Time,” In Proceedings of the International Conference on Theory and Practice of Digital Libraries (TPDL). Valletta, Malta, September 2013, pp. 35–47.",
+      "sourceOrder": 87,
+      "sourceVenue": "tpdl",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2013_tpdl_archivabilityOverTime_final.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-tpdl2013.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1007/978-3-642-40501-3_5"
+        }
+      ]
+    },
+    {
+      "id": "making-enterprise-level-archive-tools-accessible-for-personal-web-archiving-2013",
+      "year": 2013,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "archive",
+      "venue": "Personal Digital Archiving 2013",
+      "title": "Making Enterprise-Level Archive Tools Accessible for Personal Web Archiving",
+      "authors": [
+        "Mat Kelly",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Mat Kelly, Michele C. Weigle, and Michael L. Nelson, “Making Enterprise-Level Archive Tools Accessible for Personal Web Archiving,” Personal Digital Archiving 2013; 2013 February 21; College Park, MD.",
+      "sourceOrder": 88,
+      "sourceVenue": "pda",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/posters/2013_pda_wail.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-pda2013.bib"
+        }
+      ]
+    },
+    {
+      "id": "warcreate-create-wayback-consumable-warc-files-from-any-webpage-2012",
+      "year": 2012,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "infrastructure",
+      "venue": "Digital Preservation 2012, Tools Demo Session: Web Archiving; 2012 July 25; Washington, DC",
+      "title": "WARCreate - Create Wayback-Consumable WARC Files from Any Webpage",
+      "authors": [
+        "Mat Kelly",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Mat Kelly, Michele C. Weigle, and Michael L. Nelson, “WARCreate - Create Wayback-Consumable WARC Files from Any Webpage,” Digital Preservation 2012, Tools Demo Session: Web Archiving; 2012 July 25; Washington, DC.",
+      "sourceOrder": 89,
+      "sourceVenue": "digipres",
+      "links": [
+        {
+          "label": "PPTX",
+          "url": "https://matkelly.com/presentations/2012_digitalPreservation_warcreate.pptx"
+        },
+        {
+          "label": "PPTX w/ videos",
+          "url": "https://matkelly.com/presentations/2012_digitalPreservation_warcreate.zip"
+        }
+      ]
+    },
+    {
+      "id": "warcreate-create-wayback-consumable-warc-files-from-any-webpage-2012-2",
+      "year": 2012,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "infrastructure",
+      "venue": "Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL)",
+      "title": "WARCreate - Create Wayback-Consumable WARC Files from Any Webpage",
+      "authors": [
+        "Mat Kelly",
+        "Michele C. Weigle"
+      ],
+      "citation": "Mat Kelly and Michele C. Weigle, “WARCreate - Create Wayback-Consumable WARC Files from Any Webpage,” In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL). Washington, DC, June 2012, pp. 437–438.",
+      "sourceOrder": 90,
+      "sourceVenue": "jcdl",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2012_jcdl_warcreate.pdf"
+        },
+        {
+          "label": "Poster",
+          "url": "https://matkelly.com/posters/2012_jcdl_warcreate.pdf"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/kelly-jcdl2012.bib"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1145/2232817.2232930"
+        }
+      ]
+    },
+    {
+      "id": "access-to-real-time-and-historic-satellite-products-from-a-mobile-application-2011",
+      "year": 2011,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "archive",
+      "venue": "American Geophysical Union Fall Meeting",
+      "title": "Access to Real-time and Historic Satellite Products from a Mobile Application",
+      "authors": [
+        "Thad Chee (Science Systems & Applications, Inc., Hampton, VA)",
+        "Matthew Kelly (Science Systems & Applications, Inc., Hampton, VA)",
+        "Louis Nguyen (NASA-Langley Research Center, Hampton, VA)",
+        "Patrick Minnis (NASA-Langley Research Center, Hampton, VA)",
+        "Rabindra Palikonda",
+        "Douglas A. Spangenberg (Science Systems & Applications, Inc., Hampton, VA)",
+        "J. Kirk Ayers (Science Systems & Applications, Inc., Hampton, VA)"
+      ],
+      "citation": "Thad Chee (Science Systems & Applications, Inc., Hampton, VA), Matthew Kelly (Science Systems & Applications, Inc., Hampton, VA), Louis Nguyen (NASA-Langley Research Center, Hampton, VA), Patrick Minnis (NASA-Langley Research Center, Hampton, VA), Rabindra Palikonda, Douglas A. Spangenberg (Science Systems & Applications, Inc., Hampton, VA), J. Kirk Ayers (Science Systems & Applications, Inc., Hampton, VA). Access to Real-time and Historic Satellite Products from a Mobile Application. American Geophysical Union Fall Meeting; 2011 December 5–9; San Francisco, CA.",
+      "sourceOrder": 91,
+      "sourceVenue": "agu",
+      "peerReviewed": true,
+      "links": [
+        {
+          "label": "PPT",
+          "url": "https://matkelly.com/posters/2012_agu_cloudproducts.ppt"
+        },
+        {
+          "label": "BibTeX",
+          "url": "https://matkelly.com/publications/chee-agu2011.bib"
+        }
+      ]
+    },
+    {
+      "id": "alert-a-next-generation-emergency-response-system-for-first-responders-using-retasking-of-wirele-2011",
+      "year": 2011,
+      "category": "presentation",
+      "kind": "poster",
+      "theme": "infrastructure",
+      "venue": "13th Annual Tidewater Student Research Poster Session",
+      "title": "ALERT: A Next-generation Emergency Response System for First Responders using Retasking of Wireless Sensor Networks",
+      "authors": [
+        "Mat Kelly",
+        "Syed R. Rizvi",
+        "Liang Chen",
+        "Chinmay Lokesh",
+        "Stephan Olariu",
+        "Michele C. Weigle"
+      ],
+      "citation": "Mat Kelly, Syed R. Rizvi, Liang Chen, Chinmay Lokesh, Stephan Olariu, and Michele C. Weigle, “ALERT: A Next-generation Emergency Response System for First Responders using Retasking of Wireless Sensor Networks,” 13th Annual Tidewater Student Research Poster Session; 2011 November 18; Newport News, VA.",
+      "sourceOrder": 92,
+      "sourceVenue": "tidewater",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/posters/2011_cnu_alert.pdf"
+        }
+      ]
+    },
+    {
+      "id": "archiving-your-facebook-pages-using-archive-facebook-2011",
+      "year": 2011,
+      "category": "presentation",
+      "kind": "presentation",
+      "theme": "archive",
+      "venue": "NDIIPP/NDSA Partners Meeting Special Interest Session: Web Archiving; 2011 July 20; Washington, DC",
+      "title": "Archiving Your Facebook Pages Using Archive Facebook",
+      "authors": [
+        "Mat Kelly",
+        "Michele C. Weigle",
+        "Michael L. Nelson"
+      ],
+      "citation": "Mat Kelly, Michele C. Weigle, and Michael L. Nelson, “Archiving Your Facebook Pages Using Archive Facebook,” NDIIPP/NDSA Partners Meeting Special Interest Session: Web Archiving; 2011 July 20; Washington, DC.",
+      "sourceOrder": 93,
+      "sourceVenue": "digipres",
+      "links": [
+        {
+          "label": "PPTX",
+          "url": "https://matkelly.com/presentations/2011_ndiipp_archivefacebook.pptx"
+        }
+      ]
+    },
+    {
+      "id": "preserving-performance-while-saving-power-using-intel-intelligent-power-node-manager-and-intel-d-2009",
+      "year": 2009,
+      "category": "presentation",
+      "kind": "white-paper",
+      "theme": "infrastructure",
+      "venue": "December 2009",
+      "title": "Preserving Performance While Saving Power Using Intel Intelligent Power Node Manager and Intel Data Center Manager",
+      "authors": [
+        "David Helman (BMW Group, Greenville, SC)",
+        "Matthew Kelly (BMW Group, Greenville, SC)",
+        "Martin Guttmann (Intel Corporation, Santa Clara, CA)",
+        "Bill Carter (Intel Corporation, Santa Clara, CA)",
+        "Enrique Castro-Leon (Intel Corporation, Santa Clara, CA)",
+        "Thomas Kellerer (Intel Corporation, Santa Clara, CA)",
+        "Dror Shenkar (Intel Corporation, Santa Clara, CA)"
+      ],
+      "citation": "David Helman (BMW Group, Greenville, SC), Matthew Kelly (BMW Group, Greenville, SC), Martin Guttmann (Intel Corporation, Santa Clara, CA), Bill Carter (Intel Corporation, Santa Clara, CA), Enrique Castro-Leon (Intel Corporation, Santa Clara, CA), Thomas Kellerer (Intel Corporation, Santa Clara, CA), Dror Shenkar (Intel Corporation, Santa Clara, CA), “Preserving Performance While Saving Power Using Intel Intelligent Power Node Manager and Intel Data Center Manager,” December 2009.",
+      "sourceOrder": 94,
+      "links": [
+        {
+          "label": "article (archived)",
+          "url": "http://web.archive.org/web/20131020165022/http://software.intel.com/sites/datacentermanager/node_manager_white_paper_bmw.pdf"
+        },
+        {
+          "label": "PDF",
+          "url": "https://matkelly.com/papers/2009_intel_node_manager_white_paper_bmw.pdf"
         }
       ]
     }
