@@ -127,9 +127,72 @@ const publicationAssets = (item) => {
   return nav;
 };
 
-const publicationItem = (item, index, useTheme = false, showLinks = false) => {
+const publicationTagValues = (item) => {
+  if (Array.isArray(item.tags) && item.tags.length) {
+    return item.tags;
+  }
+
+  const themeLabels = {
+    archive: "Web Archives",
+    metadata: "Metadata",
+    infrastructure: "Infrastructure",
+  };
+
+  return themeLabels[item.theme] ? [themeLabels[item.theme]] : [];
+};
+
+const publicationTags = (item) => {
+  const tags = publicationTagValues(item);
+  if (!tags.length) return null;
+
+  const list = createElement("ul", "publication-tags");
+  list.setAttribute("aria-label", "Research topics");
+  tags.forEach((tag) => list.append(createElement("li", "", tag)));
+  return list;
+};
+
+const renderPublicationTagFilters = (section, data) => {
+  const mount = section?.querySelector("[data-tag-filter-options]");
+  if (!mount) return;
+
+  const tags = data.tagTaxonomy?.length
+    ? data.tagTaxonomy
+    : [...new Set(data.items.flatMap(publicationTagValues))].sort();
+  const allTopics = mount.querySelector('[data-filter-value="all"]');
+  const buttons = tags.map((tag) => {
+    const button = createElement("button", "filter-button tag-filter-button", tag);
+    button.type = "button";
+    button.dataset.publicationFilter = "tag";
+    button.dataset.filterValue = tag;
+    button.setAttribute("aria-pressed", "false");
+    return button;
+  });
+
+  mount.replaceChildren(allTopics, ...buttons);
+};
+
+const renderPublicationCounts = (data) => {
+  document.querySelectorAll("[data-publication-count]").forEach((mount) => {
+    const category = mount.dataset.publicationCount;
+    const count =
+      category === "all"
+        ? data.items.length
+        : data.items.filter((item) => item.category === category).length;
+    mount.textContent = String(count);
+  });
+};
+
+const publicationItem = (
+  item,
+  index,
+  useTheme = false,
+  showLinks = false,
+  showTags = false,
+) => {
   const li = createElement("li");
   li.dataset.category = useTheme ? item.theme : item.category;
+  li.dataset.publicationType = item.category;
+  li.dataset.publicationTags = publicationTagValues(item).join("|");
   const year = createElement("p", "publication-year", String(item.year));
   const copy = createElement("div");
   append(
@@ -137,6 +200,7 @@ const publicationItem = (item, index, useTheme = false, showLinks = false) => {
     createElement("p", "publication-venue", item.venue),
     createElement("h3", "", item.title),
     createElement("p", "publication-authors", item.authors.join(", ")),
+    showTags ? publicationTags(item) : null,
     showLinks ? publicationAssets(item) : null,
   );
   const number = createElement("span", "", String(index + 1).padStart(2, "0"));
@@ -150,9 +214,25 @@ const renderPublications = (mount, data) => {
   const items = data.items.slice(0, limit);
   const useTheme = mount.dataset.categoryMode === "theme";
   const showLinks = mount.dataset.showLinks === "true";
-  mount.replaceChildren(
-    ...items.map((item, index) => publicationItem(item, index, useTheme, showLinks)),
+  const showTags = mount.dataset.showTags === "true";
+  const emptyState = createElement(
+    "li",
+    "publication-empty-state",
+    "No publications match this combination. Try another topic or reset the filters.",
   );
+  emptyState.dataset.publicationEmptyState = "";
+  emptyState.hidden = true;
+  mount.replaceChildren(
+    ...items.map((item, index) =>
+      publicationItem(item, index, useTheme, showLinks, showTags),
+    ),
+    emptyState,
+  );
+
+  const section = mount.closest("section");
+  renderPublicationTagFilters(section, data);
+  renderPublicationCounts(data);
+  applyPublicationFilters(section);
 };
 
 const projectMeta = (item) => {
@@ -520,6 +600,74 @@ Promise.allSettled(dynamicMounts.map(renderMount)).then(() => {
   document.dispatchEvent(new CustomEvent("dynamic-content-loaded"));
 });
 
+function activePublicationFilter(section, group) {
+  return (
+    section.querySelector(
+      `[data-publication-filter="${group}"].is-active`,
+    )?.dataset.filterValue || "all"
+  );
+}
+
+function applyPublicationFilters(section) {
+  if (!section) return;
+
+  const selectedType = activePublicationFilter(section, "type");
+  const selectedTag = activePublicationFilter(section, "tag");
+  const items = [...section.querySelectorAll("[data-publication-type]")];
+  let visibleCount = 0;
+
+  items.forEach((item) => {
+    const typeMatches =
+      selectedType === "all" || item.dataset.publicationType === selectedType;
+    const itemTags = (item.dataset.publicationTags || "").split("|").filter(Boolean);
+    const tagMatches = selectedTag === "all" || itemTags.includes(selectedTag);
+    const visible = typeMatches && tagMatches;
+    item.hidden = !visible;
+    if (visible) visibleCount += 1;
+  });
+
+  const resultCount = section.querySelector("[data-publication-result-count]");
+  if (resultCount) {
+    const noun = visibleCount === 1 ? "publication" : "publications";
+    resultCount.textContent = `${visibleCount} of ${items.length} ${noun} shown`;
+  }
+
+  const emptyState = section.querySelector("[data-publication-empty-state]");
+  if (emptyState) emptyState.hidden = visibleCount !== 0;
+
+  const reset = section.querySelector("[data-publication-filter-reset]");
+  if (reset) reset.disabled = selectedType === "all" && selectedTag === "all";
+}
+
+const activatePublicationFilter = (button) => {
+  const section = button.closest("section") || document;
+  const group = button.dataset.publicationFilter;
+
+  section
+    .querySelectorAll(`[data-publication-filter="${group}"]`)
+    .forEach((candidate) => {
+      const active = candidate === button;
+      candidate.classList.toggle("is-active", active);
+      candidate.setAttribute("aria-pressed", String(active));
+    });
+
+  applyPublicationFilters(section);
+};
+
+const resetPublicationFilters = (button) => {
+  const section = button.closest("section") || document;
+  ["type", "tag"].forEach((group) => {
+    section
+      .querySelectorAll(`[data-publication-filter="${group}"]`)
+      .forEach((candidate) => {
+        const active = candidate.dataset.filterValue === "all";
+        candidate.classList.toggle("is-active", active);
+        candidate.setAttribute("aria-pressed", String(active));
+      });
+  });
+  applyPublicationFilters(section);
+};
+
 const activateFilter = (button) => {
   const section = button.closest("section") || document;
   const selectedCategory = button.dataset.filter;
@@ -538,6 +686,18 @@ document.querySelectorAll("[data-filter]").forEach((button, index) => {
 });
 
 document.addEventListener("click", (event) => {
+  const publicationFilter = event.target.closest("[data-publication-filter]");
+  if (publicationFilter) {
+    activatePublicationFilter(publicationFilter);
+    return;
+  }
+
+  const publicationReset = event.target.closest("[data-publication-filter-reset]");
+  if (publicationReset) {
+    resetPublicationFilters(publicationReset);
+    return;
+  }
+
   const button = event.target.closest("[data-filter]");
   if (button) activateFilter(button);
 });

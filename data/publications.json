@@ -2,6 +2,18 @@
   "updated": "2026-07-30",
   "sourcePage": "https://matkelly.com/index_July2026.php",
   "scope": "Complete Papers, Posters, & Presentations list from the July 2026 source page.",
+  "tagTaxonomy": [
+    "Web Archives",
+    "Metadata",
+    "Infrastructure",
+    "Digital Preservation",
+    "Scholarly Data",
+    "Privacy & Ethics",
+    "Visualization",
+    "Networked Systems",
+    "Scientific Data",
+    "Education & Access"
+  ],
   "items": [
     {
       "id": "wadl-2026",
@@ -17,7 +29,10 @@
       ],
       "citation": "Mat Kelly and Brenda Reyes Ayala, “Web Archiving and Digital Libraries (WADL) Workshop 2026,” To appear in the Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), Dallas, Texas, October 2026.",
       "sourceOrder": 1,
-      "sourceVenue": "jcdl"
+      "sourceVenue": "jcdl",
+      "tags": [
+        "Web Archives"
+      ]
     },
     {
       "id": "matsci-yamz-2026",
@@ -47,7 +62,11 @@
           "url": "https://doi.org/10.5334/dsj-2026-023"
         }
       ],
-      "homepageOrder": 1
+      "homepageOrder": 1,
+      "tags": [
+        "Metadata",
+        "Scientific Data"
+      ]
     },
     {
       "id": "semantic-evolution-2026",
@@ -70,6 +89,10 @@
           "label": "Info",
           "url": "https://www.dublincore.org/conferences/2026/"
         }
+      ],
+      "tags": [
+        "Metadata",
+        "Infrastructure"
       ]
     },
     {
@@ -99,6 +122,9 @@
           "label": "DOI",
           "url": "https://doi.org/10.1037/dhe0000719"
         }
+      ],
+      "tags": [
+        "Scholarly Data"
       ]
     },
     {
@@ -133,6 +159,10 @@
           "label": "arXiv",
           "url": "https://arxiv.org/abs/2512.09895"
         }
+      ],
+      "tags": [
+        "Metadata",
+        "Scientific Data"
       ]
     },
     {
@@ -171,7 +201,11 @@
           "url": "https://doi.org/10.1002/asi.70039"
         }
       ],
-      "homepageOrder": 2
+      "homepageOrder": 2,
+      "tags": [
+        "Web Archives",
+        "Privacy & Ethics"
+      ]
     },
     {
       "id": "linking-policies-2025",
@@ -212,7 +246,11 @@
           "url": "https://matkelly.com/presentations/2025_jcdl_iparo.pdf"
         }
       ],
-      "homepageOrder": 3
+      "homepageOrder": 3,
+      "tags": [
+        "Web Archives",
+        "Digital Preservation"
+      ]
     },
     {
       "id": "ontextract-2025",
@@ -248,6 +286,10 @@
           "label": "Slides",
           "url": "https://matkelly.com/presentations/2025_jcdl_ontextract.pdf"
         }
+      ],
+      "tags": [
+        "Metadata",
+        "Infrastructure"
       ]
     },
     {
@@ -279,6 +321,10 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/choi-c4l2025.bib"
         }
+      ],
+      "tags": [
+        "Education & Access",
+        "Infrastructure"
       ]
     },
     {
@@ -309,6 +355,9 @@
           "label": "DOI",
           "url": "https://doi.org/10.1145/3720533.3756896"
         }
+      ],
+      "tags": [
+        "Web Archives"
       ]
     },
     {
@@ -340,6 +389,10 @@
           "label": "PDF",
           "url": "https://matkelly.com/posters/2025_reu_matsciyamz.pdf"
         }
+      ],
+      "tags": [
+        "Metadata",
+        "Scientific Data"
       ]
     },
     {
@@ -361,6 +414,9 @@
           "label": "Slides",
           "url": "https://matkelly.com/ait2025"
         }
+      ],
+      "tags": [
+        "Web Archives"
       ]
     },
     {
@@ -395,6 +451,9 @@
           "label": "DOI",
           "url": "https://doi.org/10.1007/s10755-024-09772-y"
         }
+      ],
+      "tags": [
+        "Scholarly Data"
       ]
     },
     {
@@ -426,6 +485,10 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/reid-arxiv2025.bib"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Privacy & Ethics"
       ]
     },
     {
@@ -461,6 +524,9 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/kelly-iipcwac2025.bib"
         }
+      ],
+      "tags": [
+        "Web Archives"
       ]
     },
     {
@@ -493,6 +559,9 @@
           "label": "DOI",
           "url": "https://doi.org/10.35492/docam/11/2/3"
         }
+      ],
+      "tags": [
+        "Metadata"
       ]
     },
     {
@@ -521,6 +590,10 @@
           "label": "Info",
           "url": "https://cikm2024.org/"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure"
       ]
     },
     {
@@ -543,6 +616,9 @@
           "label": "Info",
           "url": "https://documentacademy.org/?2024"
         }
+      ],
+      "tags": [
+        "Metadata"
       ]
     },
     {
@@ -572,6 +648,9 @@
           "label": "DOI",
           "url": "https://doi.org/10.32388/F0GW8P"
         }
+      ],
+      "tags": [
+        "Scholarly Data"
       ]
     },
     {
@@ -609,6 +688,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1080/08989621.2024.2396940"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Privacy & Ethics"
       ]
     },
     {
@@ -649,6 +732,11 @@
           "label": "DOI",
           "url": "https://doi.org/10.21428/5676bf2d.b7f36c7f"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Digital Preservation",
+        "Privacy & Ethics"
       ]
     },
     {
@@ -680,6 +768,11 @@
           "label": "Info",
           "url": "https://www2.archivists.org/am2024/research-forum-2024"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Privacy & Ethics"
       ]
     },
     {
@@ -714,6 +807,11 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/rauch-iipcwac2024.bib"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Digital Preservation",
+        "Privacy & Ethics"
       ]
     },
     {
@@ -744,6 +842,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1007/s00799-023-00391-0"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure"
       ]
     },
     {
@@ -781,6 +883,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1145/3589206"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure"
       ]
     },
     {
@@ -812,6 +918,9 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/choi-mtsr2023.bib"
         }
+      ],
+      "tags": [
+        "Metadata"
       ]
     },
     {
@@ -851,6 +960,9 @@
           "label": "DOI",
           "url": "https://doi.org/10.5281/zenodo.8432290"
         }
+      ],
+      "tags": [
+        "Scholarly Data"
       ]
     },
     {
@@ -891,6 +1003,9 @@
           "label": "DOI",
           "url": "https://doi.org/10.1109/JCDL57899.2023.00074"
         }
+      ],
+      "tags": [
+        "Web Archives"
       ]
     },
     {
@@ -922,6 +1037,10 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/kelly-iipcwac2023.bib"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Scholarly Data"
       ]
     },
     {
@@ -962,6 +1081,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1162/dint_a_00211"
         }
+      ],
+      "tags": [
+        "Metadata",
+        "Scientific Data"
       ]
     },
     {
@@ -1000,6 +1123,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1007/978-3-031-21756-2_25"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure"
       ]
     },
     {
@@ -1040,6 +1167,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1002/pra2.664"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Scholarly Data"
       ]
     },
     {
@@ -1075,6 +1206,9 @@
           "label": "DOI",
           "url": "https://doi.org/10.5771/9783956509568-349"
         }
+      ],
+      "tags": [
+        "Metadata"
       ]
     },
     {
@@ -1107,6 +1241,11 @@
           "label": "Slides",
           "url": "https://matkelly.com/wadl2022"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Metadata",
+        "Scholarly Data"
       ]
     },
     {
@@ -1139,6 +1278,9 @@
           "label": "DOI",
           "url": "https://doi.org/10.1145/3529372.3530920"
         }
+      ],
+      "tags": [
+        "Web Archives"
       ]
     },
     {
@@ -1172,6 +1314,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1007/978-3-030-98876-0_16"
         }
+      ],
+      "tags": [
+        "Metadata",
+        "Infrastructure"
       ]
     },
     {
@@ -1208,6 +1354,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.17605/OSF.IO/JRH54"
         }
+      ],
+      "tags": [
+        "Infrastructure",
+        "Digital Preservation"
       ]
     },
     {
@@ -1248,6 +1398,9 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/mcclellan-nasko2021.bib"
         }
+      ],
+      "tags": [
+        "Metadata"
       ]
     },
     {
@@ -1284,6 +1437,10 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/kelly-ictessh2021.bib"
         }
+      ],
+      "tags": [
+        "Metadata",
+        "Digital Preservation"
       ]
     },
     {
@@ -1313,6 +1470,12 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/kelly-iipcwac2021.bib"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Digital Preservation",
+        "Privacy & Ethics"
       ]
     },
     {
@@ -1345,6 +1508,10 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/kelly-c4l2021.bib"
         }
+      ],
+      "tags": [
+        "Metadata",
+        "Digital Preservation"
       ]
     },
     {
@@ -1375,6 +1542,10 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/kelly-pidapalooza2021.bib"
         }
+      ],
+      "tags": [
+        "Metadata",
+        "Digital Preservation"
       ]
     },
     {
@@ -1414,6 +1585,9 @@
           "label": "Slides",
           "url": "https://matkelly.com/presentations/2020_ieeebigdata.pptx"
         }
+      ],
+      "tags": [
+        "Metadata"
       ]
     },
     {
@@ -1445,6 +1619,9 @@
           "label": "DOI",
           "url": "https://doi.org/10.1093/geroni/igaa057.3004"
         }
+      ],
+      "tags": [
+        "Education & Access"
       ]
     },
     {
@@ -1482,6 +1659,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.2478/jdis-2021-0003"
         }
+      ],
+      "tags": [
+        "Metadata",
+        "Education & Access"
       ]
     },
     {
@@ -1514,6 +1695,10 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/mabe-wadl2020.bib"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Visualization"
       ]
     },
     {
@@ -1546,6 +1731,10 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/mabe-arxiv2020.bib"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Visualization"
       ]
     },
     {
@@ -1567,6 +1756,10 @@
           "label": "Slides",
           "url": "https://matkelly.com/saveTheInternet"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure"
       ]
     },
     {
@@ -1591,6 +1784,11 @@
           "label": "Slides",
           "url": "https://matkelly.com/presentations/2018_dweb_ipwb.pdf"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Networked Systems"
       ]
     },
     {
@@ -1619,6 +1817,11 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/kelly-wadl2018.bib"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Networked Systems"
       ]
     },
     {
@@ -1647,6 +1850,9 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/alam-wadl2018.bib"
         }
+      ],
+      "tags": [
+        "Web Archives"
       ]
     },
     {
@@ -1680,6 +1886,11 @@
           "label": "DOI",
           "url": "https://doi.org/10.1145/3197026.3197045"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Privacy & Ethics"
       ]
     },
     {
@@ -1716,6 +1927,11 @@
           "label": "DOI",
           "url": "https://doi.org/10.1145/3197026.3203880"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Digital Preservation"
       ]
     },
     {
@@ -1749,6 +1965,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1145/3197026.3203881"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure"
       ]
     },
     {
@@ -1779,6 +1999,10 @@
           "label": "PDF",
           "url": "https://matkelly.com/papers/2017_wadl_countingMementos.pdf"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Metadata"
       ]
     },
     {
@@ -1807,6 +2031,10 @@
           "label": "PDF",
           "url": "https://matkelly.com/papers/2017_wadl_serviceWorkers.pdf"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure"
       ]
     },
     {
@@ -1843,6 +2071,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1109/JCDL.2017.7991601"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Metadata"
       ]
     },
     {
@@ -1879,6 +2111,11 @@
           "label": "DOI",
           "url": "https://doi.org/10.1109/JCDL.2017.7991579"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Networked Systems"
       ]
     },
     {
@@ -1912,6 +2149,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1109/JCDL.2017.7991619"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure"
       ]
     },
     {
@@ -1934,6 +2175,12 @@
           "label": "Slides",
           "url": "https://matkelly.com/presentations/2017_iipcwac_ipwb.pdf"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Privacy & Ethics",
+        "Networked Systems"
       ]
     },
     {
@@ -1958,6 +2205,9 @@
           "label": "Slides",
           "url": "https://matkelly.com/presentations/2017_iipcwac_neh.pdf"
         }
+      ],
+      "tags": [
+        "Web Archives"
       ]
     },
     {
@@ -1979,6 +2229,11 @@
           "label": "Slides",
           "url": "https://docs.google.com/presentation/d/1MgtXbv7K-LJ4C7w9CrLaGvNbMzCD2eLeK1dhlQ-nzAc/edit?usp=sharing"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Networked Systems"
       ]
     },
     {
@@ -2007,6 +2262,12 @@
           "label": "PDF",
           "url": "https://bulletin.jcdl.org/Bulletin/v13n1/papers/alam.pdf"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Digital Preservation",
+        "Networked Systems"
       ]
     },
     {
@@ -2036,6 +2297,10 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/kelly-arXiv2017.bib"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Metadata"
       ]
     },
     {
@@ -2073,6 +2338,12 @@
           "label": "DOI",
           "url": "https://doi.org/10.1007/978-3-319-43997-6_35"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Digital Preservation",
+        "Networked Systems"
       ]
     },
     {
@@ -2091,7 +2362,13 @@
       ],
       "citation": "Mat Kelly, Sawood Alam, Michael L. Nelson, and Michele C. Weigle, “InterPlanetary Wayback: The Permanent Web Archive,” At the Web Archiving and Digital Libraries Workshop (WADL 2016). Newark, NJ, June 2016.",
       "sourceOrder": 66,
-      "sourceVenue": "wadl"
+      "sourceVenue": "wadl",
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Digital Preservation",
+        "Networked Systems"
+      ]
     },
     {
       "id": "interplanetary-wayback-the-permanent-web-archive-2016-2",
@@ -2123,6 +2400,12 @@
           "label": "DOI",
           "url": "https://doi.org/10.1145/2910896.2925467"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Digital Preservation",
+        "Networked Systems"
       ]
     },
     {
@@ -2144,6 +2427,11 @@
           "label": "PPTX",
           "url": "https://matkelly.com/presentations/2016_archivesUnleashed_aggregation.pptx"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Privacy & Ethics"
       ]
     },
     {
@@ -2177,6 +2465,10 @@
           "label": "DOI",
           "url": "https://dx.doi.org/10.1007%2Fs00799-015-0140-8"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Digital Preservation"
       ]
     },
     {
@@ -2202,6 +2494,11 @@
           "label": "PDF",
           "url": "https://bulletin.jcdl.org/Bulletin/v11n3/papers/149-Kelly.pdf"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Privacy & Ethics"
       ]
     },
     {
@@ -2217,7 +2514,12 @@
       ],
       "citation": "Mat Kelly, “A Framework for Aggregating Private and Public Web Archives,” at the ACM/IEEE Joint Conference on Digital Libraries (JCDL). Doctoral Consortium. Knoxville, TN, June 2015.",
       "sourceOrder": 71,
-      "sourceVenue": "jcdldc"
+      "sourceVenue": "jcdldc",
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Privacy & Ethics"
+      ]
     },
     {
       "id": "mobile-mink-merging-mobile-and-desktop-archived-webs-2015",
@@ -2253,6 +2555,11 @@
           "label": "DOI",
           "url": "https://doi.org/10.1145/2756406.2756956"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Networked Systems"
       ]
     },
     {
@@ -2276,6 +2583,11 @@
           "label": "PPTX",
           "url": "https://matkelly.com/presentations/2015_columbiawac_thumbnails.pptx"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Visualization"
       ]
     },
     {
@@ -2310,6 +2622,9 @@
           "label": "DOI",
           "url": "https://doi.org/10.1007/s00799-015-0150-6"
         }
+      ],
+      "tags": [
+        "Web Archives"
       ]
     },
     {
@@ -2339,6 +2654,10 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/kelly-vsgc2015.bib"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Scientific Data"
       ]
     },
     {
@@ -2374,6 +2693,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1109/MILCOM.2014.181"
         }
+      ],
+      "tags": [
+        "Infrastructure",
+        "Networked Systems"
       ]
     },
     {
@@ -2405,6 +2728,9 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/brunelle-dl2014.bib"
         }
+      ],
+      "tags": [
+        "Web Archives"
       ]
     },
     {
@@ -2437,6 +2763,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1109/JCDL.2014.6970146"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Digital Preservation"
       ]
     },
     {
@@ -2469,6 +2799,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1109/JCDL.2014.6970229"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure"
       ]
     },
     {
@@ -2495,6 +2829,10 @@
           "label": "PPT",
           "url": "https://matkelly.com/presentations/2014_digitalPreservation.ppt"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Digital Preservation"
       ]
     },
     {
@@ -2518,6 +2856,11 @@
           "label": "PDF",
           "url": "https://matkelly.com/posters/2014_digpres_thumbnails.pdf"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Digital Preservation",
+        "Visualization"
       ]
     },
     {
@@ -2551,6 +2894,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1045/november2013-kelly"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Privacy & Ethics"
       ]
     },
     {
@@ -2572,6 +2919,9 @@
           "label": "PPTX",
           "url": "https://matkelly.com/presentations/2013_archiveItPartnerMeeting_archiveWhatISeeNow.pptx"
         }
+      ],
+      "tags": [
+        "Web Archives"
       ]
     },
     {
@@ -2604,6 +2954,9 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/kelly-vis2013.bib"
         }
+      ],
+      "tags": [
+        "Visualization"
       ]
     },
     {
@@ -2630,6 +2983,9 @@
           "label": "PPT",
           "url": "https://matkelly.com/presentations/2013_wolframDataSumnmit_archiveTheArchives.ppt"
         }
+      ],
+      "tags": [
+        "Web Archives"
       ]
     },
     {
@@ -2653,6 +3009,11 @@
           "label": "PPTX",
           "url": "https://matkelly.com/presentations/2013_digitalPreservation_heritrixMadeEasy.pptx"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Digital Preservation"
       ]
     },
     {
@@ -2686,6 +3047,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1007/978-3-642-40501-3_5"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Digital Preservation"
       ]
     },
     {
@@ -2713,6 +3078,10 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/kelly-pda2013.bib"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure"
       ]
     },
     {
@@ -2740,6 +3109,11 @@
           "label": "PPTX w/ videos",
           "url": "https://matkelly.com/presentations/2012_digitalPreservation_warcreate.zip"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure",
+        "Digital Preservation"
       ]
     },
     {
@@ -2775,6 +3149,10 @@
           "label": "DOI",
           "url": "https://doi.org/10.1145/2232817.2232930"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Infrastructure"
       ]
     },
     {
@@ -2807,6 +3185,10 @@
           "label": "BibTeX",
           "url": "https://matkelly.com/publications/chee-agu2011.bib"
         }
+      ],
+      "tags": [
+        "Scientific Data",
+        "Infrastructure"
       ]
     },
     {
@@ -2833,6 +3215,10 @@
           "label": "PDF",
           "url": "https://matkelly.com/posters/2011_cnu_alert.pdf"
         }
+      ],
+      "tags": [
+        "Networked Systems",
+        "Infrastructure"
       ]
     },
     {
@@ -2856,6 +3242,10 @@
           "label": "PPTX",
           "url": "https://matkelly.com/presentations/2011_ndiipp_archivefacebook.pptx"
         }
+      ],
+      "tags": [
+        "Web Archives",
+        "Privacy & Ethics"
       ]
     },
     {
@@ -2886,6 +3276,9 @@
           "label": "PDF",
           "url": "https://matkelly.com/papers/2009_intel_node_manager_white_paper_bmw.pdf"
         }
+      ],
+      "tags": [
+        "Infrastructure"
       ]
     }
   ]

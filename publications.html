@@ -68,30 +68,47 @@
           <aside class="hero-register" aria-label="Publication summary">
             <p class="note-label">Bibliographic scope</p>
             <ol>
-              <li><span>13</span><p><strong>Journal articles</strong>Peer-reviewed work across information and web research</p></li>
-              <li><span>34</span><p><strong>Conference papers</strong>Peer-reviewed proceedings through 2026</p></li>
-              <li><span>12</span><p><strong>Selected below</strong>A compact reading path through recent work</p></li>
+              <li><span data-publication-count="all">94</span><p><strong>Complete records</strong>The full local bibliography, updated from structured data</p></li>
+              <li><span data-publication-count="journal">16</span><p><strong>Journal publications</strong>Articles, online publications, and preprints</p></li>
+              <li><span data-publication-count="conference">24</span><p><strong>Conference papers</strong>Proceedings, workshops, and technical reports</p></li>
+              <li><span data-publication-count="presentation">54</span><p><strong>Presentations &amp; posters</strong>Talks, posters, and related scholarly materials</p></li>
             </ol>
-            <p class="register-note">PDFs, DOIs, BibTeX records, slides, and the full chronology remain linked from the public bibliography and C.V.</p>
+            <p class="register-note">Counts and topic filters are populated from <code>publications.json</code>.</p>
           </aside>
         </section>
 
         <section id="selected" class="section publications observed-section" aria-labelledby="selected-title">
           <header class="section-heading compact">
-            <div><p class="folio-label">Section 02 / Selected bibliography</p><h2 id="selected-title">Recent and representative work.</h2></div>
-            <p>Filter this local reading list by publication form. Available PDFs, DOI records, and BibTeX files link directly to the existing scholarly assets.</p>
+            <div><p class="folio-label">Section 02 / Complete bibliography</p><h2 id="selected-title">Browse the publication record.</h2></div>
+            <p>Combine a publication type with a research topic. Available PDFs, DOI records, BibTeX files, slides, and other scholarly assets remain linked with each record.</p>
           </header>
-          <div class="publication-toolbar" role="group" aria-label="Filter publications">
-            <button class="filter-button is-active" type="button" data-filter="all">All</button>
-            <button class="filter-button" type="button" data-filter="journal">Journals</button>
-            <button class="filter-button" type="button" data-filter="conference">Proceedings</button>
-            <button class="filter-button" type="button" data-filter="presentation">Presentations</button>
+          <div class="publication-filter-panel" data-publication-controls>
+            <div class="publication-filter-group">
+              <p class="filter-label" id="publication-type-label">Publication type</p>
+              <div class="publication-toolbar" role="group" aria-labelledby="publication-type-label">
+                <button class="filter-button is-active" type="button" aria-pressed="true" data-publication-filter="type" data-filter-value="all">All types</button>
+                <button class="filter-button" type="button" aria-pressed="false" data-publication-filter="type" data-filter-value="journal">Journals</button>
+                <button class="filter-button" type="button" aria-pressed="false" data-publication-filter="type" data-filter-value="conference">Proceedings</button>
+                <button class="filter-button" type="button" aria-pressed="false" data-publication-filter="type" data-filter-value="presentation">Presentations</button>
+              </div>
+            </div>
+            <div class="publication-filter-group">
+              <p class="filter-label" id="publication-topic-label">Research topic</p>
+              <div class="publication-toolbar topic-toolbar" role="group" aria-labelledby="publication-topic-label" data-tag-filter-options>
+                <button class="filter-button is-active" type="button" aria-pressed="true" data-publication-filter="tag" data-filter-value="all">All topics</button>
+              </div>
+            </div>
+            <div class="publication-filter-summary">
+              <p class="publication-result-count" aria-live="polite" data-publication-result-count>Loading publication records…</p>
+              <button class="publication-filter-reset" type="button" data-publication-filter-reset disabled>Reset filters</button>
+            </div>
           </div>
           <ol
             class="publication-list expanded-publications"
             data-render="publications"
             data-source="publications.json"
             data-show-links="true"
+            data-show-tags="true"
           >
             <li class="data-loading">Loading publication records…</li>
           </ol>
