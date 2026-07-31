@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-labelledby="title desc">
+  <title id="title">Folio Rose</title>
+  <desc id="desc">An eight-petal scholarly ornament representing knowledge, preservation, and interconnected records.</desc>
+
+  <g fill="none" stroke="#16253D" stroke-width="2.5">
+    <ellipse cx="36" cy="20" rx="8" ry="14"/>
+    <ellipse cx="36" cy="52" rx="8" ry="14"/>
+    <ellipse cx="20" cy="36" rx="14" ry="8"/>
+    <ellipse cx="52" cy="36" rx="14" ry="8"/>
+    <ellipse cx="25" cy="25" rx="8" ry="14" transform="rotate(-45 25 25)"/>
+    <ellipse cx="47" cy="47" rx="8" ry="14" transform="rotate(-45 47 47)"/>
+    <ellipse cx="47" cy="25" rx="8" ry="14" transform="rotate(45 47 25)"/>
+    <ellipse cx="25" cy="47" rx="8" ry="14" transform="rotate(45 25 47)"/>
+  </g>
+
+  <circle cx="36" cy="36" r="27" fill="none" stroke="#B58A2B" stroke-width="1.5"/>
+  <circle cx="36" cy="36" r="8" fill="#994A3A"/>
+  <circle cx="36" cy="36" r="3" fill="#F3F0E8"/>
+</svg>
