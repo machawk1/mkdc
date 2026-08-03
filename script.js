@@ -466,10 +466,17 @@ const renderLabPosts = (mount, data) => {
     ...data.items.map((item, index) => {
       const li = createElement("li");
       const copy = createElement("div");
+      const title = createElement("h3");
+      const link = createElement("a", "", item.title);
+
+      link.href = item.url;
+      link.target = "_blank";
+      title.append(link);
+
       append(
         copy,
         createElement("p", "note-label", item.meta),
-        createElement("h3", "", item.title),
+        title,
         createElement("p", "", item.summary),
       );
       const number = createElement("span", "", String(index + 1).padStart(2, "0"));

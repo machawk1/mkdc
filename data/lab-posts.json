@@ -1,9 +1,9 @@
 {
   "updated": "2026-07-30",
   "items": [
-    {"date": "03 Apr 2026", "meta": "Teaching report · 5 min", "title": "Append the LM to the IR", "summary": "Course topics, student projects, and lessons from INFO 624 Intelligent Search and Language Models.", "url": "https://log.lab.matkelly.com"},
-    {"date": "29 Mar 2025", "meta": "Teaching report · 7 min", "title": "Lessons in Reteaching Web Programming", "summary": "A report on INFO 655, its project structure, and what changed in returning to the course.", "url": "https://log.lab.matkelly.com"},
-    {"date": "31 Jul 2024", "meta": "Project announcement · 4 min", "title": "Preserving Personalized Advertisements", "summary": "Introducing the IMLS-funded project on more accurate preservation of web advertising.", "url": "https://log.lab.matkelly.com"},
-    {"date": "17 May 2024", "meta": "Conference report · Christopher Rauch", "title": "Reflections on IIPC WAC 2024", "summary": "A research-group account of the Web Archiving Conference in Paris.", "url": "https://log.lab.matkelly.com"}
+    {"date": "03 Apr 2026", "meta": "Teaching report · 5 min", "title": "Append the LM to the IR", "summary": "Course topics, student projects, and lessons from INFO 624 Intelligent Search and Language Models.", "url": "https://log.lab.matkelly.com/info624-2026"},
+    {"date": "29 Mar 2025", "meta": "Teaching report · 7 min", "title": "Lessons in Reteaching Web Programming", "summary": "A report on INFO 655, its project structure, and what changed in returning to the course.", "url": "https://log.lab.matkelly.com/info655-2025"},
+    {"date": "31 Jul 2024", "meta": "Project announcement · 4 min", "title": "Preserving Personalized Advertisements", "summary": "Introducing the IMLS-funded project on more accurate preservation of web advertising.", "url": "https://log.lab.matkelly.com/imls-webads-2024"},
+    {"date": "17 May 2024", "meta": "Conference report · Christopher Rauch", "title": "Reflections on IIPC WAC 2024", "summary": "A research-group account of the Web Archiving Conference in Paris.", "url": "https://log.lab.matkelly.com/iipc-wac-2024"}
   ]
 }
